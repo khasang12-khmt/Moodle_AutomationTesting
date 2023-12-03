@@ -511,7 +511,7 @@ class TestUserCourse():
     time.sleep(3)
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
-    if text != "0 enrolled users": 
+    if text == "0 enrolled users": 
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
@@ -700,7 +700,7 @@ class TestUserCourse():
 
     fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
     return f"""
-    \n- Test Add User To Course --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+    \n- Test Add User To Course (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
     """
     
   def run(self):
