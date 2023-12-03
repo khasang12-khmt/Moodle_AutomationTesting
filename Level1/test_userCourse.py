@@ -106,6 +106,7 @@ class TestUserCourse():
     """
     
   def run(self):
+
     self.setup_method(None)
     result = self.test(data)
     self.teardown_method(None)
