@@ -43,7 +43,6 @@ class TestUserCourse():
         time.sleep(3)
 
     def perform_test(self, test_item):
-        return True
         try:
             element_type = test_item['element_type']
             element_locator = test_item['element_locator']
@@ -76,20 +75,15 @@ class TestUserCourse():
 
             # Initialize setup
             self.driver.get(url)
-            # self.driver.set_window_size(784, 816)
-            # self.run_precondition()
+            self.driver.set_window_size(784, 816)
+            self.run_precondition()
 
-            # flag = False
-            # for test_item in test_items:
-            #     res = self.perform_test(test_item)
-            #     if res is True: flag = True
-            # result.append(flag)
-        result = [True]*19
-        result[8]=False           
-        result[13]=False           
-        result[14]=False           
-        result[15]=False           
-        result[18]=False           
+            flag = False
+            for test_item in test_items:
+                res = self.perform_test(test_item)
+                if res is True: flag = True
+            result.append(flag)
+        
         fail_test_name = []
         for i in range(0, len(result)):
             if not result[i]:
