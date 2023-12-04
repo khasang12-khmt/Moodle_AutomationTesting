@@ -24,23 +24,26 @@ class TestUserCourse():
     def teardown_method(self, method):
         self.driver.quit()
     
-    def run_precondition(self):
-        self.driver.find_element(By.LINK_TEXT, "Log in").click()
-        if self.first_run:
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.first_run = False
-        self.driver.find_element(By.ID, "password").send_keys("moodle")
-        self.driver.find_element(By.ID, "loginbtn").click()
-        time.sleep(3)
-        self.driver.find_element(By.CSS_SELECTOR, "#course-info-container-69-4 .multiline").click()
-        self.driver.find_element(By.LINK_TEXT, "Participants").click()
-        self.driver.find_element(By.CSS_SELECTOR, "#enrolusersbutton-1 .btn").click()
-        time.sleep(3)
+    def run_precondition(self, pre_condition):
+        test_items = pre_condition['test_items']
+        for test_item in test_items:
+            self.perform_test(test_item)
+        # self.driver.find_element(By.LINK_TEXT, "Log in").click()
+        # if self.first_run:
+        #     self.driver.find_element(By.ID, "username").click()
+        #     self.driver.find_element(By.ID, "username").send_keys("")
+        #     self.driver.find_element(By.ID, "password").click()
+        #     self.driver.find_element(By.ID, "username").click()
+        #     self.driver.find_element(By.ID, "username").send_keys("teacher")
+        #     self.driver.find_element(By.ID, "password").click()
+        #     self.first_run = False
+        # self.driver.find_element(By.ID, "password").send_keys("moodle")
+        # self.driver.find_element(By.ID, "loginbtn").click()
+        # time.sleep(3)
+        # self.driver.find_element(By.CSS_SELECTOR, "#course-info-container-69-4 .multiline").click()
+        # self.driver.find_element(By.LINK_TEXT, "Participants").click()
+        # self.driver.find_element(By.CSS_SELECTOR, "#enrolusersbutton-1 .btn").click()
+        # time.sleep(3)
 
     def perform_test(self, test_item):
         try:
@@ -69,15 +72,19 @@ class TestUserCourse():
 
     def execute_test_data(self, test_data):
         result = []
-        for scenario in test_data.values():
+        for scenario in list(test_data.values())[2:]:
             url = scenario['url']
             test_items = scenario['test_items']
 
             # Initialize setup
             self.driver.get(url)
             self.driver.set_window_size(784, 816)
-            self.run_precondition()
-
+            if self.first_run:
+                self.first_run = False
+                self.run_precondition(list(test_data.values())[0])
+            else:
+                self.run_precondition(list(test_data.values())[1])
+                
             flag = False
             for test_item in test_items:
                 res = self.perform_test(test_item)

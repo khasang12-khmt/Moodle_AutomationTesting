@@ -1,4 +1,36 @@
 {
+  "precondition1": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "username", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "username", "action": "input", "value": ""},
+      {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "username", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "username", "action": "input", "value": "teacher"},
+      {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+      {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "css selector", "element_locator": "#course-info-container-69-4 .multiline", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Participants", "action": "click", "value": null},
+      {"element_type": "css selector", "element_locator": "#enrolusersbutton-1 .btn", "action": "click", "value": null},
+      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3}
+    ]
+  },
+  "precondition2": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+      {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "css selector", "element_locator": "#course-info-container-69-4 .multiline", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Participants", "action": "click", "value": null},
+      {"element_type": "css selector", "element_locator": "#enrolusersbutton-1 .btn", "action": "click", "value": null},
+      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3}
+    ]
+  },
   "test_1": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
