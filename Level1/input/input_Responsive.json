@@ -1,0 +1,52 @@
+{
+  "test_1": {
+    "width": 1920,
+    "height": 1080,
+    "is_mobile": false
+  },
+  "test_2": {
+    "width": 1366,
+    "height": 768,
+    "is_mobile": false
+  },
+  "test_3": {
+    "width": 1280,
+    "height": 720,
+    "is_mobile": false
+  },
+  "test_4": {
+    "width": 1280,
+    "height": 1024,
+    "is_mobile": false
+  },
+  "test_5": {
+    "width": 1440,
+    "height": 900,
+    "is_mobile": false
+  },
+  "test_6": {
+    "width": 360,
+    "height": 800,
+    "is_mobile": true
+  },
+  "test_7": {
+    "width": 390,
+    "height": 844,
+    "is_mobile": true
+  },
+  "test_8": {
+    "width": 414,
+    "height": 896,
+    "is_mobile": true
+  },
+  "test_9": {
+    "width": 393,
+    "height": 873,
+    "is_mobile": true
+  },
+  "test_10": {
+    "width": 412,
+    "height": 915,
+    "is_mobile": true
+  }
+}
