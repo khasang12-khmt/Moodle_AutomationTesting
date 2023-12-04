@@ -48,16 +48,16 @@ class TestCreateDiscussion():
       self.driver.switch_to.default_content()
       self.driver.find_element(By.ID, "id_submitbutton").click()
       if self.driver.find_element(By.ID, "id_error_subject").text == "- Required":
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -84,16 +84,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -120,16 +120,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -156,16 +156,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -192,16 +192,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -228,16 +228,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       self.driver.find_element(By.ID, "id_error_subject").click()
       if self.driver.find_element(By.ID, "id_error_subject").text == "- Maximum of 255 characters":
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -264,16 +264,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -299,16 +299,16 @@ class TestCreateDiscussion():
       self.driver.switch_to.default_content()
       self.driver.find_element(By.ID, "id_submitbutton").click()
       if self.driver.find_element(By.ID, "id_error_message").text == "- Required":
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
 
@@ -335,16 +335,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -371,16 +371,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -407,16 +407,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -448,16 +448,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False     
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=} {err.with_traceback}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
       
@@ -489,16 +489,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False     
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -530,16 +530,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False     
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -571,16 +571,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False     
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -611,16 +611,16 @@ class TestCreateDiscussion():
       self.driver.find_element(By.ID, "id_submitbutton").click()
       elements = self.driver.find_elements(By.ID, "user-notifications")
       if len(elements) > 0:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True
       else:
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False     
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   

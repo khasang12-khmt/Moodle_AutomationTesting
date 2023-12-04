@@ -53,11 +53,11 @@ class TestUserCourse():
     elements = self.driver.find_elements(By.XPATH, "//div[3]/table/tbody/tr/td[2]")
     
     if len(elements) > 0: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -87,11 +87,11 @@ class TestUserCourse():
     self.driver.execute_script("window.scrollTo(0,400)")
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -121,11 +121,11 @@ class TestUserCourse():
     self.driver.execute_script("window.scrollTo(0,400)")
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -162,11 +162,11 @@ class TestUserCourse():
     self.driver.find_element(By.ID, "user-index-participants-69_r2").click()
     
     if self.driver.find_element(By.XPATH, "//td[contains(.,\'cathericruz306@example.com\')]").text == "cathericruz306@example.com": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -201,11 +201,11 @@ class TestUserCourse():
     self.driver.find_element(By.XPATH, "//div[3]/table/tbody/tr/td[2]").click()
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -240,11 +240,11 @@ class TestUserCourse():
     self.driver.find_element(By.XPATH, "//div[3]/table/tbody/tr/td[2]").click()
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -275,11 +275,11 @@ class TestUserCourse():
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
     if text != "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -309,11 +309,11 @@ class TestUserCourse():
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
     if text != "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -341,11 +341,11 @@ class TestUserCourse():
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
     if text != "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -377,11 +377,11 @@ class TestUserCourse():
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
     if text != "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -410,11 +410,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -443,11 +443,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -476,11 +476,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -512,11 +512,11 @@ class TestUserCourse():
     text = self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text
     
     if text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -541,11 +541,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -574,11 +574,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -607,11 +607,11 @@ class TestUserCourse():
     time.sleep(3)
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -642,11 +642,11 @@ class TestUserCourse():
     self.driver.execute_script("window.scrollTo(0,400)")
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
@@ -681,11 +681,11 @@ class TestUserCourse():
     self.driver.find_element(By.XPATH, "//div[3]/table/tbody/tr/td[2]").click()
     
     if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == "0 enrolled users": 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return True
     else: 
-      self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+      self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   

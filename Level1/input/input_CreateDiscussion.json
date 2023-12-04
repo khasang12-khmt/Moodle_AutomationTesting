@@ -101,14 +101,14 @@
     "subject": "aabc",
     "description": "",
     "tag": "Intro2",
-    "expected_locator": "user-notifications",
-    "expected_value": null
+    "expected_locator": "id_error_message",
+    "expected_value": "- Required"
   },
   "test_16": {
     "subject": "",
     "description": "Xin chào",
     "tag": "Intro3",
-    "expected_locator": "user-notifications",
-    "expected_value": null
+    "expected_locator": "id_error_subject",
+    "expected_value": "- Required"
   }
 }

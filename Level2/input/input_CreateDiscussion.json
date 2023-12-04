@@ -1,0 +1,462 @@
+{
+  "precondition1": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {
+        "element_type": "link text",
+        "element_locator": "Log in",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "input",
+        "value": ""
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "input",
+        "value": "teacher"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "input",
+        "value": "moodle"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "loginbtn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//span[3]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#module-967 .aalink",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Add discussion topic",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      }
+    ]
+  },
+  "precondition2": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {
+        "element_type": "link text",
+        "element_locator": "Log in",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "input",
+        "value": "moodle"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "loginbtn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//span[3]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#module-967 .aalink",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Add discussion topic",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      }
+    ]
+  },
+  "test_1": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": ""},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "id_error_subject", "action": "text_check", "value": "- Required"},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_2": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "a"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_3": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "ab"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_4": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_5": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_6": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "id_error_subject", "action": "text_check", "value": "- Maximum of 255 characters"},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_7": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_8": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p></p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "id_error_message", "action": "text_check", "value": "- Required"},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_9": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>a</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_10": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>ab</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_11": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_12": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+
+      {"element_type": "id", "element_locator": "id_advancedadddiscussion", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "collapseElement-2", "action": "click", "value": null},
+      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "Intro"},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_13": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+
+      {"element_type": "id", "element_locator": "id_advancedadddiscussion", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "collapseElement-2", "action": "click", "value": null},
+      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_14": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "ab"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+
+      {"element_type": "id", "element_locator": "id_advancedadddiscussion", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "collapseElement-2", "action": "click", "value": null},
+      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": ""},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "user-notifications", "action": "assert_check", "value": null},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_15": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aabc"},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p></p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+
+      {"element_type": "id", "element_locator": "id_advancedadddiscussion", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "collapseElement-2", "action": "click", "value": null},
+      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": ""},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "id_error_message", "action": "text_check", "value": "- Required"},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  },
+  "test_16": {
+    "url": "https://school.moodledemo.net/",
+    "test_items": [
+      {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": ""},
+
+      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Xin chào</p>'}"},
+      {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
+
+      {"element_type": "id", "element_locator": "id_advancedadddiscussion", "action": "click", "value": null},
+      {"element_type": "id", "element_locator": "collapseElement-2", "action": "click", "value": null},
+      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
+      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": ""},
+      
+      {"element_type": "id", "element_locator": "id_submitbutton", "action": "click", "value": null},
+
+      {"element_type": "id", "element_locator": "id_error_subject", "action": "text_check", "value": "- Required"},
+
+      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+    ]
+  }
+}

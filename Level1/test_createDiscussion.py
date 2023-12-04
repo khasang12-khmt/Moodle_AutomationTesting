@@ -24,7 +24,7 @@ class TestCreateDiscussion():
     self.driver.quit()
     
   def logout(self):
-    self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+    self.driver.find_element(By.ID, "user-menu-toggle").click()
     self.driver.find_element(By.LINK_TEXT, "Log out").click()
     
   def test_discussion(self, subject: str, description: str, tag: str, expected_locator: str, expected_value: str or None):

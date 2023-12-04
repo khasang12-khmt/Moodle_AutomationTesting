@@ -79,11 +79,11 @@ class TestUserCourse():
       
       # expect
       if self.driver.find_element(By.CSS_SELECTOR, ".toast-message").text == expected: 
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return True if expected == "0 enrolled users" else False
       else: 
-        self.driver.find_element(By.ID, "action-menu-toggle-0").click()
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
         self.driver.find_element(By.LINK_TEXT, "Log out").click()
         return False if expected == "0 enrolled users" else True
       
