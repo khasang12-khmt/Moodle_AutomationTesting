@@ -28,22 +28,6 @@ class TestUserCourse():
         test_items = pre_condition['test_items']
         for test_item in test_items:
             self.perform_test(test_item)
-        # self.driver.find_element(By.LINK_TEXT, "Log in").click()
-        # if self.first_run:
-        #     self.driver.find_element(By.ID, "username").click()
-        #     self.driver.find_element(By.ID, "username").send_keys("")
-        #     self.driver.find_element(By.ID, "password").click()
-        #     self.driver.find_element(By.ID, "username").click()
-        #     self.driver.find_element(By.ID, "username").send_keys("teacher")
-        #     self.driver.find_element(By.ID, "password").click()
-        #     self.first_run = False
-        # self.driver.find_element(By.ID, "password").send_keys("moodle")
-        # self.driver.find_element(By.ID, "loginbtn").click()
-        # time.sleep(3)
-        # self.driver.find_element(By.CSS_SELECTOR, "#course-info-container-69-4 .multiline").click()
-        # self.driver.find_element(By.LINK_TEXT, "Participants").click()
-        # self.driver.find_element(By.CSS_SELECTOR, "#enrolusersbutton-1 .btn").click()
-        # time.sleep(3)
 
     def perform_test(self, test_item):
         try:

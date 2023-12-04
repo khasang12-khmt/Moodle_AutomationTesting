@@ -2,466 +2,1944 @@
   "precondition1": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "username", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "username", "action": "input", "value": ""},
-      {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "username", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "username", "action": "input", "value": "teacher"},
-      {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
-      {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
-      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "css selector", "element_locator": "#course-info-container-69-4 .multiline", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Participants", "action": "click", "value": null},
-      {"element_type": "css selector", "element_locator": "#enrolusersbutton-1 .btn", "action": "click", "value": null},
-      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3}
+      {
+        "element_type": "link text",
+        "element_locator": "Log in",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "input",
+        "value": ""
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "username",
+        "action": "input",
+        "value": "teacher"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "input",
+        "value": "moodle"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "loginbtn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#course-info-container-69-4 .multiline",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Participants",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#enrolusersbutton-1 .btn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      }
     ]
   },
   "precondition2": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
-      {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
-      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "css selector", "element_locator": "#course-info-container-69-4 .multiline", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Participants", "action": "click", "value": null},
-      {"element_type": "css selector", "element_locator": "#enrolusersbutton-1 .btn", "action": "click", "value": null},
-      {"element_type": "sleep", "element_locator": null, "action": "sleep", "value": 3}
+      {
+        "element_type": "link text",
+        "element_locator": "Log in",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "password",
+        "action": "input",
+        "value": "moodle"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "loginbtn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#course-info-container-69-4 .multiline",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Participants",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "css selector",
+        "element_locator": "#enrolusersbutton-1 .btn",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "sleep",
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      }
     ]
   },
   "test_1": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "stephanadams175@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "stephanadams175@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Middle School Students"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Middle School Students"
+      },
 
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "select", "value": "4"},
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "select",
+        "value": "4"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      }
     ]
   },
   "test_2": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": ""},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": ""
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Green House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Green House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_3": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "thomas@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "thomas@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": ""},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": ""
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_4": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "test@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "test@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_5": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "cathericruz306@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "cathericruz306@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "select", "value": "4"},
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "select",
+        "value": "4"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_6": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": ""},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": ""
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Green House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Green House"
+      },
 
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "select", "value": "4"},
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "select",
+        "value": "4"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_7": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "francesbanks1@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "francesbanks1@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": ""},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": ""
+      },
 
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "select", "value": "4"},
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "select",
+        "value": "4"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_8": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "test@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "test@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Teaching Staff"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Teaching Staff"
+      },
 
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "id_roletoassign", "action": "select", "value": "4"},
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "id_roletoassign",
+        "action": "select",
+        "value": "4"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_9": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "stephanadams175@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "stephanadams175@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_10": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "se"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "se"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
-      
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_11": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "se"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "se"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_12": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "t"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "t"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "Not 0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "Not 0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_13": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "stephanadams175@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "stephanadams175@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_14": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "ste"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "ste"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue House"},
-      
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue House"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_15": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "stevenmoreno331@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "stevenmoreno331@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_16": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "ad"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "ad"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "Blue"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "Blue"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_17": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "abc@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "abc@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": ""},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": ""
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_18": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "stephanadams175@example.com"},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "stephanadams175@example.com"
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "abc"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "abc"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   },
   "test_19": {
     "url": "https://school.moodledemo.net/",
     "test_items": [
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[3]/input", "action": "input", "value": "a"},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div[2]/ul/li", "action": "click", "value": null},
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/input",
+        "action": "input",
+        "value": "a"
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div[2]/ul/li",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "id", "element_locator": "id_cohortlist_label", "action": "click", "value": null},
-      {"element_type": "xpath", "element_locator": "//div[2]/div[2]/div[3]/input", "action": "input", "value": "abc"},
+      {
+        "element_type": "id",
+        "element_locator": "id_cohortlist_label",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div[2]/div[3]/input",
+        "action": "input",
+        "value": "abc"
+      },
 
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
-      {"element_type": "xpath", "element_locator": "//div[2]/div/div/div[3]/button[2]", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "sleep", "value": 3},
-      {"element_type": "xpath", "element_locator": "//div[3]/table/tbody/tr/td[2]", "action": "click", "value": null},
-      {"element_type": "id", "element_locator": "user-index-participants-69_r2", "action": "click", "value": null},
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 1
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[2]/div/div/div[3]/button[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "sleep",
+        "value": 3
+      },
+      {
+        "element_type": "xpath",
+        "element_locator": "//div[3]/table/tbody/tr/td[2]",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "id",
+        "element_locator": "user-index-participants-69_r2",
+        "action": "click",
+        "value": null
+      },
 
-      {"element_type": "css selector", "element_locator": ".toast-message", "action": "text_check", "value": "0 enrolled users"},
-      {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
-      {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null},
-      {"element_type": null, "element_locator": null, "action": "return", "value": true}
+      {
+        "element_type": "css selector",
+        "element_locator": ".toast-message",
+        "action": "text_check",
+        "value": "0 enrolled users"
+      },
+      {
+        "element_type": "id",
+        "element_locator": "action-menu-toggle-0",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": "link text",
+        "element_locator": "Log out",
+        "action": "click",
+        "value": null
+      },
+      {
+        "element_type": null,
+        "element_locator": null,
+        "action": "return",
+        "value": true
+      }
     ]
   }
 }
