@@ -1,0 +1,154 @@
+{
+  "test_1": {
+    "email": "stephanadams175@example.com",
+    "cohort": "Middle School Students",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected":"Not 0 enrolled users"
+  },
+  "test_2": {
+    "email": "",
+    "cohort": "Green House",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_3": {
+    "email": "thomas@example.com",
+    "cohort": "",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_4": {
+    "email": "test@example.com",
+    "cohort": "Blue House",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_5": {
+    "email": "cathericruz306@example.com",
+    "cohort": "Blue House",
+    "role": "teacher",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "Not 0 enrolled users"
+  },
+  "test_6": {
+    "email": "",
+    "cohort": "Green House",
+    "role": "teacher",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_7": {
+    "email": "francesbanks1@example.com",
+    "cohort": "",
+    "role": "teacher",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_8": {
+    "email": "test@example.com",
+    "cohort": "Teaching Staff",
+    "role": "teacher",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_9": {
+    "email": "stephanadams175@example.com",
+    "cohort": "Blue House",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "Not 0 enrolled users"
+  },
+  "test_10": {
+    "email": "se",
+    "cohort": "Blue House",
+    "role": "",
+    "helper_email": 1,
+    "helper_cohort": 0,
+    "expected": "Not 0 enrolled users"
+  },
+  "test_11": {
+    "email": "stevenmoreno331@example.com",
+    "cohort": "Blue",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 1,
+    "expected": "Not 0 enrolled users"
+  },
+  "test_12": {
+    "email": "t",
+    "cohort": "Blue",
+    "role": "",
+    "helper_email": 1,
+    "helper_cohort": 1,
+    "expected": "Not 0 enrolled users"
+  },
+  "test_13": {
+    "email": "stephanadams175@example.com",
+    "cohort": "Blue House",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_14": {
+    "email": "ste",
+    "cohort": "Blue House",
+    "role": "",
+    "helper_email": 1,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_15": {
+    "email": "stevenmoreno331@example.com",
+    "cohort": "Blue",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 1,
+    "expected": "0 enrolled users"
+  },
+  "test_16": {
+    "email": "ad",
+    "cohort": "Blue",
+    "role": "",
+    "helper_email": 1,
+    "helper_cohort": 1,
+    "expected": "0 enrolled users"
+  },
+  "test_17": {
+    "email": "abc@example.com",
+    "cohort": "",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_18": {
+    "email": "stephanadams175@example.com",
+    "cohort": "abc",
+    "role": "",
+    "helper_email": 0,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  },
+  "test_19": {
+    "email": "a",
+    "cohort": "abc",
+    "role": "",
+    "helper_email": 1,
+    "helper_cohort": 0,
+    "expected": "0 enrolled users"
+  }
+}

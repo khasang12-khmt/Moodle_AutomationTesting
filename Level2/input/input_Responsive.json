@@ -1,0 +1,196 @@
+{
+    "test_1": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "1920x1080"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            {"element_type": "css selector", "element_locator": ".login-container", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "username", "action": "input", "value": ""},
+            {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "username", "action": "input", "value": "teacher"},
+            {"element_type": "id", "element_locator": "password", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_2": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "1366x768"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_3": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "1280x720"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_4": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "1280x1024"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_5": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "1440x900"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_6": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "360x800"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_7": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "390x844"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_8": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "414x896"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_9": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "393x873"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    },
+    "test_10": {
+        "url": "https://school.moodledemo.net/",
+        "test_items": [
+            {"element_type": null, "element_locator": null, "action": "set_window_size", "value": "412x915"},
+            {"element_type": "link text", "element_locator": "Log in", "action": "click", "value": null},
+            
+            {"element_type": "id", "element_locator": "password", "action": "input", "value": "moodle"},
+            {"element_type": "id", "element_locator": "loginbtn", "action": "click", "value": null},
+            {"element_type": "id", "element_locator": "page-header", "action": "click", "value": null},
+            {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
+            {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
+
+            {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
+
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
+            {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
+            {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
+        ]
+    }
+}
