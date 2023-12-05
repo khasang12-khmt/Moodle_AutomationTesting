@@ -1,0 +1,71 @@
+[
+  {
+    "testCaseName": "profileEdit1",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "abc@gmail.com",
+      "imagePaths": ["..\\testdata\\vinh\\image.png"]
+    }
+  },
+  {
+    "testCaseName": "profileEdit2",
+    "test_data": {
+      "firstName": "@#",
+      "lastName": "Huynh",
+      "email": "abc@gmail.com",
+      "imagePaths": ["..\\testdata\\vinh\\image.png"]
+    }
+  },
+  {
+    "testCaseName": "profileEdit3",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "vinh@gmail.com",
+      "imagePaths": ["..\\testdata\\vinh\\image.png"]
+    }
+  },
+  {
+    "testCaseName": "profileEdit4",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "abc@gmail",
+      "imagePaths": ["..\\testdata\\vinh\\image.png"]
+    }
+  },
+  {
+    "testCaseName": "profileEdit5",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "abc@gmail.com",
+      "imagePaths": ["..\\testdata\\vinh\\image.txt"]
+    },
+    "expected": "File filetype cannot be accepted"
+  },
+  {
+    "testCaseName": "profileEdit6",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "abc@gmail.com",
+      "imagePaths": [
+        "..\\testdata\\vinh\\image.png",
+        "..\\testdata\\vinh\\image2.png"
+      ]
+    },
+    "expected": "You are allowed to attach a maximum of 1 file(s) to this item"
+  },
+  {
+    "testCaseName": "profileEdit7",
+    "test_data": {
+      "firstName": "Vinh",
+      "lastName": "Huynh",
+      "email": "abc@gmail",
+      "imagePaths": ["..\\testdata\\vinh\\big_image.png"]
+    },
+    "expected": "The file big_image.png is too large. The maximum size you can upload is 256MB."
+  }
+]
