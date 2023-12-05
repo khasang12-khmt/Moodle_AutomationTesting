@@ -1,0 +1,137 @@
+[
+  {
+    "test_name": "test_profileEdit1",
+    "test_data": {
+      "firstname": "",
+      "lastname": "Teacher",
+      "email": "abc@gmail.com"
+    },
+    "expected": "- Missing given name"
+  },
+  {
+    "test_name": "test_profileEdit2",   
+    "test_data": {
+      "firstname": "a",
+      "lastname": "Teacher",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit3",   
+    "test_data": {
+      "firstname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor2",
+      "lastname": "Teacher",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit4",   
+    "test_data": {
+      "firstname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor22",
+      "lastname": "Teacher",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit5",   
+    "test_data": {
+      "firstname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor222",
+      "lastname": "Teacher",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit6",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "",
+      "email": "abc@gmail.com"
+    },
+    "expected": "- Missing last name"
+  },
+  {
+    "test_name": "test_profileEdit7",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "a",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit8",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor2",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit9",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor22",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit10",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor222",
+      "email": "abc@gmail.com"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit11",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Teacher",
+      "email": ""
+    },
+    "expected": "- Required"
+  },
+  {
+    "test_name": "test_profileEdit12",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Teacher",
+      "email": "a@b"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit13",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Teacher",
+      "email": "nd5whosh40tzivcw4svs0kzpbixd62jplu9vsq909eotaglbt3pqmntq83bc82hlrw04zumf4gw77to2mge5vlxadsdss@gmail"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit14",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Teacher",
+      "email": "nd5whosh40tzivcw4svs0kzpbixd62jplu9vsq909eotaglbt3pqmntq83bc82hlrw04zumf4gw77to2mge5vlxadsdsas@gmail"
+    },
+    "expected": null
+  },
+  {
+    "test_name": "test_profileEdit15",   
+    "test_data": {
+      "firstname": "Terri",
+      "lastname": "Teacher",
+      "email": "nd5whosh40tzivcw4svs0kzpbixd62jplu9vsq909eotaglbt3pqaamntq83bc82hlrw04zumf4gw77to2mge5vlxadsdss@gmail"
+    },
+    "expected": null
+  }
+]
