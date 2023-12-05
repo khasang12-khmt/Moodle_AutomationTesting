@@ -9,6 +9,7 @@ import os
 MOODLE_URL = "https://sandbox400.moodledemo.net/"
 STUDENT_USERNAME = "student"
 STUDENT_PASSWORD = "sandbox"
+MAX_TIMEOUT_SHORT = 3
 MAX_TIMEOUT = 10
 MAX_TIMEOUT_LONG = 30
 
@@ -31,6 +32,7 @@ def student_login():
 def delete_all_submissions(student_login):
     # Remove previous submissions (if any)
     driver = student_login
+    driver.implicitly_wait(MAX_TIMEOUT_SHORT)
     driver.get("{}?redirect=0".format(MOODLE_URL))
     driver.find_element(By.LINK_TEXT, "My first course").click()
     try:
@@ -59,7 +61,7 @@ class TestStudentSubmitAssignment:
         6. "Assignment 1" has "Maximum submission size" set to 10MB
     """
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_1(self, delete_all_submissions):
         """
         FS-BVA-001
@@ -91,7 +93,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_2(self, delete_all_submissions):
         """
         FS-BVA-002
@@ -121,7 +123,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_3(self, delete_all_submissions):
         """
         FS-BVA-003
@@ -153,7 +155,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_4(self, delete_all_submissions):
         """
         FS-BVA-004
@@ -185,7 +187,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_5(self, delete_all_submissions):
         """
         FS-BVA-005
@@ -217,7 +219,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_6(self, delete_all_submissions):
         """
         FS-BVA-006
@@ -247,7 +249,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_7(self, delete_all_submissions):
         """
         FS-BVA-007
@@ -277,7 +279,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_8(self, delete_all_submissions):
         """
         FS-BVA-008
@@ -307,7 +309,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_9(self, delete_all_submissions):
         """
         FS-BVA-009
@@ -323,7 +325,7 @@ class TestStudentSubmitAssignment:
 
         assert driver.find_element(By.XPATH, "//div[contains(.,'Nothing was submitted')]").is_displayed()
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_10(self, delete_all_submissions):
         """
         FS-BVA-010
@@ -362,8 +364,10 @@ class TestStudentSubmitAssignment:
         except Exception as e:
             print(e)
             assert False
-
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+        finally:
+            driver.find_element(By.NAME, "cancel").click()
+    
+    
     def test_file_submission_11(self, delete_all_submissions):
         """
         FS-BVA-011
@@ -390,7 +394,7 @@ class TestStudentSubmitAssignment:
         except UnexpectedAlertPresentException:
             assert True
 
-    @pytest.mark.skip(reason="The test passed, skip to save time")
+    
     def test_file_submission_12(self, delete_all_submissions):
         """
         FS-BVA-012
@@ -416,3 +420,87 @@ class TestStudentSubmitAssignment:
             driver.find_element(By.XPATH, "//button[contains(.,'Upload this file')]").click()
         except UnexpectedAlertPresentException:
             assert True
+
+    
+    def test_file_submission_13(self, delete_all_submissions):
+        """
+        FS-UCT-001
+        Submit file assignment that is not available (invalid)
+        Pre-condition:
+            - "Assignment 2" is not available (overdue)
+        """
+        driver = delete_all_submissions
+        driver.implicitly_wait(MAX_TIMEOUT)
+        driver.find_element(By.LINK_TEXT, "Assignment 2").click()
+
+        try:
+            driver.find_element(By.XPATH, "//button[contains(.,'Add submission')]")
+            assert False
+        except NoSuchElementException:
+            assert True
+        except Exception as e:
+            print(e)
+            assert False
+
+    
+    def test_file_submission_14(self, delete_all_submissions):
+        """
+        FS-UCT-002
+        Submit file assignment with drag and drop (valid)
+        """
+        # Drag and drop file is not supported by Selenium
+        pass
+
+    
+    def test_file_submission_15(self, delete_all_submissions):
+        """
+        FS-UCT-003
+        Submit file assignment with file picker (recent files) (valid)
+        Pre-condition:
+            - The user has uploaded a file to Moodle before (1.txt)
+        """
+        driver = delete_all_submissions
+        driver.implicitly_wait(MAX_TIMEOUT)
+        driver.find_element(By.LINK_TEXT, "Assignment 1").click()
+        driver.find_element(By.XPATH, "//button[contains(.,'Add submission')]").click()
+
+        # Select file from recent files
+        driver.find_element(By.XPATH, "//*[@title=\"Add...\"]").click()
+        driver.find_element(By.XPATH, "//span[contains(.,'Recent files')]").click()
+        driver.find_element(By.XPATH, "//p[contains(.,'1.txt')]").click()
+        driver.find_element(By.XPATH, "//button[contains(.,'Select this file')]").click()
+        
+        wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+        wait.until(lambda d : d.find_element(By.ID, "id_submitbutton").click() or True)
+
+        assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
+
+    
+    def test_file_submission_16(self, delete_all_submissions):
+        """
+        FS-UCT-004
+        Submit file assignment with file picker (upload a file) (valid)
+        """
+        driver = delete_all_submissions
+        driver.implicitly_wait(MAX_TIMEOUT)
+        driver.find_element(By.LINK_TEXT, "Assignment 1").click()
+        driver.find_element(By.XPATH, "//button[contains(.,'Add submission')]").click()
+
+        # Upload one file
+        driver.find_element(By.XPATH, "//*[@title=\"Add...\"]").click()
+        driver.find_element(By.XPATH, "//span[contains(.,'Upload a file')]").click()
+        upload_file = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), "files", "1.txt"))
+        file_input = driver.find_element(By.CSS_SELECTOR, 'input[type="file"]')
+        try:
+            file_input.send_keys(upload_file)
+            driver.find_element(By.XPATH, "//button[contains(.,'Upload this file')]").click()
+        except StaleElementReferenceException:
+            file_input = driver.find_element(By.CSS_SELECTOR, 'input[type="file"]')
+            file_input.send_keys(upload_file)
+            driver.find_element(By.XPATH, "//button[contains(.,'Upload this file')]").click()
+        
+        wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+        wait.until(lambda d : d.find_element(By.ID, "id_submitbutton").click() or True)
+
+        assert driver.find_element(By.XPATH, "//td[contains(.,'Submitted for grading')]").is_displayed()
