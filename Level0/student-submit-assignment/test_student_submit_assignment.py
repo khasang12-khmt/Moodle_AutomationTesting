@@ -33,8 +33,7 @@ def delete_all_submissions(student_login):
     # Remove previous submissions (if any)
     driver = student_login
     driver.implicitly_wait(MAX_TIMEOUT_SHORT)
-    driver.get("{}?redirect=0".format(MOODLE_URL))
-    driver.find_element(By.LINK_TEXT, "My first course").click()
+    driver.get("{}course/view.php?id=2".format(MOODLE_URL))
     try:
         driver.find_element(By.XPATH, "//button[contains(.,'Got it')]").click()
     except:
