@@ -1,0 +1,11 @@
+[
+    {
+        "workers": 5,
+        "method": "stable_pattern",
+        "task_name": "UploadImageTask",
+        "stable_count": 10,
+        "args": {
+            "image_path": "..\\testdata\\vinh\\image.png"
+        }
+    }
+]

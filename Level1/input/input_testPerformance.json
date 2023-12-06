@@ -1,0 +1,89 @@
+[
+    {
+        "workers": 5,
+        "method": "stable_pattern",
+        "task_name": "UploadImageTask",
+        "stable_count": 10,
+        "args": {
+            "image_path": "..\\testdata\\vinh\\image.png"
+        }
+    },
+    {
+        "workers": 5,
+        "method": "stable_pattern",
+        "task_name": "GoToCourseTask",
+        "stable_count": 10,
+        "args": {}
+    },
+    {
+        "workers": 5,
+        "method": "ramp_up_pattern",
+        "stable_count": 2,
+        "task_name": "GoToCourseTask",
+        "args": {}
+    },
+    {
+        "workers": 10,
+        "method": "stable_pattern",
+        "task_name": "GoToCourseTask",
+        "stable_count": 10,
+        "args": {}
+    },
+    {
+        "workers": 10,
+        "method": "ramp_up_pattern",
+        "stable_count": 2,
+        "task_name": "GoToCourseTask",
+        "args": {}
+    },
+    {
+        "workers": 20,
+        "method": "stable_pattern",
+        "task_name": "GoToCourseTask",
+        "stable_count": 10,
+        "args": {}
+    },
+    {
+        "workers": 20,
+        "method": "ramp_up_pattern",
+        "stable_count": 2,
+        "task_name": "GoToCourseTask",
+        "args": {}
+    },
+    {
+        "workers": 5,
+        "method": "stable_pattern",
+        "task_name": "UploadImageTask",
+        "stable_count": 10,
+        "args": {
+            "image_path": "..\\testdata\\vinh\\image.png"
+        }
+    },
+    {
+        "workers": 5,
+        "method": "ramp_up_pattern",
+        "stable_count": 2,
+        "task_name": "UploadImageTask",
+        "args": {
+            "image_path": "..\\testdata\\vinh\\image.png"
+        }
+    },
+    {
+        "workers": 10,
+        "method": "stable_pattern",
+        "task_name": "UploadImageTask",
+        "stable_count": 10,
+        "args": {
+            "image_path": "..\\testdata\\vinh\\big_image_10MB.png"
+        }
+    },
+    {
+        "workers": 10,
+        "method": "ramp_up_pattern",
+        "stable_count": 2,
+        "task_name": "UploadImageTask",
+        "args": {
+            "image_path": "..\\testdata\\vinh\\image.png"
+        }
+    }
+]

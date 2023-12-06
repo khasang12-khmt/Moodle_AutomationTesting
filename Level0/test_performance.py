@@ -1,38 +1,54 @@
-from concurrent.futures import ThreadPoolExecutor, wait
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 import argparse
+from PerformanceTask import PerformanceRunner as Runner
+from PerformanceTask import Task
 
 parser = argparse.ArgumentParser(description='Stress test the Python Selenium WebDriver')
 parser.add_argument('--num', type=int, help='Number of simultaneous instances', default=20)
-parser.add_argument('--type', help='How to run the instances', choices=['parallel', 'concurrent'])
 args = parser.parse_args()
 
-def run():
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    try:
-        options.add_argument('headless')
-        driver = webdriver.Chrome(options=options)
-        driver.get("https://sandbox.moodledemo.net/")
-        driver.set_window_size(787, 816)
-        driver.find_element(By.LINK_TEXT, "Log in").click()
-        driver.find_element(By.ID, "username").click()
-        driver.find_element(By.ID, "username").clear()
-        driver.find_element(By.ID, "username").send_keys("teacher")
-        driver.find_element(By.ID, "password").click()
-        driver.find_element(By.ID, "password").send_keys("sandbox")
-        driver.find_element(By.ID, "loginbtn").click()
-        driver.close()
-        driver.quit()
-    except Exception as e:
-        raise
+class TestPerformance:
+       
+    """ def test_Performance1(self):
+        runner = Runner.PerformanceRunner(5)
+        runner.stable_pattern(task_class=Task.GoToCourseTask, stable_count=10)
+    
+    def test_Performance2(self):
+        runner = Runner.PerformanceRunner(5)
+        runner.ramp_up_pattern(task_class=Task.GoToCourseTask, stable_count=2, step=2)
 
-num = args.num
-with ThreadPoolExecutor(max_workers=num) as executor:
-    futures = [executor.submit(run) for _ in range(num)]
+    def test_Performance3(self):
+        runner = Runner.PerformanceRunner(10)
+        runner.stable_pattern(task_class=Task.GoToCourseTask, stable_coksunt=10)
+    
+    def test_Performance4(self):
+        runner = Runner.PerformanceRunner(10)
+        runner.ramp_up_pattern(task_class=Task.GoToCourseTask, stable_count=2, step=2) """
+    
+    def test_Performance3(self):
+        runner = Runner.PerformanceRunner(20)
+        runner.stable_pattern(task_class=Task.GoToCourseTask, stable_count=5)
+    
+    def test_Performance4(self):
+        runner = Runner.PerformanceRunner(20)
+        runner.ramp_up_pattern(task_class=Task.GoToCourseTask, stable_count=2, step=2)
+        
+    def test_Performance7(self):
+        runner = Runner.PerformanceRunner(5)
+        runner.stable_pattern(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\image.png')
+    
+    def test_Performance8(self):
+        runner = Runner.PerformanceRunner(10)
+        runner.stable_pattern(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\image.png')
+        
+    def test_Performance8(self):
+        runner = Runner.PerformanceRunner(5)
+        runner.stable_pattern(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\big_image_10MB.png')
+    
+    def run(self):
+        test_methods = [method for method in dir(self) if callable(getattr(self, method)) and method.startswith("test_Performance")]
+        test_methods = sorted(test_methods, key=lambda x: int(x.split('test_Performance')[1]))
+        fs = list(map(lambda mname: getattr(self, mname), test_methods))
+        for f in fs:
+            f()
 
-wait(futures)
-
-for f in futures:
-    print(f.exception())
+TestPerformance().run()

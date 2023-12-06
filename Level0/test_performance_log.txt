@@ -1,0 +1,764 @@
+Testcase 1:
+Starting Stable Pattern...
+-- Run 1--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+
+-- Run 2--
+Result 0: False, Error: result=Exception("Unexpected err=ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')), type(err)=<class 'urllib3.exceptions.ProtocolError'>")
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+
+-- Run 3--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+
+-- Run 4--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+
+-- Run 5--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 6--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 7--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 8--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 9--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 10--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+   ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+
+
+Testcase 2:
+
+Starting Ramp-Up Pattern...
+-- Run 1-- Num workers: 1
+Result 0: True, Error: None
+=======Run Succesfully with========
+    Success: 1, Failure: 0
+    Error rate: 0.0
+
+-- Run 2-- Num workers: 3
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+=======Run Succesfully with========
+    Success: 3, Failure: 0
+    Error rate: 0.0
+
+-- Run 3-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 4-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 6-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 7-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+   ========= Summary ==========
+Success: 24
+Error: 0
+Error Rate: 0.0
+
+
+Testcase 3:
+-- Run 1--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 2--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 3--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 4--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 5--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 6--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 7--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 8--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 9--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 10--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+   ========= Summary ==========
+Success: 100
+Error: 0
+Error Rate: 0.0
+
+Testcase 4:
+Starting Ramp-Up Pattern...
+-- Run 1-- Num workers: 1
+Result 0: True, Error: None
+=======Run Succesfully with========
+    Success: 1, Failure: 0
+    Error rate: 0.0
+
+-- Run 2-- Num workers: 3
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+=======Run Succesfully with========
+    Success: 3, Failure: 0
+    Error rate: 0.0
+
+-- Run 3-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 4-- Num workers: 7
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+=======Run Succesfully with========
+    Success: 7, Failure: 0
+    Error rate: 0.0
+
+-- Run 5-- Num workers: 9
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+=======Run Succesfully with========
+    Success: 9, Failure: 0
+    Error rate: 0.0
+
+-- Run 6-- Num workers: 10
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 8-- Num workers: 10
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+-- Run 9-- Num workers: 10
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+=======Run Succesfully with========
+    Success: 10, Failure: 0
+    Error rate: 0.0
+
+   ========= Summary ==========
+Success: 55
+Error: 0
+Error Rate: 0.0
+
+Testcase 5:
+-- Run 1--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with======== 
+    Success: 20, Failure: 0
+    Error rate: 0.0   
+
+-- Run 2--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+-- Run 3--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+-- Run 4--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+-- Run 5--
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+   ========= Summary ==========
+Success: 100
+Error: 0
+Error Rate: 0.0
+
+Testcase 6:
+Starting Ramp-Up Pattern...
+-- Run 1-- Num workers: 1
+Result 0: True, Error: None
+=======Run Succesfully with========
+    Success: 1, Failure: 0
+    Error rate: 0.0
+
+-- Run 2-- Num workers: 3
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+=======Run Succesfully with========
+    Success: 3, Failure: 0
+    Error rate: 0.0
+
+-- Run 3-- Num workers: 5
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+=======Run Succesfully with========
+    Success: 5, Failure: 0
+    Error rate: 0.0
+
+-- Run 4-- Num workers: 7
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+=======Run Succesfully with========
+    Success: 7, Failure: 0
+    Error rate: 0.0
+
+-- Run 5-- Num workers: 9
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+=======Run Succesfully with========
+    Success: 9, Failure: 0
+    Error rate: 0.0
+
+-- Run 6-- Num workers: 11
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+ None
+Result 11: True, Error: None
+Result 12: True, Error: None
+=======Run Succesfully with========
+    Success: 13, Failure: 0
+    Error rate: 0.0
+
+-- Run 8-- Num workers: 15
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+=======Run Succesfully with========
+    Success: 15, Failure: 0
+    Error rate: 0.0
+
+-- Run 9-- Num workers: 17
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+=======Run Succesfully with========
+    Success: 17, Failure: 0
+    Error rate: 0.0
+
+-- Run 10-- Num workers: 19
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+=======Run Succesfully with========
+    Success: 19, Failure: 0
+    Error rate: 0.0
+
+-- Run 11-- Num workers: 20
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+-- Run 12-- Num workers: 20
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
+
+-- Run 13-- Num workers: 20
+Result 0: True, Error: None
+Result 1: True, Error: None
+Result 2: True, Error: None
+Result 3: True, Error: None
+Result 4: True, Error: None
+Result 5: True, Error: None
+Result 6: True, Error: None
+Result 7: True, Error: None
+Result 8: True, Error: None
+Result 9: True, Error: None
+Result 10: True, Error: None
+Result 11: True, Error: None
+Result 12: True, Error: None
+Result 13: True, Error: None
+Result 14: True, Error: None
+Result 15: True, Error: None
+Result 16: True, Error: None
+Result 17: True, Error: None
+Result 18: True, Error: None
+Result 19: True, Error: None
+=======Run Succesfully with========
+    Success: 20, Failure: 0
+    Error rate: 0.0
