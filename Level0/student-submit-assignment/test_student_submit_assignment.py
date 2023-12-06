@@ -38,8 +38,8 @@ def delete_all_submissions(student_login):
         driver.find_element(By.XPATH, "//button[contains(.,'Got it')]").click()
     except:
         pass
+    driver.find_element(By.LINK_TEXT, "Assignment 1").click()
     try:
-        driver.find_element(By.LINK_TEXT, "Assignment 1").click()
         driver.find_element(By.XPATH, "//button[contains(.,'Remove submission')]").click()
         driver.find_element(By.XPATH, "//button[contains(.,'Continue')]").click()
     except:
