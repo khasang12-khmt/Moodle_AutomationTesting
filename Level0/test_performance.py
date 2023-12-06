@@ -8,7 +8,7 @@ args = parser.parse_args()
 
 class TestPerformance:
        
-    """ def test_Performance1(self):
+    def test_Performance1(self):
         runner = Runner.PerformanceRunner(5)
         runner.stable_pattern(task_class=Task.GoToCourseTask, stable_count=10)
     
@@ -22,7 +22,7 @@ class TestPerformance:
     
     def test_Performance4(self):
         runner = Runner.PerformanceRunner(10)
-        runner.ramp_up_pattern(task_class=Task.GoToCourseTask, stable_count=2, step=2) """
+        runner.ramp_up_pattern(task_class=Task.GoToCourseTask, stable_count=2, step=2)
     
     def test_Performance3(self):
         runner = Runner.PerformanceRunner(20)
@@ -38,7 +38,7 @@ class TestPerformance:
     
     def test_Performance8(self):
         runner = Runner.PerformanceRunner(10)
-        runner.stable_pattern(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\image.png')
+        runner.stable_patterns(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\image.png')
         
     def test_Performance8(self):
         runner = Runner.PerformanceRunner(5)

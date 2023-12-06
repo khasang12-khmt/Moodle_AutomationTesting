@@ -143,7 +143,7 @@ class TestMessage():
         self.logout()
         return False
 
-  def test_Message_Usecase1(self):
+  def test_Usecase_Message1(self):
       self.precondtion()
       try:
         self.sendMessageFlow("Hello World!")
@@ -153,7 +153,7 @@ class TestMessage():
         self.logout()
         return False
   
-  def test_Message_Usecase2(self):
+  def test_Usecase_Message2(self):
       self.precondtion()
       try:
         self.clickMessageShow()
@@ -168,7 +168,7 @@ class TestMessage():
         self.logout()
         return False     
 
-  def test_Message_Usecase3(self):
+  def test_Usecase_Message3(self):
       self.precondtion()
       try:
         self.clickMessageShow()
@@ -179,7 +179,7 @@ class TestMessage():
         self.logout()
         return False
   
-  def test_Message_Usecase4(self):
+  def test_Usecase_Message4(self):
       self.precondtion()
       try:
         self.clickMessageShow()
@@ -194,7 +194,7 @@ class TestMessage():
         self.logout()
         return False    
   
-  def test_Message_Usecase5(self):
+  def test_Usecase_Message5(self):
       self.precondtion()
       try:
         self.sendMessageFlow("Hello", network_condition="offline")
@@ -219,7 +219,7 @@ class TestMessage():
         self.logout()
         return False
 
-  def test_Message_Usecase6(self):
+  def test_Usecase_Message6(self):
       self.precondtion()
       try:
         self.sendMessageFlow("Hello", network_condition="offline")
@@ -350,13 +350,13 @@ class TestMessage():
   def run(self):
     self.setup_method(None)
     test_methods = []
-    # test_methods = [method for method in dir(self) if callable(getattr(self, method)) and method.startswith("test_Message")]
-    # test_methods = sorted(test_methods, key=lambda x: int(x.split('test_Message')[1]))
+    test_methods = [method for method in dir(self) if callable(getattr(self, method)) and method.startswith("test_Message")]
+    test_methods = sorted(test_methods, key=lambda x: int(x.split('test_Message')[1]))
   
-    test_Message_Usecase = [method for method in dir(self) if callable(getattr(self, method)) and method.startswith("test_Message_Usecase")]
-    test_Message_Usecase = sorted(test_Message_Usecase, key=lambda x: int(x.split('test_Message_Usecase')[1]))
+    test_Usecase_Message = [method for method in dir(self) if callable(getattr(self, method)) and method.startswith("test_Usecase_Message")]
+    test_Usecase_Message = sorted(test_Usecase_Message, key=lambda x: int(x.split('test_Usecase_Message')[1]))
     
-    test_methods = test_methods + test_Message_Usecase
+    test_methods = test_methods + test_Usecase_Message
 
     result = self.test(*map(lambda mname: getattr(self, mname), test_methods))
 
