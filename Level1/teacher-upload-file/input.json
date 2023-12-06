@@ -1,0 +1,83 @@
+[
+  {
+    "id": "UF-ECP-001",
+    "fileName": "New file",
+    "file": "1.txt",
+    "directory": "",
+    "display": "Embed",
+    "specialCheck": null,
+    "expected": "//a[contains(.,'New file')]"
+  },
+  {
+    "id": "UF-ECP-002",
+    "fileName": "New file",
+    "file": "1.txt",
+    "directory": "New folder",
+    "display": "Force download",
+    "specialCheck": null,
+    "expected": "//a[contains(.,'New file')]"
+  },
+  {
+    "id": "UF-ECP-003",
+    "fileName": "New file",
+    "file": "1.txt",
+    "directory": "",
+    "display": "Open",
+    "specialCheck": null,
+    "expected": "//a[contains(.,'New file')]"
+  },
+  {
+    "id": "UF-ECP-004",
+    "fileName": "",
+    "file": "1.txt",
+    "directory": "",
+    "display": "Embed",
+    "specialCheck": "no_name",
+    "expected": ""
+  },
+  {
+    "id": "UF-ECP-005",
+    "fileName": "New file",
+    "file": "",
+    "directory": "",
+    "display": "Embed",
+    "specialCheck": "no_file",
+    "expected": ""
+  },
+  {
+    "id": "UF-DT-001",
+    "fileName": "New file",
+    "file": "1.txt",
+    "directory": "New folder",
+    "display": "",
+    "specialCheck": null,
+    "expected": "//a[contains(.,'New file')]"
+  },
+  {
+    "id": "UF-DT-002",
+    "fileName": "New file",
+    "file": "1.txt",
+    "directory": "",
+    "display": "",
+    "specialCheck": null,
+    "expected": "//a[contains(.,'New file')]"
+  },
+  {
+    "id": "UF-DT-003",
+    "fileName": "New file",
+    "file": "",
+    "directory": "",
+    "display": "",
+    "specialCheck": "no_file",
+    "expected": ""
+  },
+  {
+    "id": "UF-DT-004",
+    "fileName": "",
+    "file": "1.txt",
+    "directory": "",
+    "display": "",
+    "specialCheck": "no_name",
+    "expected": ""
+  }
+]

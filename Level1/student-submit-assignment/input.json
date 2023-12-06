@@ -1,0 +1,181 @@
+[
+  {
+    "id": "FS-BVA-001",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt",
+      "2.txt",
+      "3.txt",
+      "4.txt",
+      "5.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-002",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-003",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt",
+      "2.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-004",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt",
+      "2.txt",
+      "3.txt",
+      "4.txt",
+      "5.txt",
+      "6.txt",
+      "7.txt",
+      "8.txt",
+      "9.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-005",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt",
+      "2.txt",
+      "3.txt",
+      "4.txt",
+      "5.txt",
+      "6.txt",
+      "7.txt",
+      "8.txt",
+      "9.txt",
+      "10.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-006",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "image.jpg"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-007",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.webm"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-008",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "2.webm"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-BVA-009",
+    "assignmentName": "Assignment 1",
+    "files": [
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//div[contains(.,'Nothing was submitted')]"
+  },
+  {
+    "id": "FS-BVA-010",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt",
+      "2.txt",
+      "3.txt",
+      "4.txt",
+      "5.txt",
+      "6.txt",
+      "7.txt",
+      "8.txt",
+      "9.txt",
+      "10.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": "cannot_add",
+    "expected": ""
+  },
+  {
+    "id": "FS-BVA-011",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "0.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": "alert",
+    "expected": ""
+  },
+  {
+    "id": "FS-BVA-012",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.mp4"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": "alert",
+    "expected": ""
+  },
+  {
+    "id": "FS-UCT-001",
+    "assignmentName": "Assignment 2",
+    "files": [
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": "overdue",
+    "expected": ""
+  },
+  {
+    "id": "FS-UCT-003",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt"
+    ],
+    "method": "file-picker::recent",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  },
+  {
+    "id": "FS-UCT-004",
+    "assignmentName": "Assignment 1",
+    "files": [
+      "1.txt"
+    ],
+    "method": "file-picker::upload",
+    "specialCheck": null,
+    "expected": "//td[contains(.,'Submitted for grading')]"
+  }
+]
