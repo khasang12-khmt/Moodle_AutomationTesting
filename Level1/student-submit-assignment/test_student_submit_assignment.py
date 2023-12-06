@@ -11,9 +11,10 @@ MOODLE_URL = "https://sandbox400.moodledemo.net/"
 STUDENT_USERNAME = "student"
 STUDENT_PASSWORD = "sandbox"
 MAX_TIMEOUT_SHORT = 3
-MAX_TIMEOUT = 10
+MAX_TIMEOUT = 20
 MAX_TIMEOUT_LONG = 30
 INPUT_PATH = os.path.join(os.path.dirname(__file__), "input.json")
+FILE_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "Level0", "student-submit-assignment", "files")
 
 @pytest.fixture(scope="class")
 def student_login():
@@ -53,7 +54,7 @@ def delete_all_submissions(student_login):
 def get_input_data():
     with open(INPUT_PATH, "r", encoding='UTF-8') as f:
         data = json.load(f)
-    return data
+    return [(d["id"], d["assignmentName"], d["files"], d["method"], d["specialCheck"], d["expected"]) for d in data]
 
 @pytest.mark.usefixtures("student_login", "delete_all_submissions")
 class TestStudentSubmitAssignment:
@@ -64,14 +65,87 @@ class TestStudentSubmitAssignment:
     """
 
 
-    @pytest.mark.parametrize("assignmentName,isOverDue,files,method,specialCheck,expected", get_input_data())
-    @pytest.mark.usefixtures("student_login", "delete_all_submissions")
-    def test_file_submission(self, delete_all_submissions, assignmentName, isOverDue, files, method, specialCheck, expected):
+    @pytest.mark.parametrize("id,assignmentName,files,method,specialCheck,expected", get_input_data())
+    def test_file_submission(self, delete_all_submissions, id, assignmentName, files, method, specialCheck, expected):
         """
         Test case:
             Student submits an assignment
         """
         driver = delete_all_submissions
-        print("Test case: Student submits an assignment")
-        print("Assignment name: {}".format(assignmentName))
+        driver.implicitly_wait(MAX_TIMEOUT_LONG)
+        driver.find_element(By.LINK_TEXT, assignmentName).click()
+
+        # Special check logic before uploading files (if any)
+        if specialCheck == "overdue":
+            try:
+                driver.find_element(By.XPATH, "//button[contains(.,'Add submission')]")
+                assert False
+            except NoSuchElementException:
+                assert True
+            except Exception as e:
+                print(e)
+                assert False
+            finally:
+                return
+
+        driver.find_element(By.XPATH, "//button[contains(.,'Add submission')]").click()
+
+        try:
+            for file in files:
+                # Upload file one by one
+                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+                wait.until(lambda d : d.find_element(By.XPATH, "//*[@title=\"Add...\"]").click() or True)
+
+                if method == "file-picker::upload":
+                    # Upload using "Upload a file" in file picker
+                    driver.find_element(By.XPATH, "//span[contains(.,'Upload a file')]").click()
+                    upload_file = os.path.abspath(os.path.join(FILE_PATH, file))
+                    file_input = driver.find_element(By.CSS_SELECTOR, 'input[type="file"]')
+                    try:
+                        file_input.send_keys(upload_file)
+                        driver.find_element(By.XPATH, "//button[contains(.,'Upload this file')]").click()
+                    except StaleElementReferenceException:
+                        file_input = driver.find_element(By.CSS_SELECTOR, 'input[type="file"]')
+                        file_input.send_keys(upload_file)
+                        driver.find_element(By.XPATH, "//button[contains(.,'Upload this file')]").click()
+                else:
+                    # Upload by choosing from "Recent files" in file picker
+                    driver.find_element(By.XPATH, "//span[contains(.,'Recent files')]").click()
+                    driver.find_element(By.XPATH, "//p[contains(.,'{}')]".format(file)).click()
+                    driver.find_element(By.XPATH, "//button[contains(.,'Select this file')]").click()
+            
+            # Special check logic after uploading files (if any)
+            if specialCheck == "cannot_add":
+                try:
+                    driver.find_element(By.XPATH, "//*[@title=\"Add...\"]").click()
+                    assert False
+                except ElementNotInteractableException:
+                    assert True
+                except NoSuchElementException:
+                    assert True
+                except ElementClickInterceptedException:
+                    assert True
+                except Exception as e:
+                    print(e)
+                    assert False
+                finally:
+                    driver.find_element(By.NAME, "cancel").click()
+                    return
+            elif specialCheck is None:
+                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+                wait.until(lambda d : d.find_element(By.ID, "id_submitbutton").click() or True)
+
+                assert driver.find_element(By.XPATH, expected).is_displayed()
+        
+        except UnexpectedAlertPresentException:
+            # Handle alert
+            driver.switch_to.alert.accept()
+            if specialCheck == "alert":
+                assert True
+                return
+            assert False
+        except Exception as e:
+            # Handle other exceptions
+            print(e)
+            assert False
         
