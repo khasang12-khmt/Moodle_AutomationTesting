@@ -1,10 +1,9 @@
-
 Starting Stable Pattern...
 -- Run 1--
 Result 0: True, Error: None
 Result 1: True, Error: None
 Result 2: True, Error: None
-Result 3: True, Error: Nones
+Result 3: True, Error: None
 Result 4: True, Error: None
 =======Run Succesfully with======== 
     Success: 5, Failure: 0
@@ -107,7 +106,6 @@ Error Rate: 0.02
 
 
 
-
 Starting Ramp-Up Pattern...
 -- Run 1-- Num workers: 1
 Result 0: True, Error: None
@@ -167,7 +165,6 @@ Result 4: True, Error: None
 Success: 24
 Error: 0
 Error Rate: 0.0
-
 
 
 -- Run 1--
@@ -325,7 +322,6 @@ Success: 100
 Error: 0
 Error Rate: 0.0
 
-
 Starting Ramp-Up Pattern...
 -- Run 1-- Num workers: 1
 Result 0: True, Error: None
@@ -426,7 +422,6 @@ Result 9: True, Error: None
 Success: 55
 Error: 0
 Error Rate: 0.0
-
 
 -- Run 1--
 Result 0: True, Error: None
@@ -557,7 +552,6 @@ Result 19: True, Error: None
 Success: 100
 Error: 0
 Error Rate: 0.0
-
 
 Starting Ramp-Up Pattern...
 -- Run 1-- Num workers: 1

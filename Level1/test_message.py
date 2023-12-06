@@ -43,6 +43,7 @@ class TestMessage:
         fail = []
         for testcase in testset :
             id = testcase['id']
+            print(f"Run testcase: {id}")
             self.setup_method(None)
             method_name = testcase["function"]
             method = getattr(self, method_name)
