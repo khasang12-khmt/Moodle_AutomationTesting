@@ -43,7 +43,7 @@
       "email": "abc@gmail.com",
       "imagePaths": ["..\\testdata\\vinh\\image.txt"]
     },
-    "expected": "File filetype cannot be accepted"
+    "expected": "Text file filetype cannot be accepted."
   },
   {
     "testCaseName": "profileEdit6",
