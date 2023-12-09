@@ -126,7 +126,7 @@ class TestProfileUpdate():
         self.driver.find_element(By.XPATH, "//a[text()='Cancel email change']").click()
         time.sleep(3)
       except NoSuchElementException as err:
-        p
+        pass
       self.driver.find_element(By.ID, "id_firstname").click()
       self.driver.find_element(By.ID, "id_firstname").clear()
       self.driver.find_element(By.ID, "id_firstname").send_keys("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor2")
@@ -274,7 +274,7 @@ class TestProfileUpdate():
         self.driver.find_element(By.XPATH, "//a[text()='Cancel email change']").click()
         time.sleep(3)
       except NoSuchElementException as err:
-        p
+        pass
       self.driver.find_element(By.ID, "id_firstname").click()
       self.driver.find_element(By.ID, "id_firstname").clear()
       self.driver.find_element(By.ID, "id_firstname").send_keys("Terri")
@@ -770,7 +770,7 @@ class TestProfileUpdate():
 
     fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
     return f"""
-    \n- Test Profile Edit Course (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+    \n- Test Profile Edit (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
     """
 
   def run(self):

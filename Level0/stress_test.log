@@ -1,0 +1,1043 @@
+2023-12-09 16:20:37,344 - INFO - ++++ Running test_Stress1 ++++
+2023-12-09 16:20:37,344 - INFO - Starting Stable Pattern...
+2023-12-09 16:20:37,344 - INFO - -- Run 1--
+2023-12-09 16:20:51,284 - INFO - Result 0: True, Error: None
+2023-12-09 16:20:51,284 - INFO - Result 1: True, Error: None
+2023-12-09 16:20:51,285 - INFO - Result 2: True, Error: None
+2023-12-09 16:20:51,285 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:21:04,567 - INFO - -- Run 2--
+2023-12-09 16:21:25,891 - INFO - Result 0: True, Error: None
+2023-12-09 16:21:25,891 - INFO - Result 1: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 16:21:25,891 - INFO - Result 2: True, Error: None
+2023-12-09 16:21:25,891 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 1
+    Error rate: 0.3333333333333333   
+                
+2023-12-09 16:21:39,169 - INFO - -- Run 3--
+2023-12-09 16:21:55,895 - INFO - Result 0: True, Error: None
+2023-12-09 16:21:55,895 - INFO - Result 1: True, Error: None
+2023-12-09 16:21:55,895 - INFO - Result 2: True, Error: None
+2023-12-09 16:21:55,895 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:22:09,163 - INFO - -- Run 4--
+2023-12-09 16:22:25,260 - INFO - Result 0: True, Error: None
+2023-12-09 16:22:25,260 - INFO - Result 1: True, Error: None
+2023-12-09 16:22:25,260 - INFO - Result 2: True, Error: None
+2023-12-09 16:22:25,260 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:22:38,558 - INFO - -- Run 5--
+2023-12-09 16:22:54,209 - INFO - Result 0: True, Error: None
+2023-12-09 16:22:54,209 - INFO - Result 1: True, Error: None
+2023-12-09 16:22:54,209 - INFO - Result 2: True, Error: None
+2023-12-09 16:22:54,209 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:23:07,490 - INFO - -- Run 6--
+2023-12-09 16:24:13,874 - INFO - Result 0: True, Error: None
+2023-12-09 16:24:13,874 - INFO - Result 1: True, Error: None
+2023-12-09 16:24:13,874 - INFO - Result 2: True, Error: None
+2023-12-09 16:24:13,874 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:24:27,116 - INFO - -- Run 7--
+2023-12-09 16:25:30,777 - INFO - Result 0: True, Error: None
+2023-12-09 16:25:30,777 - INFO - Result 1: True, Error: None
+2023-12-09 16:25:30,777 - INFO - Result 2: True, Error: None
+2023-12-09 16:25:30,777 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:25:44,032 - INFO - -- Run 8--
+2023-12-09 16:26:33,357 - INFO - Result 0: True, Error: None
+2023-12-09 16:26:33,357 - INFO - Result 1: True, Error: None
+2023-12-09 16:26:33,357 - INFO - Result 2: True, Error: None
+2023-12-09 16:26:33,357 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:26:46,622 - INFO - -- Run 9--
+2023-12-09 16:27:00,537 - INFO - Result 0: True, Error: None
+2023-12-09 16:27:00,537 - INFO - Result 1: True, Error: None
+2023-12-09 16:27:00,537 - INFO - Result 2: True, Error: None
+2023-12-09 16:27:00,537 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:27:13,823 - INFO - -- Run 10--
+2023-12-09 16:27:27,975 - INFO - Result 0: True, Error: None
+2023-12-09 16:27:27,976 - INFO - Result 1: True, Error: None
+2023-12-09 16:27:27,976 - INFO - Result 2: True, Error: None
+2023-12-09 16:27:27,976 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:27:41,229 - INFO -    ========= Summary ==========
+Success: 29
+Error: 1
+Error Rate: 0.03333333333333333
+                  
+2023-12-09 16:27:41,229 - INFO - ++++ Running test_Stress2 ++++
+2023-12-09 16:27:41,229 - INFO - Starting Stable Pattern...
+2023-12-09 16:27:41,229 - INFO - -- Run 1--
+2023-12-09 16:27:57,480 - INFO - Result 0: True, Error: None
+2023-12-09 16:27:57,480 - INFO - Result 1: True, Error: None
+2023-12-09 16:27:57,480 - INFO - Result 2: True, Error: None
+2023-12-09 16:27:57,480 - INFO - Result 3: True, Error: None
+2023-12-09 16:27:57,480 - INFO - Result 4: True, Error: None
+2023-12-09 16:27:57,480 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:28:18,851 - INFO - -- Run 2--
+2023-12-09 16:28:34,563 - INFO - Result 0: True, Error: None
+2023-12-09 16:28:34,563 - INFO - Result 1: True, Error: None
+2023-12-09 16:28:34,563 - INFO - Result 2: True, Error: None
+2023-12-09 16:28:34,563 - INFO - Result 3: True, Error: None
+2023-12-09 16:28:34,564 - INFO - Result 4: True, Error: None
+2023-12-09 16:28:34,564 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:28:55,991 - INFO - -- Run 3--
+2023-12-09 16:29:12,782 - INFO - Result 0: True, Error: None
+2023-12-09 16:29:12,782 - INFO - Result 1: True, Error: None
+2023-12-09 16:29:12,782 - INFO - Result 2: True, Error: None
+2023-12-09 16:29:12,782 - INFO - Result 3: True, Error: None
+2023-12-09 16:29:12,783 - INFO - Result 4: True, Error: None
+2023-12-09 16:29:12,783 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:29:34,251 - INFO - -- Run 4--
+2023-12-09 16:29:50,186 - INFO - Result 0: True, Error: None
+2023-12-09 16:29:50,186 - INFO - Result 1: True, Error: None
+2023-12-09 16:29:50,186 - INFO - Result 2: True, Error: None
+2023-12-09 16:29:50,186 - INFO - Result 3: True, Error: None
+2023-12-09 16:29:50,186 - INFO - Result 4: True, Error: None
+2023-12-09 16:29:50,186 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:30:11,624 - INFO - -- Run 5--
+2023-12-09 16:30:28,674 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001907571EC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21/element
+2023-12-09 16:30:32,731 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019075723210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21/element
+2023-12-09 16:30:36,824 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001907571DF10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21/element
+2023-12-09 16:30:45,009 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019075745510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21
+2023-12-09 16:30:49,104 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019075716B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21
+2023-12-09 16:30:53,176 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019075735B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b4c51621855948e6b3d8ecc561dec21
+2023-12-09 16:31:01,337 - INFO - Result 0: True, Error: None
+2023-12-09 16:31:01,337 - INFO - Result 1: False, Error: result=Exception('Unexpected err=MaxRetryError("HTTPConnectionPool(host=\'localhost\', port=63913): Max retries exceeded with url: /session/6b4c51621855948e6b3d8ecc561dec21/element (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x0000019075746690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\'))"), type(err)=<class \'urllib3.exceptions.MaxRetryError\'>')
+2023-12-09 16:31:01,337 - INFO - Result 2: True, Error: None
+2023-12-09 16:31:01,337 - INFO - Result 3: True, Error: None
+2023-12-09 16:31:01,338 - INFO - Result 4: True, Error: None
+2023-12-09 16:31:01,338 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 16:31:18,692 - INFO - -- Run 6--
+2023-12-09 16:31:52,445 - INFO - Result 0: True, Error: None
+2023-12-09 16:31:52,445 - INFO - Result 1: True, Error: None
+2023-12-09 16:31:52,446 - INFO - Result 2: True, Error: None
+2023-12-09 16:31:52,446 - INFO - Result 3: True, Error: None
+2023-12-09 16:31:52,446 - INFO - Result 4: True, Error: None
+2023-12-09 16:31:52,446 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:32:13,894 - INFO - -- Run 7--
+2023-12-09 16:32:43,569 - INFO - Result 0: True, Error: None
+2023-12-09 16:32:43,569 - INFO - Result 1: True, Error: None
+2023-12-09 16:32:43,569 - INFO - Result 2: True, Error: None
+2023-12-09 16:32:43,569 - INFO - Result 3: True, Error: None
+2023-12-09 16:32:43,569 - INFO - Result 4: True, Error: None
+2023-12-09 16:32:43,569 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:33:05,061 - INFO - -- Run 8--
+2023-12-09 16:33:45,297 - INFO - Result 0: True, Error: None
+2023-12-09 16:33:45,297 - INFO - Result 1: True, Error: None
+2023-12-09 16:33:45,297 - INFO - Result 2: True, Error: None
+2023-12-09 16:33:45,297 - INFO - Result 3: True, Error: None
+2023-12-09 16:33:45,297 - INFO - Result 4: True, Error: None
+2023-12-09 16:33:45,297 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:34:06,731 - INFO - -- Run 9--
+2023-12-09 16:34:22,100 - INFO - Result 0: True, Error: None
+2023-12-09 16:34:22,100 - INFO - Result 1: True, Error: None
+2023-12-09 16:34:22,101 - INFO - Result 2: True, Error: None
+2023-12-09 16:34:22,101 - INFO - Result 3: True, Error: None
+2023-12-09 16:34:22,101 - INFO - Result 4: True, Error: None
+2023-12-09 16:34:22,101 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:34:43,545 - INFO - -- Run 10--
+2023-12-09 16:34:58,839 - INFO - Result 0: True, Error: None
+2023-12-09 16:34:58,839 - INFO - Result 1: True, Error: None
+2023-12-09 16:34:58,839 - INFO - Result 2: True, Error: None
+2023-12-09 16:34:58,840 - INFO - Result 3: True, Error: None
+2023-12-09 16:34:58,840 - INFO - Result 4: True, Error: None
+2023-12-09 16:34:58,840 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 16:35:20,224 - INFO -    ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+                  
+2023-12-09 18:25:19,811 - INFO - ++++ Running test_Stress3 ++++
+2023-12-09 18:25:19,811 - INFO - Starting Stable Pattern...
+2023-12-09 18:25:19,811 - INFO - -- Run 1--
+2023-12-09 18:25:42,187 - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: An existing connection was forcibly closed by the remote host. (os error 10054)); using driver found in the cache
+2023-12-09 18:25:55,304 - INFO - Result 0: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 1: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 2: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 3: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 4: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 5: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 6: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 7: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 8: True, Error: None
+2023-12-09 18:25:55,304 - INFO - Result 9: True, Error: None
+2023-12-09 18:25:55,304 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:26:36,890 - INFO - -- Run 2--
+2023-12-09 18:26:55,744 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCFE50050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb/element
+2023-12-09 18:26:59,804 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCF7F1A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb/element
+2023-12-09 18:27:03,861 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCF7DC0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb/element
+2023-12-09 18:27:12,018 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCFE5ED90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb
+2023-12-09 18:27:16,116 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCFE5D110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb
+2023-12-09 18:27:20,193 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001FDCF80E290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/db57517ae46ddc5b171cebe70d6f49cb
+2023-12-09 18:27:28,378 - INFO - Result 0: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 1: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 2: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 3: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 4: False, Error: result=Exception('Unexpected err=MaxRetryError("HTTPConnectionPool(host=\'localhost\', port=51244): Max retries exceeded with url: /session/db57517ae46ddc5b171cebe70d6f49cb/element (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x000001FDCF7DE010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\'))"), type(err)=<class \'urllib3.exceptions.MaxRetryError\'>')
+2023-12-09 18:27:28,378 - INFO - Result 5: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 6: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 7: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 8: True, Error: None
+2023-12-09 18:27:28,378 - INFO - Result 9: True, Error: None
+2023-12-09 18:27:28,378 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 18:28:06,146 - INFO - -- Run 3--
+2023-12-09 18:28:25,330 - INFO - Result 0: True, Error: None
+2023-12-09 18:28:25,330 - INFO - Result 1: True, Error: None
+2023-12-09 18:28:25,330 - INFO - Result 2: True, Error: None
+2023-12-09 18:28:25,330 - INFO - Result 3: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 4: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 5: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 6: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 7: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 8: True, Error: None
+2023-12-09 18:28:25,331 - INFO - Result 9: True, Error: None
+2023-12-09 18:28:25,331 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:29:07,218 - INFO - -- Run 4--
+2023-12-09 18:29:23,839 - INFO - Result 0: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 1: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 2: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 3: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 4: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 5: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 6: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 7: True, Error: None
+2023-12-09 18:29:23,839 - INFO - Result 8: True, Error: None
+2023-12-09 18:29:23,840 - INFO - Result 9: True, Error: None
+2023-12-09 18:29:23,840 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:30:05,643 - INFO - -- Run 5--
+2023-12-09 18:30:41,417 - INFO - Result 0: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 1: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 2: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 3: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 4: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 5: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 6: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 7: True, Error: None
+2023-12-09 18:30:41,418 - INFO - Result 8: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 18:30:41,418 - INFO - Result 9: True, Error: None
+2023-12-09 18:30:41,418 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 18:31:23,274 - INFO - -- Run 6--
+2023-12-09 18:31:43,727 - INFO - Result 0: True, Error: None
+2023-12-09 18:31:43,727 - INFO - Result 1: True, Error: None
+2023-12-09 18:31:43,727 - INFO - Result 2: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 3: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 4: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 5: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 6: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 7: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 8: True, Error: None
+2023-12-09 18:31:43,728 - INFO - Result 9: True, Error: None
+2023-12-09 18:31:43,728 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:32:25,546 - INFO - -- Run 7--
+2023-12-09 18:32:42,772 - INFO - Result 0: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 1: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 2: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 3: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 4: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 5: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 6: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 7: True, Error: None
+2023-12-09 18:32:42,773 - INFO - Result 8: True, Error: None
+2023-12-09 18:32:42,774 - INFO - Result 9: True, Error: None
+2023-12-09 18:32:42,774 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:33:24,651 - INFO - -- Run 8--
+2023-12-09 18:34:00,067 - INFO - Result 0: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 1: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 18:34:00,068 - INFO - Result 2: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 3: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 4: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 5: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 6: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 7: True, Error: None
+2023-12-09 18:34:00,068 - INFO - Result 8: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 18:34:00,068 - INFO - Result 9: True, Error: None
+2023-12-09 18:34:00,069 - INFO - =======Run Succesfully with======== 
+    Success: 8, Failure: 2
+    Error rate: 0.2   
+                
+2023-12-09 18:34:41,924 - INFO - -- Run 9--
+2023-12-09 18:34:59,740 - INFO - Result 0: True, Error: None
+2023-12-09 18:34:59,740 - INFO - Result 1: True, Error: None
+2023-12-09 18:34:59,740 - INFO - Result 2: True, Error: None
+2023-12-09 18:34:59,740 - INFO - Result 3: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 4: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 5: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 6: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 7: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 8: True, Error: None
+2023-12-09 18:34:59,741 - INFO - Result 9: True, Error: None
+2023-12-09 18:34:59,741 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:35:41,589 - INFO - -- Run 10--
+2023-12-09 18:36:16,823 - INFO - Result 0: True, Error: None
+2023-12-09 18:36:16,823 - INFO - Result 1: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 18:36:16,823 - INFO - Result 2: True, Error: None
+2023-12-09 18:36:16,823 - INFO - Result 3: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 4: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 5: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 6: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 7: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 8: True, Error: None
+2023-12-09 18:36:16,824 - INFO - Result 9: True, Error: None
+2023-12-09 18:36:16,824 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 18:36:58,646 - INFO -    ========= Summary ==========
+Success: 95
+Error: 5
+Error Rate: 0.052023-12-09 18:56:27,175 - INFO - ++++ Running test_Stress4 ++++
+2023-12-09 18:56:27,175 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 18:56:27,175 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 18:56:40,089 - INFO - Result 0: True, Error: None
+2023-12-09 18:56:40,090 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:56:45,186 - INFO - -- Run 2-- Num workers: 3
+2023-12-09 18:56:59,085 - INFO - Result 0: True, Error: None
+2023-12-09 18:56:59,085 - INFO - Result 1: True, Error: None
+2023-12-09 18:56:59,085 - INFO - Result 2: True, Error: None
+2023-12-09 18:56:59,085 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:57:12,389 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 18:57:28,712 - INFO - Result 0: True, Error: None
+2023-12-09 18:57:28,712 - INFO - Result 1: True, Error: None
+2023-12-09 18:57:28,713 - INFO - Result 2: True, Error: None
+2023-12-09 18:57:28,713 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:57:40,947 - INFO - -- Run 5-- Num workers: 3
+2023-12-09 18:57:57,226 - INFO - Result 0: True, Error: None
+2023-12-09 18:57:57,226 - INFO - Result 1: True, Error: None
+2023-12-09 18:57:57,227 - INFO - Result 2: True, Error: None
+2023-12-09 18:57:57,227 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:58:10,495 - INFO - -- Run 6-- Num workers: 3
+2023-12-09 18:58:25,222 - INFO - Result 0: True, Error: None
+2023-12-09 18:58:25,222 - INFO - Result 1: True, Error: None
+2023-12-09 18:58:25,222 - INFO - Result 2: True, Error: None
+2023-12-09 18:58:25,223 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:58:38,495 - INFO - -- Run 7-- Num workers: 3
+2023-12-09 18:58:52,124 - INFO - Result 0: True, Error: None
+2023-12-09 18:58:52,124 - INFO - Result 1: True, Error: None
+2023-12-09 18:58:52,124 - INFO - Result 2: True, Error: None
+2023-12-09 18:58:52,124 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:59:05,420 - INFO - -- Run 8-- Num workers: 3
+2023-12-09 18:59:19,393 - INFO - Result 0: True, Error: None
+2023-12-09 18:59:19,393 - INFO - Result 1: True, Error: None
+2023-12-09 18:59:19,393 - INFO - Result 2: True, Error: None
+2023-12-09 18:59:19,393 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:59:32,642 - INFO - -- Run 9-- Num workers: 3
+2023-12-09 18:59:46,421 - INFO - Result 0: True, Error: None
+2023-12-09 18:59:46,421 - INFO - Result 1: True, Error: None
+2023-12-09 18:59:46,421 - INFO - Result 2: True, Error: None
+2023-12-09 18:59:46,421 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 18:59:59,709 - INFO -    ========= Summary ==========
+Success: 22
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 18:59:59,709 - INFO - ++++ Running test_Stress5 ++++
+2023-12-09 18:59:59,710 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 18:59:59,710 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 19:00:47,852 - INFO - Result 0: True, Error: None
+2023-12-09 19:00:47,852 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:00:52,913 - INFO - -- Run 2-- Num workers: 3
+2023-12-09 19:01:08,990 - INFO - Result 0: True, Error: None
+2023-12-09 19:01:08,991 - INFO - Result 1: True, Error: None
+2023-12-09 19:01:08,991 - INFO - Result 2: True, Error: None
+2023-12-09 19:01:08,991 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:01:22,272 - INFO - -- Run 3-- Num workers: 5
+2023-12-09 19:01:39,426 - INFO - Result 0: True, Error: None
+2023-12-09 19:01:39,427 - INFO - Result 1: True, Error: None
+2023-12-09 19:01:39,427 - INFO - Result 2: True, Error: None
+2023-12-09 19:01:39,427 - INFO - Result 3: True, Error: None
+2023-12-09 19:01:39,427 - INFO - Result 4: True, Error: None
+2023-12-09 19:01:39,427 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:02:00,917 - INFO - -- Run 4-- Num workers: 5
+2023-12-09 19:02:16,110 - INFO - Result 0: True, Error: None
+2023-12-09 19:02:16,111 - INFO - Result 1: True, Error: None
+2023-12-09 19:02:16,111 - INFO - Result 2: True, Error: None
+2023-12-09 19:02:16,111 - INFO - Result 3: True, Error: None
+2023-12-09 19:02:16,111 - INFO - Result 4: True, Error: None
+2023-12-09 19:02:16,112 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:02:36,582 - INFO - -- Run 6-- Num workers: 5
+2023-12-09 19:02:50,711 - INFO - Result 0: True, Error: None
+2023-12-09 19:02:50,711 - INFO - Result 1: True, Error: None
+2023-12-09 19:02:50,711 - INFO - Result 2: True, Error: None
+2023-12-09 19:02:50,711 - INFO - Result 3: True, Error: None
+2023-12-09 19:02:50,711 - INFO - Result 4: True, Error: None
+2023-12-09 19:02:50,711 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:03:11,932 - INFO - -- Run 7-- Num workers: 5
+2023-12-09 19:03:28,631 - INFO - Result 0: True, Error: None
+2023-12-09 19:03:28,631 - INFO - Result 1: True, Error: None
+2023-12-09 19:03:28,631 - INFO - Result 2: True, Error: None
+2023-12-09 19:03:28,631 - INFO - Result 3: True, Error: None
+2023-12-09 19:03:28,631 - INFO - Result 4: True, Error: None
+2023-12-09 19:03:28,631 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:03:49,891 - INFO - -- Run 8-- Num workers: 5
+2023-12-09 19:04:24,535 - INFO - Result 0: True, Error: None
+2023-12-09 19:04:24,535 - INFO - Result 1: True, Error: None
+2023-12-09 19:04:24,535 - INFO - Result 2: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:04:24,535 - INFO - Result 3: True, Error: None
+2023-12-09 19:04:24,535 - INFO - Result 4: True, Error: None
+2023-12-09 19:04:24,535 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 19:04:45,869 - INFO - -- Run 9-- Num workers: 5
+2023-12-09 19:05:12,866 - INFO - Result 0: True, Error: None
+2023-12-09 19:05:12,866 - INFO - Result 1: True, Error: None
+2023-12-09 19:05:12,866 - INFO - Result 2: True, Error: None
+2023-12-09 19:05:12,866 - INFO - Result 3: True, Error: None
+2023-12-09 19:05:12,866 - INFO - Result 4: True, Error: None
+2023-12-09 19:05:12,866 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:05:34,191 - INFO - -- Run 10-- Num workers: 5
+2023-12-09 19:05:51,778 - INFO - Result 0: True, Error: None
+2023-12-09 19:05:51,778 - INFO - Result 1: True, Error: None
+2023-12-09 19:05:51,778 - INFO - Result 2: True, Error: None
+2023-12-09 19:05:51,778 - INFO - Result 3: True, Error: None
+2023-12-09 19:05:51,778 - INFO - Result 4: True, Error: None
+2023-12-09 19:05:51,778 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:06:13,016 - INFO -    ========= Summary ==========
+Success: 38
+Error: 1
+Error Rate: 0.02564102564102564
+                  
+2023-12-09 19:06:13,016 - INFO - ++++ Running test_Stress6 ++++
+2023-12-09 19:06:13,016 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 19:06:13,016 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 19:06:25,201 - INFO - Result 0: True, Error: None
+2023-12-09 19:06:25,201 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:06:30,231 - INFO - -- Run 2-- Num workers: 3
+2023-12-09 19:06:47,948 - INFO - Result 0: True, Error: None
+2023-12-09 19:06:47,949 - INFO - Result 1: True, Error: None
+2023-12-09 19:06:47,949 - INFO - Result 2: True, Error: None
+2023-12-09 19:06:47,949 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:07:01,103 - INFO - -- Run 3-- Num workers: 5
+2023-12-09 19:07:36,511 - INFO - Result 0: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:07:36,511 - INFO - Result 1: True, Error: None
+2023-12-09 19:07:36,511 - INFO - Result 2: True, Error: None
+2023-12-09 19:07:36,511 - INFO - Result 3: True, Error: None
+2023-12-09 19:07:36,511 - INFO - Result 4: True, Error: None
+2023-12-09 19:07:36,511 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 19:07:58,047 - INFO - -- Run 4-- Num workers: 7
+2023-12-09 19:08:17,551 - INFO - Result 0: True, Error: None
+2023-12-09 19:08:17,551 - INFO - Result 1: True, Error: None
+2023-12-09 19:08:17,551 - INFO - Result 2: True, Error: None
+2023-12-09 19:08:17,551 - INFO - Result 3: True, Error: None
+2023-12-09 19:08:17,552 - INFO - Result 4: True, Error: None
+2023-12-09 19:08:17,552 - INFO - Result 5: True, Error: None
+2023-12-09 19:08:17,552 - INFO - Result 6: True, Error: None
+2023-12-09 19:08:17,552 - INFO - =======Run Succesfully with======== 
+    Success: 7, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:08:47,194 - INFO - -- Run 5-- Num workers: 9
+2023-12-09 19:09:09,542 - INFO - Result 0: True, Error: None
+2023-12-09 19:09:09,543 - INFO - Result 1: True, Error: None
+2023-12-09 19:09:09,544 - INFO - Result 2: True, Error: None
+2023-12-09 19:09:09,544 - INFO - Result 3: True, Error: None
+2023-12-09 19:09:09,544 - INFO - Result 4: True, Error: None
+2023-12-09 19:09:09,544 - INFO - Result 5: True, Error: None
+2023-12-09 19:09:09,544 - INFO - Result 6: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:09:09,544 - INFO - Result 7: True, Error: None
+2023-12-09 19:09:09,545 - INFO - Result 8: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:09:09,545 - INFO - =======Run Succesfully with======== 
+    Success: 7, Failure: 2
+    Error rate: 0.2222222222222222   
+                
+2023-12-09 19:09:47,372 - INFO - -- Run 6-- Num workers: 10
+2023-12-09 19:10:14,707 - INFO - Result 0: True, Error: None
+2023-12-09 19:10:14,707 - INFO - Result 1: True, Error: None
+2023-12-09 19:10:14,708 - INFO - Result 2: True, Error: None
+2023-12-09 19:10:14,708 - INFO - Result 3: True, Error: None
+2023-12-09 19:10:14,708 - INFO - Result 4: True, Error: None
+2023-12-09 19:10:14,708 - INFO - Result 5: True, Error: None
+2023-12-09 19:10:14,708 - INFO - Result 6: True, Error: None
+2023-12-09 19:10:14,709 - INFO - Result 7: True, Error: None
+2023-12-09 19:10:14,709 - INFO - Result 8: True, Error: None
+2023-12-09 19:10:14,709 - INFO - Result 9: True, Error: None
+2023-12-09 19:10:14,709 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:10:55,589 - INFO - -- Run 8-- Num workers: 10
+2023-12-09 19:11:13,934 - INFO - Result 0: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 1: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 2: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 3: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 4: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 5: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 6: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 7: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 8: True, Error: None
+2023-12-09 19:11:13,934 - INFO - Result 9: True, Error: None
+2023-12-09 19:11:13,934 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:11:55,460 - INFO - -- Run 9-- Num workers: 10
+2023-12-09 19:12:30,887 - INFO - Result 0: True, Error: None
+2023-12-09 19:12:30,887 - INFO - Result 1: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 2: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 3: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 4: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 5: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 6: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 7: True, Error: None
+2023-12-09 19:12:30,888 - INFO - Result 8: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:12:30,888 - INFO - Result 9: True, Error: None
+2023-12-09 19:12:30,888 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 19:13:12,498 - INFO - -- Run 10-- Num workers: 10
+2023-12-09 19:13:33,468 - INFO - Result 0: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 1: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 2: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 3: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 4: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 5: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 6: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 7: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 8: True, Error: None
+2023-12-09 19:13:33,468 - INFO - Result 9: True, Error: None
+2023-12-09 19:13:33,468 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:14:15,293 - INFO - -- Run 11-- Num workers: 10
+2023-12-09 19:14:35,416 - INFO - Result 0: True, Error: None
+2023-12-09 19:14:35,416 - INFO - Result 1: True, Error: None
+2023-12-09 19:14:35,416 - INFO - Result 2: True, Error: None
+2023-12-09 19:14:35,416 - INFO - Result 3: True, Error: None
+2023-12-09 19:14:35,416 - INFO - Result 4: True, Error: None
+2023-12-09 19:14:35,417 - INFO - Result 5: True, Error: None
+2023-12-09 19:14:35,417 - INFO - Result 6: True, Error: None
+2023-12-09 19:14:35,417 - INFO - Result 7: True, Error: None
+2023-12-09 19:14:35,417 - INFO - Result 8: True, Error: None
+2023-12-09 19:14:35,417 - INFO - Result 9: True, Error: None
+2023-12-09 19:14:35,417 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:15:17,349 - INFO - -- Run 12-- Num workers: 10
+2023-12-09 19:15:39,275 - INFO - Result 0: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 1: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 2: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 3: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 4: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 5: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 6: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 7: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 8: True, Error: None
+2023-12-09 19:15:39,275 - INFO - Result 9: True, Error: None
+2023-12-09 19:15:39,275 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:16:20,850 - INFO -    ========= Summary ==========
+Success: 81
+Error: 4
+Error Rate: 0.047058823529411764
+                  
+2023-12-09 19:16:20,850 - INFO - ++++ Running test_Stress7 ++++
+2023-12-09 19:16:20,850 - INFO - Starting Stable Pattern...
+2023-12-09 19:16:20,850 - INFO - -- Run 1--
+2023-12-09 19:16:55,474 - INFO - Result 0: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:16:55,474 - INFO - Result 1: True, Error: None
+2023-12-09 19:16:55,474 - INFO - Result 2: True, Error: None
+2023-12-09 19:16:55,474 - INFO - Result 3: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:16:55,474 - INFO - Result 4: True, Error: None
+2023-12-09 19:16:55,474 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 2
+    Error rate: 0.4   
+                
+2023-12-09 19:17:16,707 - INFO - -- Run 2--
+2023-12-09 19:17:39,352 - INFO - Result 0: True, Error: None
+2023-12-09 19:17:39,352 - INFO - Result 1: True, Error: None
+2023-12-09 19:17:39,352 - INFO - Result 2: True, Error: None
+2023-12-09 19:17:39,352 - INFO - Result 3: True, Error: None
+2023-12-09 19:17:39,352 - INFO - Result 4: True, Error: None
+2023-12-09 19:17:39,352 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:18:00,600 - INFO -    ========= Summary ==========
+Success: 8
+Error: 2
+Error Rate: 0.2
+                  
+2023-12-09 19:18:00,600 - INFO - ++++ Running test_Stress8 ++++
+2023-12-09 19:18:00,600 - INFO - Starting Stable Pattern...
+2023-12-09 19:18:00,600 - INFO - -- Run 1--
+2023-12-09 19:18:25,009 - INFO - Result 0: True, Error: None
+2023-12-09 19:18:25,009 - INFO - Result 1: True, Error: None
+2023-12-09 19:18:25,009 - INFO - Result 2: True, Error: None
+2023-12-09 19:18:25,009 - INFO - Result 3: True, Error: None
+2023-12-09 19:18:25,009 - INFO - Result 4: True, Error: None
+2023-12-09 19:18:25,010 - INFO - Result 5: True, Error: None
+2023-12-09 19:18:25,010 - INFO - Result 6: True, Error: None
+2023-12-09 19:18:25,010 - INFO - Result 7: True, Error: None
+2023-12-09 19:18:25,010 - INFO - Result 8: True, Error: None
+2023-12-09 19:18:25,010 - INFO - Result 9: True, Error: None
+2023-12-09 19:18:25,010 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:19:07,031 - INFO - -- Run 2--
+2023-12-09 19:19:25,488 - INFO - Result 0: True, Error: None
+2023-12-09 19:19:25,489 - INFO - Result 1: True, Error: None
+2023-12-09 19:19:25,489 - INFO - Result 2: True, Error: None
+2023-12-09 19:19:25,489 - INFO - Result 3: True, Error: None
+2023-12-09 19:19:25,489 - INFO - Result 4: True, Error: None
+2023-12-09 19:19:25,489 - INFO - Result 5: True, Error: None
+2023-12-09 19:19:25,490 - INFO - Result 6: True, Error: None
+2023-12-09 19:19:25,490 - INFO - Result 7: True, Error: None
+2023-12-09 19:19:25,490 - INFO - Result 8: True, Error: None
+2023-12-09 19:19:25,490 - INFO - Result 9: True, Error: None
+2023-12-09 19:19:25,490 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:20:07,339 - INFO -    ========= Summary ==========
+Success: 20
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 19:20:07,339 - INFO - ++++ Running test_Stress9 ++++
+2023-12-09 19:20:07,339 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 19:20:07,339 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 19:20:21,209 - INFO - Result 0: True, Error: None
+2023-12-09 19:20:21,210 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:20:26,297 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 19:20:40,669 - INFO - Result 0: True, Error: None
+2023-12-09 19:20:40,669 - INFO - Result 1: True, Error: None
+2023-12-09 19:20:40,669 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:20:49,870 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 19:21:05,922 - INFO - Result 0: True, Error: None
+2023-12-09 19:21:05,923 - INFO - Result 1: True, Error: None
+2023-12-09 19:21:05,923 - INFO - Result 2: True, Error: None
+2023-12-09 19:21:05,923 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:21:19,187 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 19:21:34,819 - INFO - Result 0: True, Error: None
+2023-12-09 19:21:34,819 - INFO - Result 1: True, Error: None
+2023-12-09 19:21:34,819 - INFO - Result 2: True, Error: None
+2023-12-09 19:21:34,819 - INFO - Result 3: True, Error: None
+2023-12-09 19:21:34,819 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:21:52,179 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 19:22:10,890 - INFO - Result 0: True, Error: None
+2023-12-09 19:22:10,891 - INFO - Result 1: True, Error: None
+2023-12-09 19:22:10,891 - INFO - Result 2: True, Error: None
+2023-12-09 19:22:10,891 - INFO - Result 3: True, Error: None
+2023-12-09 19:22:10,891 - INFO - Result 4: True, Error: None
+2023-12-09 19:22:10,891 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:22:32,335 - INFO - -- Run 6-- Num workers: 5
+2023-12-09 19:23:06,484 - INFO - Result 0: True, Error: None
+2023-12-09 19:23:06,484 - INFO - Result 1: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:23:06,484 - INFO - Result 2: True, Error: None
+2023-12-09 19:23:06,485 - INFO - Result 3: True, Error: None
+2023-12-09 19:23:06,485 - INFO - Result 4: True, Error: None
+2023-12-09 19:23:06,485 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 19:23:26,967 - INFO - -- Run 8-- Num workers: 5
+2023-12-09 19:23:44,973 - INFO - Result 0: True, Error: None
+2023-12-09 19:23:44,973 - INFO - Result 1: True, Error: None
+2023-12-09 19:23:44,973 - INFO - Result 2: True, Error: None
+2023-12-09 19:23:44,973 - INFO - Result 3: True, Error: None
+2023-12-09 19:23:44,973 - INFO - Result 4: True, Error: None
+2023-12-09 19:23:44,973 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:24:06,469 - INFO - -- Run 9-- Num workers: 5
+2023-12-09 19:24:23,714 - INFO - Result 0: True, Error: None
+2023-12-09 19:24:23,715 - INFO - Result 1: True, Error: None
+2023-12-09 19:24:23,715 - INFO - Result 2: True, Error: None
+2023-12-09 19:24:23,715 - INFO - Result 3: True, Error: None
+2023-12-09 19:24:23,720 - INFO - Result 4: True, Error: None
+2023-12-09 19:24:23,720 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:24:45,212 - INFO - -- Run 10-- Num workers: 5
+2023-12-09 19:25:01,458 - INFO - Result 0: True, Error: None
+2023-12-09 19:25:01,458 - INFO - Result 1: True, Error: None
+2023-12-09 19:25:01,458 - INFO - Result 2: True, Error: None
+2023-12-09 19:25:01,458 - INFO - Result 3: True, Error: None
+2023-12-09 19:25:01,458 - INFO - Result 4: True, Error: None
+2023-12-09 19:25:01,458 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:25:22,922 - INFO - -- Run 11-- Num workers: 5
+2023-12-09 19:26:30,140 - WARNING - There was an error managing chrome (error sending request for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json): error trying to connect: An existing connection was forcibly closed by the remote host. (os error 10054)); using driver found in the cache
+2023-12-09 19:26:44,353 - INFO - Result 0: True, Error: None
+2023-12-09 19:26:44,353 - INFO - Result 1: True, Error: None
+2023-12-09 19:26:44,353 - INFO - Result 2: True, Error: None
+2023-12-09 19:26:44,353 - INFO - Result 3: True, Error: None
+2023-12-09 19:26:44,353 - INFO - Result 4: True, Error: None
+2023-12-09 19:26:44,354 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:27:05,831 - INFO - -- Run 12-- Num workers: 5
+2023-12-09 19:27:22,074 - INFO - Result 0: True, Error: None
+2023-12-09 19:27:22,074 - INFO - Result 1: True, Error: None
+2023-12-09 19:27:22,074 - INFO - Result 2: True, Error: None
+2023-12-09 19:27:22,074 - INFO - Result 3: True, Error: None
+2023-12-09 19:27:22,074 - INFO - Result 4: True, Error: None
+2023-12-09 19:27:22,075 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:27:43,577 - INFO -    ========= Summary ==========
+Success: 44
+Error: 1
+Error Rate: 0.022222222222222223
+                  
+2023-12-09 19:27:43,577 - INFO - ++++ Running test_Stress10 ++++
+2023-12-09 19:27:43,577 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 19:27:43,577 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 19:27:57,751 - INFO - Result 0: True, Error: None
+2023-12-09 19:27:57,751 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:28:02,828 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 19:28:16,873 - INFO - Result 0: True, Error: None
+2023-12-09 19:28:16,874 - INFO - Result 1: True, Error: None
+2023-12-09 19:28:16,874 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:28:26,064 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 19:28:44,853 - INFO - Result 0: True, Error: None
+2023-12-09 19:28:44,853 - INFO - Result 1: True, Error: None
+2023-12-09 19:28:44,853 - INFO - Result 2: True, Error: None
+2023-12-09 19:28:44,853 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:28:58,145 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 19:29:14,040 - INFO - Result 0: True, Error: None
+2023-12-09 19:29:14,040 - INFO - Result 1: True, Error: None
+2023-12-09 19:29:14,040 - INFO - Result 2: True, Error: None
+2023-12-09 19:29:14,040 - INFO - Result 3: True, Error: None
+2023-12-09 19:29:14,040 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:29:31,426 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 19:29:47,308 - INFO - Result 0: True, Error: None
+2023-12-09 19:29:47,309 - INFO - Result 1: True, Error: None
+2023-12-09 19:29:47,309 - INFO - Result 2: True, Error: None
+2023-12-09 19:29:47,309 - INFO - Result 3: True, Error: None
+2023-12-09 19:29:47,309 - INFO - Result 4: True, Error: None
+2023-12-09 19:29:47,309 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:30:08,794 - INFO - -- Run 6-- Num workers: 6
+2023-12-09 19:30:25,559 - INFO - Result 0: True, Error: None
+2023-12-09 19:30:25,559 - INFO - Result 1: True, Error: None
+2023-12-09 19:30:25,559 - INFO - Result 2: True, Error: None
+2023-12-09 19:30:25,559 - INFO - Result 3: True, Error: None
+2023-12-09 19:30:25,559 - INFO - Result 4: True, Error: None
+2023-12-09 19:30:25,560 - INFO - Result 5: True, Error: None
+2023-12-09 19:30:25,560 - INFO - =======Run Succesfully with======== 
+    Success: 6, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:30:51,138 - INFO - -- Run 7-- Num workers: 7
+2023-12-09 19:31:10,397 - INFO - Result 0: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 1: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 2: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 3: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 4: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 5: True, Error: None
+2023-12-09 19:31:10,397 - INFO - Result 6: True, Error: None
+2023-12-09 19:31:10,397 - INFO - =======Run Succesfully with======== 
+    Success: 7, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:31:39,728 - INFO - -- Run 8-- Num workers: 8
+2023-12-09 19:32:01,774 - INFO - Result 0: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 1: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 2: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 3: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 4: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 5: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 6: True, Error: None
+2023-12-09 19:32:01,774 - INFO - Result 7: True, Error: None
+2023-12-09 19:32:01,774 - INFO - =======Run Succesfully with======== 
+    Success: 8, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:32:35,191 - INFO - -- Run 9-- Num workers: 9
+2023-12-09 19:33:21,469 - INFO - Result 0: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 1: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 2: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 3: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 4: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 5: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 6: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 7: True, Error: None
+2023-12-09 19:33:21,469 - INFO - Result 8: True, Error: None
+2023-12-09 19:33:21,469 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:33:59,086 - INFO - -- Run 10-- Num workers: 10
+2023-12-09 19:34:34,401 - INFO - Result 0: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 1: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 2: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 3: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 4: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:34:34,402 - INFO - Result 5: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 6: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 7: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 8: True, Error: None
+2023-12-09 19:34:34,402 - INFO - Result 9: True, Error: None
+2023-12-09 19:34:34,402 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 19:35:16,288 - INFO - -- Run 11-- Num workers: 10
+2023-12-09 19:35:51,546 - INFO - Result 0: True, Error: None
+2023-12-09 19:35:51,546 - INFO - Result 1: True, Error: None
+2023-12-09 19:35:51,546 - INFO - Result 2: True, Error: None
+2023-12-09 19:35:51,546 - INFO - Result 3: True, Error: None
+2023-12-09 19:35:51,546 - INFO - Result 4: True, Error: None
+2023-12-09 19:35:51,546 - INFO - Result 5: True, Error: None
+2023-12-09 19:35:51,547 - INFO - Result 6: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:35:51,547 - INFO - Result 7: True, Error: None
+2023-12-09 19:35:51,547 - INFO - Result 8: True, Error: None
+2023-12-09 19:35:51,547 - INFO - Result 9: True, Error: None
+2023-12-09 19:35:51,547 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 19:36:32,457 - INFO - -- Run 13-- Num workers: 10
+2023-12-09 19:36:51,938 - INFO - Result 0: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 1: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 2: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 3: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 4: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 5: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 6: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 7: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 8: True, Error: None
+2023-12-09 19:36:51,938 - INFO - Result 9: True, Error: None
+2023-12-09 19:36:51,938 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:37:33,604 - INFO - -- Run 14-- Num workers: 10
+2023-12-09 19:38:08,655 - INFO - Result 0: True, Error: None
+2023-12-09 19:38:08,655 - INFO - Result 1: True, Error: None
+2023-12-09 19:38:08,655 - INFO - Result 2: True, Error: None
+2023-12-09 19:38:08,655 - INFO - Result 3: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:38:08,655 - INFO - Result 4: True, Error: None
+2023-12-09 19:38:08,656 - INFO - Result 5: True, Error: None
+2023-12-09 19:38:08,656 - INFO - Result 6: True, Error: None
+2023-12-09 19:38:08,656 - INFO - Result 7: True, Error: None
+2023-12-09 19:38:08,656 - INFO - Result 8: True, Error: None
+2023-12-09 19:38:08,656 - INFO - Result 9: True, Error: None
+2023-12-09 19:38:08,656 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 19:38:50,201 - INFO - -- Run 15-- Num workers: 10
+2023-12-09 19:39:27,194 - INFO - Result 0: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 1: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 2: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 3: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 4: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 5: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 6: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 7: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 8: True, Error: None
+2023-12-09 19:39:27,194 - INFO - Result 9: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 19:39:27,194 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 19:40:09,026 - INFO - -- Run 16-- Num workers: 10
+2023-12-09 19:40:30,999 - INFO - Result 0: True, Error: None
+2023-12-09 19:40:30,999 - INFO - Result 1: True, Error: None
+2023-12-09 19:40:30,999 - INFO - Result 2: True, Error: None
+2023-12-09 19:40:30,999 - INFO - Result 3: True, Error: None
+2023-12-09 19:40:30,999 - INFO - Result 4: True, Error: None
+2023-12-09 19:40:31,000 - INFO - Result 5: True, Error: None
+2023-12-09 19:40:31,000 - INFO - Result 6: True, Error: None
+2023-12-09 19:40:31,000 - INFO - Result 7: True, Error: None
+2023-12-09 19:40:31,000 - INFO - Result 8: True, Error: None
+2023-12-09 19:40:31,000 - INFO - Result 9: True, Error: None
+2023-12-09 19:40:31,000 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:41:12,916 - INFO - -- Run 17-- Num workers: 10
+2023-12-09 19:41:31,708 - INFO - Result 0: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 1: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 2: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 3: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 4: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 5: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 6: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 7: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 8: True, Error: None
+2023-12-09 19:41:31,708 - INFO - Result 9: True, Error: None
+2023-12-09 19:41:31,708 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:42:13,230 - INFO -    ========= Summary ==========
+Success: 111
+Error: 4
+Error Rate: 0.034782608695652174
+                  
