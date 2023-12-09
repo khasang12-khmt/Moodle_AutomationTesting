@@ -76,7 +76,7 @@
             {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
         ],
         "workers": 3,
-        "method": "ram_up_pattern",
+        "method": "ramp_up_pattern",
         "stable_count": 5
     },
     {
@@ -96,7 +96,7 @@
             {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
         ],
         "workers": 5,
-        "method": "ram_up_pattern",
+        "method": "ramp_up_pattern",
         "stable_count": 5
     },
     {
@@ -116,7 +116,7 @@
             {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
         ],
         "workers": 10,
-        "method": "ram_up_pattern",
+        "method": "ramp_up_pattern",
         "stable_count": 5
     },
     {
@@ -185,7 +185,7 @@
             
         ],
         "workers": 5,
-        "method": "ram_up_pattern",
+        "method": "ramp_up_pattern",
         "stable_count": 10
     },
     {
@@ -208,7 +208,7 @@
             
         ],
         "workers": 5,
-        "method": "ram_up_pattern",
+        "method": "ramp_up_pattern",
         "stable_count": 10
     }
 ]

@@ -1,3 +1,4 @@
+2023-12-09 19:52:02,601 - INFO - ++++ Running 1 ++++
 2023-12-09 19:52:02,601 - INFO - Starting Stable Pattern...
 2023-12-09 19:52:02,601 - INFO - -- Run 1--
 2023-12-09 19:52:16,280 - INFO - Result 0: True, Error: None
@@ -83,7 +84,8 @@
 Success: 30
 Error: 0
 Error Rate: 0.0
-                  
+
+2023-12-09 19:56:33,224 - INFO - ++++ Running 2 ++++              
 2023-12-09 19:56:33,224 - INFO - Starting Stable Pattern...
 2023-12-09 19:56:33,224 - INFO - -- Run 1--
 2023-12-09 19:56:46,899 - INFO - Result 0: True, Error: None
@@ -189,7 +191,8 @@ Error Rate: 0.0
 Success: 49
 Error: 1
 Error Rate: 0.02
-                  
+
+2023-12-09 20:02:40,561 - INFO - ++++ Running 3 ++++
 2023-12-09 20:02:40,561 - INFO - Starting Stable Pattern...
 2023-12-09 20:02:40,561 - INFO - -- Run 1--
 2023-12-09 20:02:56,056 - INFO - Result 0: True, Error: None
@@ -340,12 +343,13 @@ Error Rate: 0.02
 2023-12-09 20:12:08,706 - INFO - =======Run Succesfully with======== 
     Success: 10, Failure: 0
     Error rate: 0.0   
-                
+
 2023-12-09 20:12:50,629 - INFO -    ========= Summary ==========
 Success: 99
 Error: 1
 Error Rate: 0.01
                   
+2023-12-09 20:02:40,561 - INFO - ++++ Running 4 ++++           
 2023-12-09 20:12:50,629 - INFO - Starting Ramp-Up Pattern...
 2023-12-09 20:12:50,629 - INFO - -- Run 1-- Num workers: 1
 2023-12-09 20:13:02,641 - INFO - Result 0: True, Error: None
@@ -415,12 +419,13 @@ Error Rate: 0.01
 2023-12-09 20:16:23,007 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
-                
+
 2023-12-09 20:16:36,300 - INFO -    ========= Summary ==========
 Success: 24
 Error: 0
 Error Rate: 0.0
                   
+2023-12-09 20:16:36,300 - INFO - ++++ Running 5 ++++              
 2023-12-09 20:16:36,300 - INFO - Starting Ramp-Up Pattern...
 2023-12-09 20:16:36,300 - INFO - -- Run 1-- Num workers: 1
 2023-12-09 20:16:48,240 - INFO - Result 0: True, Error: None
@@ -521,12 +526,12 @@ Error Rate: 0.0
 2023-12-09 20:22:19,695 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
-                
 2023-12-09 20:22:41,191 - INFO -    ========= Summary ==========
 Success: 44
 Error: 1
 Error Rate: 0.022222222222222223
                   
+2023-12-09 20:22:41,191 - INFO - ++++ Running 6 ++++    
 2023-12-09 20:22:41,191 - INFO - Starting Ramp-Up Pattern...
 2023-12-09 20:22:41,191 - INFO - -- Run 1-- Num workers: 1
 2023-12-09 20:22:54,273 - INFO - Result 0: True, Error: None
@@ -722,12 +727,13 @@ Error Rate: 0.022222222222222223
 2023-12-09 20:34:43,253 - INFO - =======Run Succesfully with======== 
     Success: 9, Failure: 1
     Error rate: 0.1   
-                
+
 2023-12-09 20:35:25,198 - INFO -    ========= Summary ==========
 Success: 113
 Error: 2
 Error Rate: 0.017391304347826087
                   
+2023-12-09 20:35:25,198 - INFO - ++++ Running 7 ++++           
 2023-12-09 20:35:25,198 - INFO - Starting Stable Pattern...
 2023-12-09 20:35:25,198 - INFO - -- Run 1--
 2023-12-09 20:35:41,044 - INFO - Result 0: True, Error: None
@@ -828,12 +834,13 @@ Error Rate: 0.017391304347826087
 2023-12-09 20:41:32,627 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
-                
+
 2023-12-09 20:41:54,101 - INFO -    ========= Summary ==========
 Success: 49
 Error: 1
 Error Rate: 0.02
                   
+2023-12-09 20:41:54,101 - INFO - ++++ Running 8 ++++               
 2023-12-09 20:41:54,101 - INFO - Starting Stable Pattern...
 2023-12-09 20:41:54,101 - INFO - -- Run 1--
 2023-12-09 20:42:22,687 - INFO - Result 0: True, Error: None
@@ -939,7 +946,8 @@ Error Rate: 0.02
 Success: 49
 Error: 1
 Error Rate: 0.02
-                  
+
+2023-12-09 20:49:11,573 - INFO - ++++ Running 9 ++++  
 2023-12-09 20:49:11,573 - INFO - Starting Stable Pattern...
 2023-12-09 20:49:11,573 - INFO - -- Run 1--
 2023-12-09 20:49:29,670 - INFO - Result 0: True, Error: None
@@ -1095,7 +1103,8 @@ Error Rate: 0.02
 Success: 100
 Error: 0
 Error Rate: 0.0
-                  
+
+2023-12-09 20:59:49,863 - INFO - ++++ Running 10 ++++      
 2023-12-09 20:59:49,863 - INFO - Starting Stable Pattern...
 2023-12-09 20:59:49,863 - INFO - -- Run 1--
 2023-12-09 21:02:11,231 - INFO - Result 0: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")

@@ -2,6 +2,8 @@ import json
 from selenium import webdriver
 from PerformanceTask import Task
 from PerformanceTask import PerformanceRunner as Runner
+import logging
+logging.basicConfig(filename='stress_test.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class TestDataParser:
     @staticmethod
@@ -18,7 +20,7 @@ class TestStress():
         self.runner = Runner.PerformanceRunner()
        
     def run(self):
-        for testcase in self.data:
+        for idx,testcase in enumerate(self.data):
             url = testcase.get("url")
             tasks = testcase.get("tasks")
             
@@ -30,7 +32,7 @@ class TestStress():
             kwargs = testcase.get("args") or {}
             
             self.runner.setWorker(workers)
-            
+            logging.info(f"++++ Running {idx+1} ++++")
             try:
                 task_class = getattr(Task, task_class)
                 getattr(self.runner, method_name)(task_class=task_class, stable_count=stable_count, **kwargs)

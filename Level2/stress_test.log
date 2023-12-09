@@ -1,317 +1,1262 @@
-2023-12-09 21:26:21,680 - INFO - Starting Stable Pattern...
-2023-12-09 21:26:21,681 - INFO - -- Run 1--
-2023-12-09 21:26:37,286 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D5290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d03a68fa55bd395368eb5d9ba831c037
-2023-12-09 21:26:37,363 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D5F10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c7eae2249c1299f709476cf17e8b29c1
-2023-12-09 21:26:38,306 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D7A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2013e946b0b5025e3fe56b7a82a68f0
-2023-12-09 21:26:41,369 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E4150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d03a68fa55bd395368eb5d9ba831c037
-2023-12-09 21:26:41,447 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E49D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c7eae2249c1299f709476cf17e8b29c1
-2023-12-09 21:26:42,386 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E5210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2013e946b0b5025e3fe56b7a82a68f0
-2023-12-09 21:26:45,453 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E5D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d03a68fa55bd395368eb5d9ba831c037
-2023-12-09 21:26:45,531 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E67D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c7eae2249c1299f709476cf17e8b29c1
-2023-12-09 21:26:46,481 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E7250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d2013e946b0b5025e3fe56b7a82a68f0
-2023-12-09 21:26:54,651 - INFO - Result 0: True, Error: None
-2023-12-09 21:26:54,651 - INFO - Result 1: True, Error: None
-2023-12-09 21:26:54,651 - INFO - Result 2: True, Error: None
-2023-12-09 21:26:54,651 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:44:55,165 - INFO - Starting Stable Pattern...
+2023-12-09 22:44:55,165 - INFO - -- Run 1--
+2023-12-09 22:45:08,446 - INFO - Result 0: True, Error: None
+2023-12-09 22:45:08,448 - INFO - Result 1: True, Error: None
+2023-12-09 22:45:08,448 - INFO - Result 2: True, Error: None
+2023-12-09 22:45:08,448 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:27:07,894 - INFO - -- Run 2--
-2023-12-09 21:27:22,921 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D6690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/de842673911995a4943ec6755aedcff6
-2023-12-09 21:27:22,937 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C9210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dad5a450dae0f8e9d6e2a96dec8803e
-2023-12-09 21:27:22,983 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E4D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ab83a50895a376bdb029f177e7bb358d
-2023-12-09 21:27:27,010 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD201F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/de842673911995a4943ec6755aedcff6
-2023-12-09 21:27:27,027 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD201650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dad5a450dae0f8e9d6e2a96dec8803e
-2023-12-09 21:27:27,072 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD2018D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ab83a50895a376bdb029f177e7bb358d
-2023-12-09 21:27:31,106 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD202790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/de842673911995a4943ec6755aedcff6
-2023-12-09 21:27:31,122 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD203190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2dad5a450dae0f8e9d6e2a96dec8803e
-2023-12-09 21:27:31,169 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD203B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ab83a50895a376bdb029f177e7bb358d
-2023-12-09 21:27:39,357 - INFO - Result 0: True, Error: None
-2023-12-09 21:27:39,357 - INFO - Result 1: True, Error: None
-2023-12-09 21:27:39,357 - INFO - Result 2: True, Error: None
-2023-12-09 21:27:39,357 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:45:21,752 - INFO - -- Run 2--
+2023-12-09 22:45:32,773 - INFO - Result 0: True, Error: None
+2023-12-09 22:45:32,773 - INFO - Result 1: True, Error: None
+2023-12-09 22:45:32,773 - INFO - Result 2: True, Error: None
+2023-12-09 22:45:32,773 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:27:40,358 - INFO - -- Run 3--
-2023-12-09 21:27:55,627 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C8E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8740da97e59b5e4601040d72b57564ce
-2023-12-09 21:27:55,720 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20FC10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6650393b21fc0016337b2583c1e9e05c
-2023-12-09 21:27:55,736 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20FFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0b4f3c276d612b276457a1968cc33b36
-2023-12-09 21:27:59,709 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20C9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8740da97e59b5e4601040d72b57564ce
-2023-12-09 21:27:59,804 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD203550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6650393b21fc0016337b2583c1e9e05c
-2023-12-09 21:27:59,819 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD202990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0b4f3c276d612b276457a1968cc33b36
-2023-12-09 21:28:03,779 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD214990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8740da97e59b5e4601040d72b57564ce
-2023-12-09 21:28:03,871 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD217890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6650393b21fc0016337b2583c1e9e05c
-2023-12-09 21:28:03,887 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD214410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0b4f3c276d612b276457a1968cc33b36
-2023-12-09 21:28:12,048 - INFO - Result 0: True, Error: None
-2023-12-09 21:28:12,048 - INFO - Result 1: True, Error: None
-2023-12-09 21:28:12,048 - INFO - Result 2: True, Error: None
-2023-12-09 21:28:12,048 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:45:46,032 - INFO - -- Run 3--
+2023-12-09 22:45:57,989 - INFO - Result 0: True, Error: None
+2023-12-09 22:45:57,989 - INFO - Result 1: True, Error: None
+2023-12-09 22:45:57,989 - INFO - Result 2: True, Error: None
+2023-12-09 22:45:57,989 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:28:13,048 - INFO - -- Run 4--
-2023-12-09 21:28:27,311 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD216710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae1bcac56d1e5b6322718a9f85f06c64
-2023-12-09 21:28:27,712 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD2152D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54c32eb70e0a74233d5e4f2c3553dbd6
-2023-12-09 21:28:31,389 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD215450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae1bcac56d1e5b6322718a9f85f06c64
-2023-12-09 21:28:31,789 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20E8D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54c32eb70e0a74233d5e4f2c3553dbd6
-2023-12-09 21:28:35,472 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20DC90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ae1bcac56d1e5b6322718a9f85f06c64
-2023-12-09 21:28:35,877 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C8D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/54c32eb70e0a74233d5e4f2c3553dbd6
-2023-12-09 21:28:39,217 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1CA5D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4e8363560226bf01edf5db98870e0700
-2023-12-09 21:28:43,314 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD21CCD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4e8363560226bf01edf5db98870e0700
-2023-12-09 21:28:47,395 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD21E890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4e8363560226bf01edf5db98870e0700
-2023-12-09 21:28:55,590 - INFO - Result 0: True, Error: None
-2023-12-09 21:28:55,591 - INFO - Result 1: True, Error: None
-2023-12-09 21:28:55,591 - INFO - Result 2: True, Error: None
-2023-12-09 21:28:55,591 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:46:11,293 - INFO - -- Run 4--
+2023-12-09 22:46:22,513 - INFO - Result 0: True, Error: None
+2023-12-09 22:46:22,514 - INFO - Result 1: True, Error: None
+2023-12-09 22:46:22,514 - INFO - Result 2: True, Error: None
+2023-12-09 22:46:22,514 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:28:56,592 - INFO - -- Run 5--
-2023-12-09 21:29:12,522 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD233290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7843607c576d1ca5b0258fb2f8d9867
-2023-12-09 21:29:13,304 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20E650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4d2096cf0dc1182d41948068f52fe4c0
-2023-12-09 21:29:16,610 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23C650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7843607c576d1ca5b0258fb2f8d9867
-2023-12-09 21:29:17,384 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23CAD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4d2096cf0dc1182d41948068f52fe4c0
-2023-12-09 21:29:20,702 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23D410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a7843607c576d1ca5b0258fb2f8d9867
-2023-12-09 21:29:21,466 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23DB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4d2096cf0dc1182d41948068f52fe4c0
-2023-12-09 21:29:35,442 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD215350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c96fbb95ac9b09575c44ab2552fb5e98
-2023-12-09 21:29:39,521 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD2029D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c96fbb95ac9b09575c44ab2552fb5e98
-2023-12-09 21:29:43,609 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD2018D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c96fbb95ac9b09575c44ab2552fb5e98
-2023-12-09 21:29:51,785 - INFO - Result 0: True, Error: None
-2023-12-09 21:29:51,785 - INFO - Result 1: True, Error: None
-2023-12-09 21:29:51,785 - INFO - Result 2: True, Error: None
-2023-12-09 21:29:51,785 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:46:35,780 - INFO - -- Run 5--
+2023-12-09 22:46:46,781 - INFO - Result 0: True, Error: None
+2023-12-09 22:46:46,782 - INFO - Result 1: True, Error: None
+2023-12-09 22:46:46,782 - INFO - Result 2: True, Error: None
+2023-12-09 22:46:46,782 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:29:52,786 - INFO - -- Run 6--
-2023-12-09 21:30:08,663 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD21D510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a88de0ed990dc7d008e19b31129da2c
-2023-12-09 21:30:08,975 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD21C350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1944698fae5c9b6e382c5f8e8fc32dd9
-2023-12-09 21:30:12,752 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1B3C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a88de0ed990dc7d008e19b31129da2c
-2023-12-09 21:30:13,080 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1ACD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1944698fae5c9b6e382c5f8e8fc32dd9
-2023-12-09 21:30:16,833 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1AC290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7a88de0ed990dc7d008e19b31129da2c
-2023-12-09 21:30:17,174 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1AF910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1944698fae5c9b6e382c5f8e8fc32dd9
-2023-12-09 21:30:23,414 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD21C210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4cd00165d2311a59dff548a3335d987c
-2023-12-09 21:30:27,503 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E64D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4cd00165d2311a59dff548a3335d987c
-2023-12-09 21:30:31,600 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D49D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4cd00165d2311a59dff548a3335d987c
-2023-12-09 21:30:39,773 - INFO - Result 0: True, Error: None
-2023-12-09 21:30:39,774 - INFO - Result 1: True, Error: None
-2023-12-09 21:30:39,774 - INFO - Result 2: True, Error: None
-2023-12-09 21:30:39,774 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:47:00,083 - INFO - -- Run 6--
+2023-12-09 22:47:11,143 - INFO - Result 0: True, Error: None
+2023-12-09 22:47:11,144 - INFO - Result 1: True, Error: None
+2023-12-09 22:47:11,144 - INFO - Result 2: True, Error: None
+2023-12-09 22:47:11,144 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:30:40,775 - INFO - -- Run 7--
-2023-12-09 21:30:55,338 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD217710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f2ce2b9a3a39a997503d7044bf37746
-2023-12-09 21:30:55,464 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20CE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6df379c2c9b678bc0689e0cd9432826d
-2023-12-09 21:30:56,025 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20FE10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e40b2bd0d5093504fb5595541cdcecbd
-2023-12-09 21:30:59,424 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20CDD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f2ce2b9a3a39a997503d7044bf37746
-2023-12-09 21:30:59,564 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C9990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6df379c2c9b678bc0689e0cd9432826d
-2023-12-09 21:31:00,121 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1CA210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e40b2bd0d5093504fb5595541cdcecbd
-2023-12-09 21:31:03,493 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C9910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/8f2ce2b9a3a39a997503d7044bf37746
-2023-12-09 21:31:03,647 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C85D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6df379c2c9b678bc0689e0cd9432826d
-2023-12-09 21:31:04,208 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1B0C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e40b2bd0d5093504fb5595541cdcecbd
-2023-12-09 21:31:12,367 - INFO - Result 0: True, Error: None
-2023-12-09 21:31:12,367 - INFO - Result 1: True, Error: None
-2023-12-09 21:31:12,367 - INFO - Result 2: True, Error: None
-2023-12-09 21:31:12,367 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:47:24,419 - INFO - -- Run 7--
+2023-12-09 22:47:35,395 - INFO - Result 0: True, Error: None
+2023-12-09 22:47:35,395 - INFO - Result 1: True, Error: None
+2023-12-09 22:47:35,395 - INFO - Result 2: True, Error: None
+2023-12-09 22:47:35,395 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:31:13,368 - INFO - -- Run 8--
-2023-12-09 21:31:28,545 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1E43D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/839ab907c81d439e5c859c6c67492928
-2023-12-09 21:31:28,624 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD230E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef253161ad5e28a3add1f675023a724d
-2023-12-09 21:31:28,639 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD231FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/23ac18687e103d1928ad393e02a9e486
-2023-12-09 21:31:32,636 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23C9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/839ab907c81d439e5c859c6c67492928
-2023-12-09 21:31:32,714 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23D9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef253161ad5e28a3add1f675023a724d
-2023-12-09 21:31:32,729 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23C090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/23ac18687e103d1928ad393e02a9e486
-2023-12-09 21:31:36,726 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23EC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/839ab907c81d439e5c859c6c67492928
-2023-12-09 21:31:36,803 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23F390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ef253161ad5e28a3add1f675023a724d
-2023-12-09 21:31:36,819 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD203350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/23ac18687e103d1928ad393e02a9e486
-2023-12-09 21:31:44,977 - INFO - Result 0: True, Error: None
-2023-12-09 21:31:44,977 - INFO - Result 1: True, Error: None
-2023-12-09 21:31:44,977 - INFO - Result 2: True, Error: None
-2023-12-09 21:31:44,978 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:47:48,661 - INFO - -- Run 8--
+2023-12-09 22:47:59,437 - INFO - Result 0: True, Error: None
+2023-12-09 22:47:59,437 - INFO - Result 1: True, Error: None
+2023-12-09 22:47:59,437 - INFO - Result 2: True, Error: None
+2023-12-09 22:47:59,437 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:31:45,979 - INFO - -- Run 9--
-2023-12-09 21:32:01,001 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5C4950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b09f347aecf87f8e123bd94bb1a24ed0
-2023-12-09 21:32:01,048 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5C6CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d59578e7c2c133fcc472c2374d852e8b
-2023-12-09 21:32:01,358 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D0390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/35d90106bc69891fff2a67721e680889
-2023-12-09 21:32:05,089 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D1110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b09f347aecf87f8e123bd94bb1a24ed0
-2023-12-09 21:32:05,121 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D0F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d59578e7c2c133fcc472c2374d852e8b
-2023-12-09 21:32:05,447 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD20C2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/35d90106bc69891fff2a67721e680889
-2023-12-09 21:32:09,168 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23F9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b09f347aecf87f8e123bd94bb1a24ed0
-2023-12-09 21:32:09,215 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD23F650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d59578e7c2c133fcc472c2374d852e8b
-2023-12-09 21:32:09,530 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1C8110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/35d90106bc69891fff2a67721e680889
-2023-12-09 21:32:17,694 - INFO - Result 0: True, Error: None
-2023-12-09 21:32:17,694 - INFO - Result 1: True, Error: None
-2023-12-09 21:32:17,694 - INFO - Result 2: True, Error: None
-2023-12-09 21:32:17,694 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:48:12,646 - INFO - -- Run 9--
+2023-12-09 22:48:23,642 - INFO - Result 0: True, Error: None
+2023-12-09 22:48:23,642 - INFO - Result 1: True, Error: None
+2023-12-09 22:48:23,642 - INFO - Result 2: True, Error: None
+2023-12-09 22:48:23,642 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:32:18,695 - INFO - -- Run 10--
-2023-12-09 21:32:33,876 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD232950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b75baf9d3352b43d6e0b00c04cc8029
-2023-12-09 21:32:33,891 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D1C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5959220c176f694c72bc56bf51b065c5
-2023-12-09 21:32:33,953 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D20D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/847000090f4cbbecdc990f03710896b5
-2023-12-09 21:32:37,969 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD1D67D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b75baf9d3352b43d6e0b00c04cc8029
-2023-12-09 21:32:37,986 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E6550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5959220c176f694c72bc56bf51b065c5
-2023-12-09 21:32:38,049 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E4310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/847000090f4cbbecdc990f03710896b5
-2023-12-09 21:32:42,073 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E5A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b75baf9d3352b43d6e0b00c04cc8029
-2023-12-09 21:32:42,089 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E5A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/5959220c176f694c72bc56bf51b065c5
-2023-12-09 21:32:42,137 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E7690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/847000090f4cbbecdc990f03710896b5
-2023-12-09 21:32:50,306 - INFO - Result 0: True, Error: None
-2023-12-09 21:32:50,306 - INFO - Result 1: True, Error: None
-2023-12-09 21:32:50,306 - INFO - Result 2: True, Error: None
-2023-12-09 21:32:50,306 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:48:36,935 - INFO - -- Run 10--
+2023-12-09 22:48:47,566 - INFO - Result 0: True, Error: None
+2023-12-09 22:48:47,568 - INFO - Result 1: True, Error: None
+2023-12-09 22:48:47,568 - INFO - Result 2: True, Error: None
+2023-12-09 22:48:47,568 - INFO - =======Run Succesfully with======== 
     Success: 3, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:32:51,307 - INFO -    ========= Summary ==========
+2023-12-09 22:49:00,836 - INFO -    ========= Summary ==========
 Success: 30
 Error: 0
 Error Rate: 0.0
                   
-2023-12-09 21:32:51,308 - INFO - Starting Stable Pattern...
-2023-12-09 21:32:51,308 - INFO - -- Run 1--
-2023-12-09 21:33:06,545 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E5990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9d3601572b61676ea746eddd6f1eb9e
-2023-12-09 21:33:06,591 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5E6B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7e6c653ff1b0b5f7212040b331d22f8b
-2023-12-09 21:33:10,618 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F6150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9d3601572b61676ea746eddd6f1eb9e
-2023-12-09 21:33:10,665 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F45D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7e6c653ff1b0b5f7212040b331d22f8b
-2023-12-09 21:33:14,695 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F6A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a9d3601572b61676ea746eddd6f1eb9e
-2023-12-09 21:33:14,743 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F6E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7e6c653ff1b0b5f7212040b331d22f8b
-2023-12-09 21:33:17,847 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D3350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d88c79b4386c63be999796ab1de129b2
-2023-12-09 21:33:18,191 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5D1B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0e05823dcb538abfe21794d211b5ba64
-2023-12-09 21:33:18,579 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F7810>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cf4e25c69d6f83eb18d2563a27cb689
-2023-12-09 21:33:21,951 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FCC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d88c79b4386c63be999796ab1de129b2
-2023-12-09 21:33:22,294 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FD590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0e05823dcb538abfe21794d211b5ba64
-2023-12-09 21:33:22,681 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FDFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cf4e25c69d6f83eb18d2563a27cb689
-2023-12-09 21:33:26,056 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FF010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d88c79b4386c63be999796ab1de129b2
-2023-12-09 21:33:26,369 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FF7D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0e05823dcb538abfe21794d211b5ba64
-2023-12-09 21:33:26,773 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD200090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6cf4e25c69d6f83eb18d2563a27cb689
-2023-12-09 21:33:34,962 - INFO - Result 0: True, Error: None
-2023-12-09 21:33:34,963 - INFO - Result 1: True, Error: None
-2023-12-09 21:33:34,963 - INFO - Result 2: True, Error: None
-2023-12-09 21:33:34,963 - INFO - Result 3: True, Error: None
-2023-12-09 21:33:34,963 - INFO - Result 4: True, Error: None
-2023-12-09 21:33:34,963 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:49:00,836 - INFO - Starting Stable Pattern...
+2023-12-09 22:49:00,836 - INFO - -- Run 1--
+2023-12-09 22:49:12,525 - INFO - Result 0: True, Error: None
+2023-12-09 22:49:12,525 - INFO - Result 1: True, Error: None
+2023-12-09 22:49:12,525 - INFO - Result 2: True, Error: None
+2023-12-09 22:49:12,525 - INFO - Result 3: True, Error: None
+2023-12-09 22:49:12,525 - INFO - Result 4: True, Error: None
+2023-12-09 22:49:12,525 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:33:35,963 - INFO - -- Run 2--
-2023-12-09 21:33:51,479 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FD690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04eef566b2fcbe610a0dd48561139f9a
-2023-12-09 21:33:52,098 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5FC350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/044b685fa579231afacf6329f34963ec
-2023-12-09 21:33:52,114 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD60A510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6f5cf53e4776e418e1de9d42d1ef217a
-2023-12-09 21:33:52,114 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD60B210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b43eafbdeeb10509d3e24fb0072ece03
-2023-12-09 21:33:55,568 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD620590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04eef566b2fcbe610a0dd48561139f9a
-2023-12-09 21:33:56,188 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD621650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b43eafbdeeb10509d3e24fb0072ece03
-2023-12-09 21:33:56,188 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD620950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/044b685fa579231afacf6329f34963ec
-2023-12-09 21:33:56,204 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD621610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6f5cf53e4776e418e1de9d42d1ef217a
-2023-12-09 21:33:59,670 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD622110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04eef566b2fcbe610a0dd48561139f9a
-2023-12-09 21:34:00,294 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD621E10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b43eafbdeeb10509d3e24fb0072ece03
-2023-12-09 21:34:00,295 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD623110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/044b685fa579231afacf6329f34963ec
-2023-12-09 21:34:00,309 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD6239D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6f5cf53e4776e418e1de9d42d1ef217a
-2023-12-09 21:34:00,325 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD6243D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a753a12a63f055ace33ee3b1652cfad6
-2023-12-09 21:34:04,424 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD627410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a753a12a63f055ace33ee3b1652cfad6
-2023-12-09 21:34:08,503 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD638B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a753a12a63f055ace33ee3b1652cfad6
-2023-12-09 21:34:16,678 - INFO - Result 0: True, Error: None
-2023-12-09 21:34:16,678 - INFO - Result 1: True, Error: None
-2023-12-09 21:34:16,678 - INFO - Result 2: True, Error: None
-2023-12-09 21:34:16,678 - INFO - Result 3: True, Error: None
-2023-12-09 21:34:16,678 - INFO - Result 4: True, Error: None
-2023-12-09 21:34:16,678 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:49:33,992 - INFO - -- Run 2--
+2023-12-09 22:49:45,838 - INFO - Result 0: True, Error: None
+2023-12-09 22:49:45,838 - INFO - Result 1: True, Error: None
+2023-12-09 22:49:45,838 - INFO - Result 2: True, Error: None
+2023-12-09 22:49:45,839 - INFO - Result 3: True, Error: None
+2023-12-09 22:49:45,839 - INFO - Result 4: True, Error: None
+2023-12-09 22:49:45,839 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:34:17,679 - INFO - -- Run 3--
-2023-12-09 21:34:34,146 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD626890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f1ca61572217f22c2bcf113a5171cc97
-2023-12-09 21:34:34,177 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD626B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b10b9a08aaa4a19b34e667bc536f07a4
-2023-12-09 21:34:34,330 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD63A750>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fd3e527e0b21f5d4b9744749963870b6
-2023-12-09 21:34:34,466 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD63A7D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f01789dafd7630295af29c0baaac54f6
-2023-12-09 21:34:38,226 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD648D50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f1ca61572217f22c2bcf113a5171cc97
-2023-12-09 21:34:38,257 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD6495D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b10b9a08aaa4a19b34e667bc536f07a4
-2023-12-09 21:34:38,411 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD649C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fd3e527e0b21f5d4b9744749963870b6
-2023-12-09 21:34:38,550 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD648C50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f01789dafd7630295af29c0baaac54f6
-2023-12-09 21:34:42,307 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD64AA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f1ca61572217f22c2bcf113a5171cc97
-2023-12-09 21:34:42,338 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD64B490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b10b9a08aaa4a19b34e667bc536f07a4
-2023-12-09 21:34:42,494 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD64B9D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/fd3e527e0b21f5d4b9744749963870b6
-2023-12-09 21:34:42,633 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD6581D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f01789dafd7630295af29c0baaac54f6
-2023-12-09 21:34:42,848 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD658D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9e1f23a78bbe7ed9bc1a695e7b1dc79c
-2023-12-09 21:34:46,937 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD65BDD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9e1f23a78bbe7ed9bc1a695e7b1dc79c
-2023-12-09 21:34:51,032 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD65D550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9e1f23a78bbe7ed9bc1a695e7b1dc79c
-2023-12-09 21:34:59,213 - INFO - Result 0: True, Error: None
-2023-12-09 21:34:59,214 - INFO - Result 1: True, Error: None
-2023-12-09 21:34:59,214 - INFO - Result 2: True, Error: None
-2023-12-09 21:34:59,214 - INFO - Result 3: True, Error: None
-2023-12-09 21:34:59,214 - INFO - Result 4: True, Error: None
-2023-12-09 21:34:59,214 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:50:07,305 - INFO - -- Run 3--
+2023-12-09 22:50:19,183 - INFO - Result 0: True, Error: None
+2023-12-09 22:50:19,183 - INFO - Result 1: True, Error: None
+2023-12-09 22:50:19,183 - INFO - Result 2: True, Error: None
+2023-12-09 22:50:19,183 - INFO - Result 3: True, Error: None
+2023-12-09 22:50:19,183 - INFO - Result 4: True, Error: None
+2023-12-09 22:50:19,183 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:35:00,215 - INFO - -- Run 4--
-2023-12-09 21:35:15,015 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD63B450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b57da1ae1f07edb909adeadb56466b5
-2023-12-09 21:35:15,727 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD679490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e86a051038d8bd204e019771684fde66
-2023-12-09 21:35:15,978 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67AC90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/99dde10474f1081a32f0f9633e68589f
-2023-12-09 21:35:16,087 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67AE90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/74cd7a5619e27d4485dc02ef4edf0831
-2023-12-09 21:35:19,106 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67D890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b57da1ae1f07edb909adeadb56466b5
-2023-12-09 21:35:19,811 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67DE50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e86a051038d8bd204e019771684fde66
-2023-12-09 21:35:20,061 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67E790>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/99dde10474f1081a32f0f9633e68589f
-2023-12-09 21:35:20,170 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67F0D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/74cd7a5619e27d4485dc02ef4edf0831
-2023-12-09 21:35:23,184 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67FB90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6b57da1ae1f07edb909adeadb56466b5
-2023-12-09 21:35:23,916 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD68C510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e86a051038d8bd204e019771684fde66
-2023-12-09 21:35:24,165 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD68CED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/99dde10474f1081a32f0f9633e68589f
-2023-12-09 21:35:24,273 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD68D810>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/74cd7a5619e27d4485dc02ef4edf0831
-2023-12-09 21:36:56,865 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD659F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/24c6413689c9a2d1720bcb6a0933541d
-2023-12-09 21:37:00,958 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD659510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/24c6413689c9a2d1720bcb6a0933541d
-2023-12-09 21:37:05,047 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD659550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/24c6413689c9a2d1720bcb6a0933541d
-2023-12-09 21:37:13,249 - INFO - Result 0: True, Error: None
-2023-12-09 21:37:13,249 - INFO - Result 1: True, Error: None
-2023-12-09 21:37:13,250 - INFO - Result 2: True, Error: None
-2023-12-09 21:37:13,250 - INFO - Result 3: True, Error: None
-2023-12-09 21:37:13,250 - INFO - Result 4: True, Error: None
-2023-12-09 21:37:13,250 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:50:40,673 - INFO - -- Run 4--
+2023-12-09 22:50:53,116 - INFO - Result 0: True, Error: None
+2023-12-09 22:50:53,116 - INFO - Result 1: True, Error: None
+2023-12-09 22:50:53,116 - INFO - Result 2: True, Error: None
+2023-12-09 22:50:53,116 - INFO - Result 3: True, Error: None
+2023-12-09 22:50:53,116 - INFO - Result 4: True, Error: None
+2023-12-09 22:50:53,116 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:37:14,251 - INFO - -- Run 5--
-2023-12-09 21:37:29,127 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD625AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5aca455d2770ba520b192cd69359729
-2023-12-09 21:37:29,798 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD6088D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b845111c8be02b2ebd7a666a94a9619
-2023-12-09 21:37:29,830 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD609D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bff7d0797c3000e14893b8e4284b784
-2023-12-09 21:37:29,830 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD60A010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c1da7fadf42e78671a72aa8df5fb93
-2023-12-09 21:37:33,218 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD609990>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5aca455d2770ba520b192cd69359729
-2023-12-09 21:37:33,884 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD60B450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b845111c8be02b2ebd7a666a94a9619
-2023-12-09 21:37:33,914 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F5350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bff7d0797c3000e14893b8e4284b784
-2023-12-09 21:37:33,931 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F5D50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c1da7fadf42e78671a72aa8df5fb93
-2023-12-09 21:37:37,317 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD65A2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/a5aca455d2770ba520b192cd69359729
-2023-12-09 21:37:37,981 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD65A4D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1b845111c8be02b2ebd7a666a94a9619
-2023-12-09 21:37:38,011 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD623B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4bff7d0797c3000e14893b8e4284b784
-2023-12-09 21:37:38,026 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F66D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44c1da7fadf42e78671a72aa8df5fb93
-2023-12-09 21:37:49,213 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD679BD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1485ae45c8318efbeb100f61d6b9a752
-2023-12-09 21:37:53,296 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD65A650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1485ae45c8318efbeb100f61d6b9a752
-2023-12-09 21:37:57,387 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD623890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1485ae45c8318efbeb100f61d6b9a752
-2023-12-09 21:38:05,559 - INFO - Result 0: True, Error: None
-2023-12-09 21:38:05,559 - INFO - Result 1: True, Error: None
-2023-12-09 21:38:05,559 - INFO - Result 2: True, Error: None
-2023-12-09 21:38:05,559 - INFO - Result 3: True, Error: None
-2023-12-09 21:38:05,559 - INFO - Result 4: True, Error: None
-2023-12-09 21:38:05,559 - INFO - =======Run Succesfully with======== 
+2023-12-09 22:51:14,547 - INFO - -- Run 5--
+2023-12-09 22:51:26,145 - INFO - Result 0: True, Error: None
+2023-12-09 22:51:26,146 - INFO - Result 1: True, Error: None
+2023-12-09 22:51:26,146 - INFO - Result 2: True, Error: None
+2023-12-09 22:51:26,146 - INFO - Result 3: True, Error: None
+2023-12-09 22:51:26,146 - INFO - Result 4: True, Error: None
+2023-12-09 22:51:26,146 - INFO - =======Run Succesfully with======== 
     Success: 5, Failure: 0
     Error rate: 0.0   
                 
-2023-12-09 21:38:06,561 - INFO - -- Run 6--
-2023-12-09 21:38:22,272 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD678810>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0f56f916bef6be1b8f233949b716b
-2023-12-09 21:38:22,304 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD625B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/13e672fe16c73ea10d37101f5f1fabf7
-2023-12-09 21:38:22,366 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD626AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d97163a8636ca8031dd00323560da5
-2023-12-09 21:38:22,397 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F6E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4a5ccae25ed27c59740f56c5b7a774d
-2023-12-09 21:38:26,369 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5F7F90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0f56f916bef6be1b8f233949b716b
-2023-12-09 21:38:26,400 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD623010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/13e672fe16c73ea10d37101f5f1fabf7
-2023-12-09 21:38:26,463 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD623150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d97163a8636ca8031dd00323560da5
-2023-12-09 21:38:26,494 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD622150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4a5ccae25ed27c59740f56c5b7a774d
-2023-12-09 21:38:30,455 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD679C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/cfe0f56f916bef6be1b8f233949b716b
-2023-12-09 21:38:30,487 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67A890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/13e672fe16c73ea10d37101f5f1fabf7
-2023-12-09 21:38:30,548 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD609F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/02d97163a8636ca8031dd00323560da5
-2023-12-09 21:38:30,579 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD648250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c4a5ccae25ed27c59740f56c5b7a774d
-2023-12-09 21:38:41,318 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD5C4B10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4cd7e42b4a8991ee56b680e47b797216
-2023-12-09 21:38:45,407 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002F4FD67AC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/4cd7e42b4a8991ee56b680e47b797216
+2023-12-09 22:51:47,628 - INFO - -- Run 6--
+2023-12-09 22:51:59,769 - INFO - Result 0: True, Error: None
+2023-12-09 22:51:59,769 - INFO - Result 1: True, Error: None
+2023-12-09 22:51:59,769 - INFO - Result 2: True, Error: None
+2023-12-09 22:51:59,769 - INFO - Result 3: True, Error: None
+2023-12-09 22:51:59,769 - INFO - Result 4: True, Error: None
+2023-12-09 22:51:59,769 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:52:21,248 - INFO - -- Run 7--
+2023-12-09 22:52:33,378 - INFO - Result 0: True, Error: None
+2023-12-09 22:52:33,378 - INFO - Result 1: True, Error: None
+2023-12-09 22:52:33,379 - INFO - Result 2: True, Error: None
+2023-12-09 22:52:33,379 - INFO - Result 3: True, Error: None
+2023-12-09 22:52:33,379 - INFO - Result 4: True, Error: None
+2023-12-09 22:52:33,379 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:52:54,837 - INFO - -- Run 8--
+2023-12-09 22:53:09,333 - INFO - Result 0: True, Error: None
+2023-12-09 22:53:09,333 - INFO - Result 1: True, Error: None
+2023-12-09 22:53:09,333 - INFO - Result 2: True, Error: None
+2023-12-09 22:53:09,333 - INFO - Result 3: True, Error: None
+2023-12-09 22:53:09,333 - INFO - Result 4: True, Error: None
+2023-12-09 22:53:09,333 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:53:30,738 - INFO - -- Run 9--
+2023-12-09 22:53:42,962 - INFO - Result 0: True, Error: None
+2023-12-09 22:53:42,963 - INFO - Result 1: True, Error: None
+2023-12-09 22:53:42,963 - INFO - Result 2: True, Error: None
+2023-12-09 22:53:42,963 - INFO - Result 3: True, Error: None
+2023-12-09 22:53:42,963 - INFO - Result 4: True, Error: None
+2023-12-09 22:53:42,963 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:54:04,441 - INFO - -- Run 10--
+2023-12-09 22:54:16,222 - INFO - Result 0: True, Error: None
+2023-12-09 22:54:16,222 - INFO - Result 1: True, Error: None
+2023-12-09 22:54:16,222 - INFO - Result 2: True, Error: None
+2023-12-09 22:54:16,222 - INFO - Result 3: True, Error: None
+2023-12-09 22:54:16,222 - INFO - Result 4: True, Error: None
+2023-12-09 22:54:16,222 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:54:37,593 - INFO -    ========= Summary ==========
+Success: 50
+Error: 0
+Error Rate: 0.0
+
+2023-12-09 23:13:04,976 - INFO - ++++ Running 3 ++++              
+2023-12-09 22:54:37,593 - INFO - Starting Stable Pattern...
+2023-12-09 22:54:37,593 - INFO - -- Run 1--
+2023-12-09 22:54:51,174 - INFO - Result 0: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 1: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 2: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 3: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 4: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 5: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 6: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 7: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 8: True, Error: None
+2023-12-09 22:54:51,175 - INFO - Result 9: True, Error: None
+2023-12-09 22:54:51,175 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:55:33,043 - INFO - -- Run 2--
+2023-12-09 22:55:46,564 - INFO - Result 0: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 1: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 2: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 3: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 4: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 5: True, Error: None
+2023-12-09 22:55:46,565 - INFO - Result 6: True, Error: None
+2023-12-09 22:55:46,566 - INFO - Result 7: True, Error: None
+2023-12-09 22:55:46,566 - INFO - Result 8: True, Error: None
+2023-12-09 22:55:46,566 - INFO - Result 9: True, Error: None
+2023-12-09 22:55:46,566 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:56:28,537 - INFO - -- Run 3--
+2023-12-09 22:57:13,388 - INFO - Result 0: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 1: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 2: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 3: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 4: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 5: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 22:57:13,388 - INFO - Result 6: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 7: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 8: True, Error: None
+2023-12-09 22:57:13,388 - INFO - Result 9: True, Error: None
+2023-12-09 22:57:13,388 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 22:57:55,351 - INFO - -- Run 4--
+2023-12-09 22:58:12,299 - INFO - Result 0: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 1: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 2: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 3: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 4: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 5: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 6: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 7: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 8: True, Error: None
+2023-12-09 22:58:12,299 - INFO - Result 9: True, Error: None
+2023-12-09 22:58:12,299 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:58:54,257 - INFO - -- Run 5--
+2023-12-09 22:59:09,397 - INFO - Result 0: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 1: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 2: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 3: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 4: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 5: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 6: True, Error: None
+2023-12-09 22:59:09,398 - INFO - Result 7: True, Error: None
+2023-12-09 22:59:09,399 - INFO - Result 8: True, Error: None
+2023-12-09 22:59:09,399 - INFO - Result 9: True, Error: None
+2023-12-09 22:59:09,399 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 22:59:51,320 - INFO - -- Run 6--
+2023-12-09 23:00:20,396 - INFO - Result 0: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,396 - INFO - Result 1: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,396 - INFO - Result 2: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,396 - INFO - Result 3: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,396 - INFO - Result 4: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - Result 5: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - Result 6: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - Result 7: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - Result 8: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - Result 9: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:00:20,397 - INFO - =======Run Succesfully with======== 
+    Success: 0, Failure: 10
+    Error rate: 1.0   
+                
+2023-12-09 23:01:02,258 - INFO - -- Run 7--
+2023-12-09 23:01:47,421 - INFO - Result 0: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 1: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 2: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 3: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 4: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 5: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 6: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 7: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 8: True, Error: None
+2023-12-09 23:01:47,421 - INFO - Result 9: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:01:47,422 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 23:02:29,337 - INFO - -- Run 8--
+2023-12-09 23:02:45,466 - INFO - Result 0: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 1: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 2: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 3: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 4: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 5: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 6: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 7: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 8: True, Error: None
+2023-12-09 23:02:45,467 - INFO - Result 9: True, Error: None
+2023-12-09 23:02:45,468 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:03:27,373 - INFO - -- Run 9--
+2023-12-09 23:03:41,463 - INFO - Result 0: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 1: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 2: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 3: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 4: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 5: True, Error: None
+2023-12-09 23:03:41,464 - INFO - Result 6: True, Error: None
+2023-12-09 23:03:41,465 - INFO - Result 7: True, Error: None
+2023-12-09 23:03:41,465 - INFO - Result 8: True, Error: None
+2023-12-09 23:03:41,465 - INFO - Result 9: True, Error: None
+2023-12-09 23:03:41,465 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:04:23,338 - INFO - -- Run 10--
+2023-12-09 23:04:36,704 - INFO - Result 0: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 1: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 2: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 3: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 4: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 5: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 6: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 7: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 8: True, Error: None
+2023-12-09 23:04:36,705 - INFO - Result 9: True, Error: None
+2023-12-09 23:04:36,705 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:05:18,668 - INFO -    ========= Summary ==========
+Success: 88
+Error: 12
+Error Rate: 0.12
+
+2023-12-09 23:13:04,976 - INFO - ++++ Running 4 ++++
+2023-12-09 23:13:04,977 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 23:13:04,977 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 23:13:15,598 - INFO - Result 0: True, Error: None
+2023-12-09 23:13:15,598 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:13:20,701 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 23:13:31,405 - INFO - Result 0: True, Error: None
+2023-12-09 23:13:31,405 - INFO - Result 1: True, Error: None
+2023-12-09 23:13:31,405 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:13:40,607 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 23:13:51,684 - INFO - Result 0: True, Error: None
+2023-12-09 23:13:51,684 - INFO - Result 1: True, Error: None
+2023-12-09 23:13:51,684 - INFO - Result 2: True, Error: None
+2023-12-09 23:13:51,684 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:14:04,965 - INFO - -- Run 4-- Num workers: 3
+2023-12-09 23:14:15,943 - INFO - Result 0: True, Error: None
+2023-12-09 23:14:15,943 - INFO - Result 1: True, Error: None
+2023-12-09 23:14:15,943 - INFO - Result 2: True, Error: None
+2023-12-09 23:14:15,943 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:14:28,216 - INFO - -- Run 6-- Num workers: 3
+2023-12-09 23:14:39,076 - INFO - Result 0: True, Error: None
+2023-12-09 23:14:39,077 - INFO - Result 1: True, Error: None
+2023-12-09 23:14:39,077 - INFO - Result 2: True, Error: None
+2023-12-09 23:14:39,077 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:14:52,367 - INFO - -- Run 7-- Num workers: 3
+2023-12-09 23:15:06,602 - INFO - Result 0: True, Error: None
+2023-12-09 23:15:06,602 - INFO - Result 1: True, Error: None
+2023-12-09 23:15:06,602 - INFO - Result 2: True, Error: None
+2023-12-09 23:15:06,603 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:15:19,883 - INFO - -- Run 8-- Num workers: 3
+2023-12-09 23:15:30,986 - INFO - Result 0: True, Error: None
+2023-12-09 23:15:30,986 - INFO - Result 1: True, Error: None
+2023-12-09 23:15:30,986 - INFO - Result 2: True, Error: None
+2023-12-09 23:15:30,986 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:15:44,198 - INFO - -- Run 9-- Num workers: 3
+2023-12-09 23:15:55,083 - INFO - Result 0: True, Error: None
+2023-12-09 23:15:55,083 - INFO - Result 1: True, Error: None
+2023-12-09 23:15:55,083 - INFO - Result 2: True, Error: None
+2023-12-09 23:15:55,083 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:16:08,362 - INFO - -- Run 10-- Num workers: 3
+2023-12-09 23:16:19,213 - INFO - Result 0: True, Error: None
+2023-12-09 23:16:19,213 - INFO - Result 1: True, Error: None
+2023-12-09 23:16:19,214 - INFO - Result 2: True, Error: None
+2023-12-09 23:16:19,214 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:16:32,426 - INFO -    ========= Summary ==========
+Success: 24
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 23:16:32,426 - INFO - ++++ Running 5 ++++
+2023-12-09 23:16:32,426 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 23:16:32,426 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 23:16:42,869 - INFO - Result 0: True, Error: None
+2023-12-09 23:16:42,869 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:16:47,953 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 23:16:58,678 - INFO - Result 0: True, Error: None
+2023-12-09 23:16:58,678 - INFO - Result 1: True, Error: None
+2023-12-09 23:16:58,678 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:17:07,845 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 23:17:51,975 - INFO - Result 0: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:17:51,975 - INFO - Result 1: True, Error: None
+2023-12-09 23:17:51,975 - INFO - Result 2: True, Error: None
+2023-12-09 23:17:51,976 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 1
+    Error rate: 0.3333333333333333   
+                
+2023-12-09 23:18:05,242 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 23:18:16,369 - INFO - Result 0: True, Error: None
+2023-12-09 23:18:16,370 - INFO - Result 1: True, Error: None
+2023-12-09 23:18:16,370 - INFO - Result 2: True, Error: None
+2023-12-09 23:18:16,370 - INFO - Result 3: True, Error: None
+2023-12-09 23:18:16,370 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:18:33,726 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 23:18:45,630 - INFO - Result 0: True, Error: None
+2023-12-09 23:18:45,630 - INFO - Result 1: True, Error: None
+2023-12-09 23:18:45,632 - INFO - Result 2: True, Error: None
+2023-12-09 23:18:45,632 - INFO - Result 3: True, Error: None
+2023-12-09 23:18:45,632 - INFO - Result 4: True, Error: None
+2023-12-09 23:18:45,632 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:19:06,995 - INFO - -- Run 6-- Num workers: 5
+2023-12-09 23:19:19,092 - INFO - Result 0: True, Error: None
+2023-12-09 23:19:19,093 - INFO - Result 1: True, Error: None
+2023-12-09 23:19:19,093 - INFO - Result 2: True, Error: None
+2023-12-09 23:19:19,093 - INFO - Result 3: True, Error: None
+2023-12-09 23:19:19,093 - INFO - Result 4: True, Error: None
+2023-12-09 23:19:19,093 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:19:39,562 - INFO - -- Run 8-- Num workers: 5
+2023-12-09 23:19:50,936 - INFO - Result 0: True, Error: None
+2023-12-09 23:19:50,936 - INFO - Result 1: True, Error: None
+2023-12-09 23:19:50,936 - INFO - Result 2: True, Error: None
+2023-12-09 23:19:50,936 - INFO - Result 3: True, Error: None
+2023-12-09 23:19:50,936 - INFO - Result 4: True, Error: None
+2023-12-09 23:19:50,936 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:20:12,426 - INFO - -- Run 9-- Num workers: 5
+2023-12-09 23:20:56,731 - INFO - Result 0: True, Error: None
+2023-12-09 23:20:56,731 - INFO - Result 1: True, Error: None
+2023-12-09 23:20:56,731 - INFO - Result 2: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:20:56,732 - INFO - Result 3: True, Error: None
+2023-12-09 23:20:56,732 - INFO - Result 4: True, Error: None
+2023-12-09 23:20:56,732 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 23:21:18,194 - INFO - -- Run 10-- Num workers: 5
+2023-12-09 23:21:30,151 - INFO - Result 0: True, Error: None
+2023-12-09 23:21:30,151 - INFO - Result 1: True, Error: None
+2023-12-09 23:21:30,151 - INFO - Result 2: True, Error: None
+2023-12-09 23:21:30,151 - INFO - Result 3: True, Error: None
+2023-12-09 23:21:30,151 - INFO - Result 4: True, Error: None
+2023-12-09 23:21:30,151 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:21:51,633 - INFO - -- Run 11-- Num workers: 5
+2023-12-09 23:22:05,975 - INFO - Result 0: True, Error: None
+2023-12-09 23:22:05,975 - INFO - Result 1: True, Error: None
+2023-12-09 23:22:05,976 - INFO - Result 2: True, Error: None
+2023-12-09 23:22:05,976 - INFO - Result 3: True, Error: None
+2023-12-09 23:22:05,976 - INFO - Result 4: True, Error: None
+2023-12-09 23:22:05,976 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:22:27,410 - INFO - -- Run 12-- Num workers: 5
+2023-12-09 23:22:39,167 - INFO - Result 0: True, Error: None
+2023-12-09 23:22:39,167 - INFO - Result 1: True, Error: None
+2023-12-09 23:22:39,167 - INFO - Result 2: True, Error: None
+2023-12-09 23:22:39,169 - INFO - Result 3: True, Error: None
+2023-12-09 23:22:39,169 - INFO - Result 4: True, Error: None
+2023-12-09 23:22:39,169 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:23:00,657 - INFO -    ========= Summary ==========
+Success: 43
+Error: 2
+Error Rate: 0.044444444444444446
+                  
+2023-12-09 23:23:00,657 - INFO - ++++ Running 6 ++++
+2023-12-09 23:23:00,657 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 23:23:00,657 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 23:23:11,432 - INFO - Result 0: True, Error: None
+2023-12-09 23:23:11,432 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:23:16,496 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 23:23:27,205 - INFO - Result 0: True, Error: None
+2023-12-09 23:23:27,205 - INFO - Result 1: True, Error: None
+2023-12-09 23:23:27,205 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:23:36,384 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 23:23:47,371 - INFO - Result 0: True, Error: None
+2023-12-09 23:23:47,371 - INFO - Result 1: True, Error: None
+2023-12-09 23:23:47,372 - INFO - Result 2: True, Error: None
+2023-12-09 23:23:47,372 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:24:00,639 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 23:24:44,868 - INFO - Result 0: True, Error: None
+2023-12-09 23:24:44,868 - INFO - Result 1: True, Error: None
+2023-12-09 23:24:44,868 - INFO - Result 2: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:24:44,868 - INFO - Result 3: True, Error: None
+2023-12-09 23:24:44,868 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 1
+    Error rate: 0.25   
+                
+2023-12-09 23:25:02,246 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 23:25:14,007 - INFO - Result 0: True, Error: None
+2023-12-09 23:25:14,008 - INFO - Result 1: True, Error: None
+2023-12-09 23:25:14,008 - INFO - Result 2: True, Error: None
+2023-12-09 23:25:14,008 - INFO - Result 3: True, Error: None
+2023-12-09 23:25:14,008 - INFO - Result 4: True, Error: None
+2023-12-09 23:25:14,008 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:25:35,487 - INFO - -- Run 6-- Num workers: 6
+2023-12-09 23:25:47,542 - INFO - Result 0: True, Error: None
+2023-12-09 23:25:47,542 - INFO - Result 1: True, Error: None
+2023-12-09 23:25:47,542 - INFO - Result 2: True, Error: None
+2023-12-09 23:25:47,542 - INFO - Result 3: True, Error: None
+2023-12-09 23:25:47,542 - INFO - Result 4: True, Error: None
+2023-12-09 23:25:47,542 - INFO - Result 5: True, Error: None
+2023-12-09 23:25:47,542 - INFO - =======Run Succesfully with======== 
+    Success: 6, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:26:13,015 - INFO - -- Run 7-- Num workers: 7
+2023-12-09 23:26:25,412 - INFO - Result 0: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 1: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 2: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 3: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 4: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 5: True, Error: None
+2023-12-09 23:26:25,412 - INFO - Result 6: True, Error: None
+2023-12-09 23:26:25,412 - INFO - =======Run Succesfully with======== 
+    Success: 7, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:26:55,116 - INFO - -- Run 8-- Num workers: 8
+2023-12-09 23:27:10,668 - INFO - Result 0: True, Error: None
+2023-12-09 23:27:10,668 - INFO - Result 1: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 2: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 3: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 4: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 5: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 6: True, Error: None
+2023-12-09 23:27:10,669 - INFO - Result 7: True, Error: None
+2023-12-09 23:27:10,669 - INFO - =======Run Succesfully with======== 
+    Success: 8, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:27:44,451 - INFO - -- Run 9-- Num workers: 9
+2023-12-09 23:27:58,009 - INFO - Result 0: True, Error: None
+2023-12-09 23:27:58,009 - INFO - Result 1: True, Error: None
+2023-12-09 23:27:58,009 - INFO - Result 2: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 3: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 4: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 5: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 6: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 7: True, Error: None
+2023-12-09 23:27:58,010 - INFO - Result 8: True, Error: None
+2023-12-09 23:27:58,010 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:28:35,847 - INFO - -- Run 10-- Num workers: 10
+2023-12-09 23:28:49,454 - INFO - Result 0: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 1: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 2: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 3: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 4: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 5: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 6: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 7: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 8: True, Error: None
+2023-12-09 23:28:49,454 - INFO - Result 9: True, Error: None
+2023-12-09 23:28:49,456 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:29:31,399 - INFO - -- Run 11-- Num workers: 10
+2023-12-09 23:29:45,490 - INFO - Result 0: True, Error: None
+2023-12-09 23:29:45,490 - INFO - Result 1: True, Error: None
+2023-12-09 23:29:45,490 - INFO - Result 2: True, Error: None
+2023-12-09 23:29:45,490 - INFO - Result 3: True, Error: None
+2023-12-09 23:29:45,490 - INFO - Result 4: True, Error: None
+2023-12-09 23:29:45,490 - INFO - Result 5: True, Error: None
+2023-12-09 23:29:45,491 - INFO - Result 6: True, Error: None
+2023-12-09 23:29:45,491 - INFO - Result 7: True, Error: None
+2023-12-09 23:29:45,491 - INFO - Result 8: True, Error: None
+2023-12-09 23:29:45,491 - INFO - Result 9: True, Error: None
+2023-12-09 23:29:45,491 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:30:26,421 - INFO - -- Run 13-- Num workers: 10
+2023-12-09 23:30:41,023 - INFO - Result 0: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 1: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 2: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 3: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 4: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 5: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 6: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 7: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 8: True, Error: None
+2023-12-09 23:30:41,023 - INFO - Result 9: True, Error: None
+2023-12-09 23:30:41,023 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:31:22,990 - INFO - -- Run 14-- Num workers: 10
+2023-12-09 23:32:07,895 - INFO - Result 0: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 1: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:32:07,896 - INFO - Result 2: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 3: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 4: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 5: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 6: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 7: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 8: True, Error: None
+2023-12-09 23:32:07,896 - INFO - Result 9: True, Error: None
+2023-12-09 23:32:07,896 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 23:32:49,821 - INFO - -- Run 15-- Num workers: 10
+2023-12-09 23:33:05,706 - INFO - Result 0: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 1: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 2: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 3: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 4: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 5: True, Error: None
+2023-12-09 23:33:05,706 - INFO - Result 6: True, Error: None
+2023-12-09 23:33:05,707 - INFO - Result 7: True, Error: None
+2023-12-09 23:33:05,707 - INFO - Result 8: True, Error: None
+2023-12-09 23:33:05,707 - INFO - Result 9: True, Error: None
+2023-12-09 23:33:05,707 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:33:47,678 - INFO - -- Run 16-- Num workers: 10
+2023-12-09 23:34:05,525 - INFO - Result 0: True, Error: None
+2023-12-09 23:34:05,526 - INFO - Result 1: True, Error: None
+2023-12-09 23:34:05,526 - INFO - Result 2: True, Error: None
+2023-12-09 23:34:05,526 - INFO - Result 3: True, Error: None
+2023-12-09 23:34:05,526 - INFO - Result 4: True, Error: None
+2023-12-09 23:34:05,527 - INFO - Result 5: True, Error: None
+2023-12-09 23:34:05,527 - INFO - Result 6: True, Error: None
+2023-12-09 23:34:05,527 - INFO - Result 7: True, Error: None
+2023-12-09 23:34:05,527 - INFO - Result 8: True, Error: None
+2023-12-09 23:34:05,527 - INFO - Result 9: True, Error: None
+2023-12-09 23:34:05,527 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:34:47,366 - INFO - -- Run 17-- Num workers: 10
+2023-12-09 23:35:01,576 - INFO - Result 0: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 1: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 2: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 3: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 4: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 5: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 6: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 7: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 8: True, Error: None
+2023-12-09 23:35:01,576 - INFO - Result 9: True, Error: None
+2023-12-09 23:35:01,576 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:35:43,433 - INFO -    ========= Summary ==========
+Success: 113
+Error: 2
+Error Rate: 0.017391304347826087
+                  
+2023-12-09 23:35:43,433 - INFO - ++++ Running 7 ++++
+2023-12-09 23:35:43,433 - INFO - Starting Stable Pattern...
+2023-12-09 23:35:43,433 - INFO - -- Run 1--
+2023-12-09 23:35:59,026 - INFO - Result 0: True, Error: None
+2023-12-09 23:35:59,026 - INFO - Result 1: True, Error: None
+2023-12-09 23:35:59,026 - INFO - Result 2: True, Error: None
+2023-12-09 23:35:59,026 - INFO - Result 3: True, Error: None
+2023-12-09 23:35:59,026 - INFO - Result 4: True, Error: None
+2023-12-09 23:35:59,027 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:36:20,493 - INFO - -- Run 2--
+2023-12-09 23:36:34,619 - INFO - Result 0: True, Error: None
+2023-12-09 23:36:34,619 - INFO - Result 1: True, Error: None
+2023-12-09 23:36:34,619 - INFO - Result 2: True, Error: None
+2023-12-09 23:36:34,619 - INFO - Result 3: True, Error: None
+2023-12-09 23:36:34,619 - INFO - Result 4: True, Error: None
+2023-12-09 23:36:34,619 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:36:56,051 - INFO - -- Run 3--
+2023-12-09 23:37:12,715 - INFO - Result 0: True, Error: None
+2023-12-09 23:37:12,715 - INFO - Result 1: True, Error: None
+2023-12-09 23:37:12,715 - INFO - Result 2: True, Error: None
+2023-12-09 23:37:12,715 - INFO - Result 3: True, Error: None
+2023-12-09 23:37:12,715 - INFO - Result 4: True, Error: None
+2023-12-09 23:37:12,715 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:37:34,126 - INFO - -- Run 4--
+2023-12-09 23:37:48,431 - INFO - Result 0: True, Error: None
+2023-12-09 23:37:48,431 - INFO - Result 1: True, Error: None
+2023-12-09 23:37:48,431 - INFO - Result 2: True, Error: None
+2023-12-09 23:37:48,431 - INFO - Result 3: True, Error: None
+2023-12-09 23:37:48,431 - INFO - Result 4: True, Error: None
+2023-12-09 23:37:48,431 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:38:09,862 - INFO - -- Run 5--
+2023-12-09 23:38:24,899 - INFO - Result 0: True, Error: None
+2023-12-09 23:38:24,899 - INFO - Result 1: True, Error: None
+2023-12-09 23:38:24,899 - INFO - Result 2: True, Error: None
+2023-12-09 23:38:24,899 - INFO - Result 3: True, Error: None
+2023-12-09 23:38:24,899 - INFO - Result 4: True, Error: None
+2023-12-09 23:38:24,899 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:38:46,367 - INFO - -- Run 6--
+2023-12-09 23:39:00,275 - INFO - Result 0: True, Error: None
+2023-12-09 23:39:00,276 - INFO - Result 1: True, Error: None
+2023-12-09 23:39:00,276 - INFO - Result 2: True, Error: None
+2023-12-09 23:39:00,276 - INFO - Result 3: True, Error: None
+2023-12-09 23:39:00,276 - INFO - Result 4: True, Error: None
+2023-12-09 23:39:00,276 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:39:21,772 - INFO - -- Run 7--
+2023-12-09 23:39:36,008 - INFO - Result 0: True, Error: None
+2023-12-09 23:39:36,008 - INFO - Result 1: True, Error: None
+2023-12-09 23:39:36,008 - INFO - Result 2: True, Error: None
+2023-12-09 23:39:36,008 - INFO - Result 3: True, Error: None
+2023-12-09 23:39:36,008 - INFO - Result 4: True, Error: None
+2023-12-09 23:39:36,008 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:39:57,440 - INFO - -- Run 8--
+2023-12-09 23:40:14,656 - INFO - Result 0: True, Error: None
+2023-12-09 23:40:14,656 - INFO - Result 1: True, Error: None
+2023-12-09 23:40:14,656 - INFO - Result 2: True, Error: None
+2023-12-09 23:40:14,656 - INFO - Result 3: True, Error: None
+2023-12-09 23:40:14,656 - INFO - Result 4: True, Error: None
+2023-12-09 23:40:14,656 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:40:36,103 - INFO - -- Run 9--
+2023-12-09 23:40:49,877 - INFO - Result 0: True, Error: None
+2023-12-09 23:40:49,877 - INFO - Result 1: True, Error: None
+2023-12-09 23:40:49,877 - INFO - Result 2: True, Error: None
+2023-12-09 23:40:49,877 - INFO - Result 3: True, Error: None
+2023-12-09 23:40:49,877 - INFO - Result 4: True, Error: None
+2023-12-09 23:40:49,877 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:41:11,345 - INFO - -- Run 10--
+2023-12-09 23:41:25,281 - INFO - Result 0: True, Error: None
+2023-12-09 23:41:25,282 - INFO - Result 1: True, Error: None
+2023-12-09 23:41:25,282 - INFO - Result 2: True, Error: None
+2023-12-09 23:41:25,282 - INFO - Result 3: True, Error: None
+2023-12-09 23:41:25,282 - INFO - Result 4: True, Error: None
+2023-12-09 23:41:25,282 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:41:46,738 - INFO -    ========= Summary ==========
+Success: 50
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 23:41:46,738 - INFO - ++++ Running 8 ++++
+2023-12-09 23:41:46,739 - INFO - Starting Stable Pattern...
+2023-12-09 23:41:46,739 - INFO - -- Run 1--
+2023-12-09 23:42:04,738 - INFO - Result 0: True, Error: None
+2023-12-09 23:42:04,739 - INFO - Result 1: True, Error: None
+2023-12-09 23:42:04,740 - INFO - Result 2: True, Error: None
+2023-12-09 23:42:04,740 - INFO - Result 3: True, Error: None
+2023-12-09 23:42:04,740 - INFO - Result 4: True, Error: None
+2023-12-09 23:42:04,740 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:42:26,172 - INFO - -- Run 2--
+2023-12-09 23:42:45,268 - INFO - Result 0: True, Error: None
+2023-12-09 23:42:45,268 - INFO - Result 1: True, Error: None
+2023-12-09 23:42:45,268 - INFO - Result 2: True, Error: None
+2023-12-09 23:42:45,268 - INFO - Result 3: True, Error: None
+2023-12-09 23:42:45,268 - INFO - Result 4: True, Error: None
+2023-12-09 23:42:45,268 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:43:06,694 - INFO - -- Run 3--
+2023-12-09 23:43:23,652 - INFO - Result 0: True, Error: None
+2023-12-09 23:43:23,652 - INFO - Result 1: True, Error: None
+2023-12-09 23:43:23,653 - INFO - Result 2: True, Error: None
+2023-12-09 23:43:23,653 - INFO - Result 3: True, Error: None
+2023-12-09 23:43:23,653 - INFO - Result 4: True, Error: None
+2023-12-09 23:43:23,653 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:43:45,143 - INFO - -- Run 4--
+2023-12-09 23:44:12,384 - INFO - Result 0: True, Error: None
+2023-12-09 23:44:12,384 - INFO - Result 1: True, Error: None
+2023-12-09 23:44:12,384 - INFO - Result 2: True, Error: None
+2023-12-09 23:44:12,384 - INFO - Result 3: True, Error: None
+2023-12-09 23:44:12,384 - INFO - Result 4: True, Error: None
+2023-12-09 23:44:12,384 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:44:33,831 - INFO - -- Run 5--
+2023-12-09 23:44:50,789 - INFO - Result 0: True, Error: None
+2023-12-09 23:44:50,789 - INFO - Result 1: True, Error: None
+2023-12-09 23:44:50,790 - INFO - Result 2: True, Error: None
+2023-12-09 23:44:50,790 - INFO - Result 3: True, Error: None
+2023-12-09 23:44:50,790 - INFO - Result 4: True, Error: None
+2023-12-09 23:44:50,790 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:45:12,231 - INFO - -- Run 6--
+2023-12-09 23:45:33,408 - INFO - Result 0: True, Error: None
+2023-12-09 23:45:33,409 - INFO - Result 1: True, Error: None
+2023-12-09 23:45:33,409 - INFO - Result 2: True, Error: None
+2023-12-09 23:45:33,409 - INFO - Result 3: True, Error: None
+2023-12-09 23:45:33,409 - INFO - Result 4: True, Error: None
+2023-12-09 23:45:33,410 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:45:54,840 - INFO - -- Run 7--
+2023-12-09 23:46:24,102 - INFO - Result 0: True, Error: None
+2023-12-09 23:46:24,102 - INFO - Result 1: True, Error: None
+2023-12-09 23:46:24,102 - INFO - Result 2: True, Error: None
+2023-12-09 23:46:24,103 - INFO - Result 3: True, Error: None
+2023-12-09 23:46:24,103 - INFO - Result 4: True, Error: None
+2023-12-09 23:46:24,103 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:46:45,569 - INFO - -- Run 8--
+2023-12-09 23:47:06,503 - INFO - Result 0: True, Error: None
+2023-12-09 23:47:06,504 - INFO - Result 1: True, Error: None
+2023-12-09 23:47:06,504 - INFO - Result 2: True, Error: None
+2023-12-09 23:47:06,504 - INFO - Result 3: True, Error: None
+2023-12-09 23:47:06,504 - INFO - Result 4: True, Error: None
+2023-12-09 23:47:06,504 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:47:27,962 - INFO - -- Run 9--
+2023-12-09 23:47:45,688 - INFO - Result 0: True, Error: None
+2023-12-09 23:47:45,688 - INFO - Result 1: True, Error: None
+2023-12-09 23:47:45,688 - INFO - Result 2: True, Error: None
+2023-12-09 23:47:45,688 - INFO - Result 3: True, Error: None
+2023-12-09 23:47:45,688 - INFO - Result 4: True, Error: None
+2023-12-09 23:47:45,688 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:48:07,116 - INFO - -- Run 10--
+2023-12-09 23:48:51,427 - INFO - Result 0: True, Error: None
+2023-12-09 23:48:51,427 - INFO - Result 1: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 23:48:51,428 - INFO - Result 2: True, Error: None
+2023-12-09 23:48:51,428 - INFO - Result 3: True, Error: None
+2023-12-09 23:48:51,428 - INFO - Result 4: True, Error: None
+2023-12-09 23:48:51,428 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 23:49:12,943 - INFO -    ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+                  
+2023-12-09 23:49:12,943 - INFO - ++++ Running 9 ++++
+2023-12-09 23:49:12,943 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 23:49:12,943 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 23:49:25,699 - INFO - Result 0: True, Error: None
+2023-12-09 23:49:25,700 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:49:30,778 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 23:49:43,230 - INFO - Result 0: True, Error: None
+2023-12-09 23:49:43,231 - INFO - Result 1: True, Error: None
+2023-12-09 23:49:43,231 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:49:52,420 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 23:50:08,766 - INFO - Result 0: True, Error: None
+2023-12-09 23:50:08,766 - INFO - Result 1: True, Error: None
+2023-12-09 23:50:08,767 - INFO - Result 2: True, Error: None
+2023-12-09 23:50:08,767 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:50:22,050 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 23:50:35,499 - INFO - Result 0: True, Error: None
+2023-12-09 23:50:35,500 - INFO - Result 1: True, Error: None
+2023-12-09 23:50:35,500 - INFO - Result 2: True, Error: None
+2023-12-09 23:50:35,500 - INFO - Result 3: True, Error: None
+2023-12-09 23:50:35,500 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:50:52,901 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 23:51:27,689 - INFO - Result 0: True, Error: None
+2023-12-09 23:51:27,689 - INFO - Result 1: True, Error: None
+2023-12-09 23:51:27,689 - INFO - Result 2: True, Error: None
+2023-12-09 23:51:27,689 - INFO - Result 3: True, Error: None
+2023-12-09 23:51:27,689 - INFO - Result 4: True, Error: None
+2023-12-09 23:51:27,689 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:51:49,128 - INFO - -- Run 6-- Num workers: 5
+2023-12-09 23:52:03,587 - INFO - Result 0: True, Error: None
+2023-12-09 23:52:03,587 - INFO - Result 1: True, Error: None
+2023-12-09 23:52:03,587 - INFO - Result 2: True, Error: None
+2023-12-09 23:52:03,587 - INFO - Result 3: True, Error: None
+2023-12-09 23:52:03,587 - INFO - Result 4: True, Error: None
+2023-12-09 23:52:03,587 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:52:24,062 - INFO - -- Run 8-- Num workers: 5
+2023-12-09 23:52:38,195 - INFO - Result 0: True, Error: None
+2023-12-09 23:52:38,195 - INFO - Result 1: True, Error: None
+2023-12-09 23:52:38,195 - INFO - Result 2: True, Error: None
+2023-12-09 23:52:38,195 - INFO - Result 3: True, Error: None
+2023-12-09 23:52:38,195 - INFO - Result 4: True, Error: None
+2023-12-09 23:52:38,195 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:52:59,726 - INFO - -- Run 9-- Num workers: 5
+2023-12-09 23:53:14,535 - INFO - Result 0: True, Error: None
+2023-12-09 23:53:14,535 - INFO - Result 1: True, Error: None
+2023-12-09 23:53:14,535 - INFO - Result 2: True, Error: None
+2023-12-09 23:53:14,535 - INFO - Result 3: True, Error: None
+2023-12-09 23:53:14,535 - INFO - Result 4: True, Error: None
+2023-12-09 23:53:14,535 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:53:35,998 - INFO - -- Run 10-- Num workers: 5
+2023-12-09 23:53:50,442 - INFO - Result 0: True, Error: None
+2023-12-09 23:53:50,442 - INFO - Result 1: True, Error: None
+2023-12-09 23:53:50,442 - INFO - Result 2: True, Error: None
+2023-12-09 23:53:50,443 - INFO - Result 3: True, Error: None
+2023-12-09 23:53:50,443 - INFO - Result 4: True, Error: None
+2023-12-09 23:53:50,443 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:54:11,931 - INFO - -- Run 11-- Num workers: 5
+2023-12-09 23:54:25,956 - INFO - Result 0: True, Error: None
+2023-12-09 23:54:25,957 - INFO - Result 1: True, Error: None
+2023-12-09 23:54:25,957 - INFO - Result 2: True, Error: None
+2023-12-09 23:54:25,957 - INFO - Result 3: True, Error: None
+2023-12-09 23:54:25,957 - INFO - Result 4: True, Error: None
+2023-12-09 23:54:25,957 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:54:47,418 - INFO - -- Run 12-- Num workers: 5
+2023-12-09 23:55:01,729 - INFO - Result 0: True, Error: None
+2023-12-09 23:55:01,729 - INFO - Result 1: True, Error: None
+2023-12-09 23:55:01,729 - INFO - Result 2: True, Error: None
+2023-12-09 23:55:01,729 - INFO - Result 3: True, Error: None
+2023-12-09 23:55:01,730 - INFO - Result 4: True, Error: None
+2023-12-09 23:55:01,730 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:55:23,172 - INFO - -- Run 13-- Num workers: 5
+2023-12-09 23:55:36,837 - INFO - Result 0: True, Error: None
+2023-12-09 23:55:36,838 - INFO - Result 1: True, Error: None
+2023-12-09 23:55:36,838 - INFO - Result 2: True, Error: None
+2023-12-09 23:55:36,838 - INFO - Result 3: True, Error: None
+2023-12-09 23:55:36,839 - INFO - Result 4: True, Error: None
+2023-12-09 23:55:36,839 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:55:58,300 - INFO - -- Run 14-- Num workers: 5
+2023-12-09 23:56:14,691 - INFO - Result 0: True, Error: None
+2023-12-09 23:56:14,691 - INFO - Result 1: True, Error: None
+2023-12-09 23:56:14,691 - INFO - Result 2: True, Error: None
+2023-12-09 23:56:14,691 - INFO - Result 3: True, Error: None
+2023-12-09 23:56:14,691 - INFO - Result 4: True, Error: None
+2023-12-09 23:56:14,691 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:56:36,127 - INFO - -- Run 15-- Num workers: 5
+2023-12-09 23:56:50,223 - INFO - Result 0: True, Error: None
+2023-12-09 23:56:50,223 - INFO - Result 1: True, Error: None
+2023-12-09 23:56:50,223 - INFO - Result 2: True, Error: None
+2023-12-09 23:56:50,223 - INFO - Result 3: True, Error: None
+2023-12-09 23:56:50,223 - INFO - Result 4: True, Error: None
+2023-12-09 23:56:50,223 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:57:11,655 - INFO - -- Run 16-- Num workers: 5
+2023-12-09 23:57:25,979 - INFO - Result 0: True, Error: None
+2023-12-09 23:57:25,979 - INFO - Result 1: True, Error: None
+2023-12-09 23:57:25,979 - INFO - Result 2: True, Error: None
+2023-12-09 23:57:25,979 - INFO - Result 3: True, Error: None
+2023-12-09 23:57:25,979 - INFO - Result 4: True, Error: None
+2023-12-09 23:57:25,979 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:57:47,426 - INFO - -- Run 17-- Num workers: 5
+2023-12-09 23:58:00,870 - INFO - Result 0: True, Error: None
+2023-12-09 23:58:00,870 - INFO - Result 1: True, Error: None
+2023-12-09 23:58:00,870 - INFO - Result 2: True, Error: None
+2023-12-09 23:58:00,870 - INFO - Result 3: True, Error: None
+2023-12-09 23:58:00,871 - INFO - Result 4: True, Error: None
+2023-12-09 23:58:00,871 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:58:22,371 - INFO -    ========= Summary ==========
+Success: 70
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 23:58:22,372 - INFO - ++++ Running 10 ++++
+2023-12-09 23:58:22,372 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 23:58:22,372 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 23:58:36,266 - INFO - Result 0: True, Error: None
+2023-12-09 23:58:36,266 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:58:41,357 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 23:58:56,078 - INFO - Result 0: True, Error: None
+2023-12-09 23:58:56,079 - INFO - Result 1: True, Error: None
+2023-12-09 23:58:56,079 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:59:05,270 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 23:59:20,227 - INFO - Result 0: True, Error: None
+2023-12-09 23:59:20,227 - INFO - Result 1: True, Error: None
+2023-12-09 23:59:20,227 - INFO - Result 2: True, Error: None
+2023-12-09 23:59:20,227 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 23:59:33,510 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 23:59:53,032 - INFO - Result 0: True, Error: None
+2023-12-09 23:59:53,032 - INFO - Result 1: True, Error: None
+2023-12-09 23:59:53,032 - INFO - Result 2: True, Error: None
+2023-12-09 23:59:53,032 - INFO - Result 3: True, Error: None
+2023-12-09 23:59:53,032 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:00:10,393 - INFO - -- Run 5-- Num workers: 5
+2023-12-10 00:00:30,482 - INFO - Result 0: True, Error: None
+2023-12-10 00:00:30,482 - INFO - Result 1: True, Error: None
+2023-12-10 00:00:30,482 - INFO - Result 2: True, Error: None
+2023-12-10 00:00:30,482 - INFO - Result 3: True, Error: None
+2023-12-10 00:00:30,482 - INFO - Result 4: True, Error: None
+2023-12-10 00:00:30,482 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:00:51,930 - INFO - -- Run 6-- Num workers: 5
+2023-12-10 00:01:14,230 - INFO - Result 0: True, Error: None
+2023-12-10 00:01:14,230 - INFO - Result 1: True, Error: None
+2023-12-10 00:01:14,231 - INFO - Result 2: True, Error: None
+2023-12-10 00:01:14,231 - INFO - Result 3: True, Error: None
+2023-12-10 00:01:14,231 - INFO - Result 4: True, Error: None
+2023-12-10 00:01:14,231 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:01:34,730 - INFO - -- Run 8-- Num workers: 5
+2023-12-10 00:01:53,360 - INFO - Result 0: True, Error: None
+2023-12-10 00:01:53,360 - INFO - Result 1: True, Error: None
+2023-12-10 00:01:53,360 - INFO - Result 2: True, Error: None
+2023-12-10 00:01:53,360 - INFO - Result 3: True, Error: None
+2023-12-10 00:01:53,360 - INFO - Result 4: True, Error: None
+2023-12-10 00:01:53,361 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:02:14,871 - INFO - -- Run 9-- Num workers: 5
+2023-12-10 00:02:39,287 - INFO - Result 0: True, Error: None
+2023-12-10 00:02:39,287 - INFO - Result 1: True, Error: None
+2023-12-10 00:02:39,287 - INFO - Result 2: True, Error: None
+2023-12-10 00:02:39,287 - INFO - Result 3: True, Error: None
+2023-12-10 00:02:39,287 - INFO - Result 4: True, Error: None
+2023-12-10 00:02:39,287 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:03:00,756 - INFO - -- Run 10-- Num workers: 5
+2023-12-10 00:03:18,433 - INFO - Result 0: True, Error: None
+2023-12-10 00:03:18,434 - INFO - Result 1: True, Error: None
+2023-12-10 00:03:18,434 - INFO - Result 2: True, Error: None
+2023-12-10 00:03:18,434 - INFO - Result 3: True, Error: None
+2023-12-10 00:03:18,434 - INFO - Result 4: True, Error: None
+2023-12-10 00:03:18,434 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:03:39,882 - INFO - -- Run 11-- Num workers: 5
+2023-12-10 00:04:00,258 - INFO - Result 0: True, Error: None
+2023-12-10 00:04:00,258 - INFO - Result 1: True, Error: None
+2023-12-10 00:04:00,258 - INFO - Result 2: True, Error: None
+2023-12-10 00:04:00,259 - INFO - Result 3: True, Error: None
+2023-12-10 00:04:00,259 - INFO - Result 4: True, Error: None
+2023-12-10 00:04:00,259 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:04:21,757 - INFO - -- Run 12-- Num workers: 5
+2023-12-10 00:04:40,943 - INFO - Result 0: True, Error: None
+2023-12-10 00:04:40,943 - INFO - Result 1: True, Error: None
+2023-12-10 00:04:40,943 - INFO - Result 2: True, Error: None
+2023-12-10 00:04:40,943 - INFO - Result 3: True, Error: None
+2023-12-10 00:04:40,943 - INFO - Result 4: True, Error: None
+2023-12-10 00:04:40,943 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:05:02,441 - INFO - -- Run 13-- Num workers: 5
+2023-12-10 00:05:21,121 - INFO - Result 0: True, Error: None
+2023-12-10 00:05:21,121 - INFO - Result 1: True, Error: None
+2023-12-10 00:05:21,122 - INFO - Result 2: True, Error: None
+2023-12-10 00:05:21,122 - INFO - Result 3: True, Error: None
+2023-12-10 00:05:21,122 - INFO - Result 4: True, Error: None
+2023-12-10 00:05:21,122 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:05:42,618 - INFO - -- Run 14-- Num workers: 5
+2023-12-10 00:06:04,012 - INFO - Result 0: True, Error: None
+2023-12-10 00:06:04,012 - INFO - Result 1: True, Error: None
+2023-12-10 00:06:04,012 - INFO - Result 2: True, Error: None
+2023-12-10 00:06:04,012 - INFO - Result 3: True, Error: None
+2023-12-10 00:06:04,012 - INFO - Result 4: True, Error: None
+2023-12-10 00:06:04,012 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:06:25,464 - INFO - -- Run 15-- Num workers: 5
+2023-12-10 00:06:43,550 - INFO - Result 0: True, Error: None
+2023-12-10 00:06:43,550 - INFO - Result 1: True, Error: None
+2023-12-10 00:06:43,551 - INFO - Result 2: True, Error: None
+2023-12-10 00:06:43,551 - INFO - Result 3: True, Error: None
+2023-12-10 00:06:43,551 - INFO - Result 4: True, Error: None
+2023-12-10 00:06:43,551 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:07:05,009 - INFO - -- Run 16-- Num workers: 5
+2023-12-10 00:07:22,416 - INFO - Result 0: True, Error: None
+2023-12-10 00:07:22,416 - INFO - Result 1: True, Error: None
+2023-12-10 00:07:22,416 - INFO - Result 2: True, Error: None
+2023-12-10 00:07:22,416 - INFO - Result 3: True, Error: None
+2023-12-10 00:07:22,418 - INFO - Result 4: True, Error: None
+2023-12-10 00:07:22,418 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:07:43,880 - INFO - -- Run 17-- Num workers: 5
+2023-12-10 00:08:06,080 - INFO - Result 0: True, Error: None
+2023-12-10 00:08:06,080 - INFO - Result 1: True, Error: None
+2023-12-10 00:08:06,080 - INFO - Result 2: True, Error: None
+2023-12-10 00:08:06,080 - INFO - Result 3: True, Error: None
+2023-12-10 00:08:06,080 - INFO - Result 4: True, Error: None
+2023-12-10 00:08:06,080 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-10 00:08:27,569 - INFO -    ========= Summary ==========
+Success: 70
+Error: 0
+Error Rate: 0.0
+                  
