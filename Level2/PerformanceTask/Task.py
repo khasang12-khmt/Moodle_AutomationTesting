@@ -184,16 +184,12 @@ class CustomTask(PerformanceTask):
         except Exception as err:
             raise(err)
         
-    def _task(self, setup_method = True):
+    def _task(self):
         try:
-            setup_method and self.driver.get(SANDBOX_URL)
-            setup_method and self.driver.set_window_size(787, 816)
-            
+            self.driver.get(SANDBOX_URL)
+            self.driver.set_window_size(787, 816)
             for task in self.tasks:
                 self.step(task)
-            
-            if setup_method and self.driver:
-                self.driver.quit()
             return True
         except Exception as err:
             return Exception(f"Unexpected {err=}, {type(err)=}")
