@@ -5,6 +5,9 @@ logging.basicConfig(filename='stress_test.log', level=logging.INFO, format='%(as
 class PerformanceRunner:
     def __init__(self, num_workers=1):
         self.__num_workers = num_workers
+    
+    def setWorker(self,workers):
+        self.__num_workers = workers
         
     def run(self, task_class, num_workers, **kwargs):
         try:

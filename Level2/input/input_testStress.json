@@ -1,0 +1,214 @@
+[
+    {
+        "id": 1,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 3,
+        "method": "stable_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 2,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 5,
+        "method": "stable_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 3,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 10,
+        "method": "stable_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 4,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 3,
+        "method": "ram_up_pattern",
+        "stable_count": 5
+    },
+    {
+        "id": 5,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 5,
+        "method": "ram_up_pattern",
+        "stable_count": 5
+    },
+    {
+        "id": 6,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "wait", "expected_condition": "presence_of_element_located", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "timeout": 10},
+            {"action": "click", "element_type": "css selector", "element_locator": "div[data-region='course-content']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ],
+        "workers": 10,
+        "method": "ram_up_pattern",
+        "stable_count": 5
+    },
+    {
+        "id": 7,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Profile", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Edit profile", "value": null},           
+            {"action": "drop_files", "element_type": "css selector", "element_locator": ".filemanager-container", "value": "../testdata/vinh/image.png"},            
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+            
+        ],
+        "workers": 5,
+        "method": "stable_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 8,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Profile", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Edit profile", "value": null},           
+            {"action": "drop_files", "element_type": "css selector", "element_locator": ".filemanager-container", "value": "../testdata/vinh/big_image_10MB.png"},            
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+            
+        ],
+        "workers": 5,
+        "method": "stable_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 9,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Profile", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Edit profile", "value": null},           
+            {"action": "drop_files", "element_type": "css selector", "element_locator": ".filemanager-container", "value": "../testdata/vinh/image.png"},            
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+            
+        ],
+        "workers": 5,
+        "method": "ram_up_pattern",
+        "stable_count": 10
+    },
+    {
+        "id": 10,
+        "url": "https://sandbox400.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "teacher"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Profile", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Edit profile", "value": null},           
+            {"action": "drop_files", "element_type": "css selector", "element_locator": ".filemanager-container", "value": "../testdata/vinh/big_image_10MB.png"},            
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+            
+        ],
+        "workers": 5,
+        "method": "ram_up_pattern",
+        "stable_count": 10
+    }
+]
