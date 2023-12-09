@@ -11,8 +11,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support import expected_conditions as EC
 
-class TestEditTimeAndDoQuiz():
-    
+class TestEditQuizTime():
     def __init__(self):
         self.first_run = True;
     
@@ -46,11 +45,13 @@ class TestEditTimeAndDoQuiz():
         time.sleep(5)
 
     
-    def test_1(self):
+    def test_EditTime_1(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -77,11 +78,46 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
         
-    def test_2(self):
+    def test_EditTime_2(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.LINK_TEXT, "Settings").click()
+            time.sleep(5)
+            self.driver.find_element(By.ID, "collapseElement-1").click()
+            time.sleep(5)
+            enableItem = self.driver.find_element(By.ID, "id_timelimit_enabled")
+            if enableItem.is_selected() == False:
+                enableItem.click()
+            elements = self.driver.find_element(By.ID, "id_timelimit_number")
+            if elements:
+                self.driver.find_element(By.ID, "id_timelimit_number").click()
+                self.driver.find_element(By.ID, "id_timelimit_number").send_keys("0")
+                self.driver.find_element(By.ID, "id_submitbutton2").click()
+                time.sleep(5)
+                self.logout()
+                return True
+            else:
+                self.logout()
+                return False
+        except Exception as err:
+            print(f"Unexpected {err=}, {type(err)=}")
+            self.logout()
+            return False
+        
+    def test_EditTime_3(self):
+        print(sys._getframe(0).f_code.co_name)
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -107,48 +143,14 @@ class TestEditTimeAndDoQuiz():
             print(f"Unexpected {err=}, {type(err)=}")
             self.logout()
             return False
-        
-    def test_3(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
-            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
-            self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
-            time.sleep(5)
-            self.driver.find_element(By.LINK_TEXT, "Settings").click()
-            time.sleep(5)
-            enableItem = self.driver.find_element(By.LINK_TEXT, "id_timelimit_enabled")
-            if not enableItem.checked:
-                self.logout()
-                return True
-            time.sleep(5)
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            time.sleep(5)
-            enableItem = self.driver.find_element(By.ID, "id_timelimit_enabled")
-            if enableItem.is_selected() == False:
-                enableItem.click()
-            elements = self.driver.find_element(By.ID, "id_timelimit_number")
-            if elements:
-                self.driver.find_element(By.ID, "id_timelimit_number").click()
-                self.driver.find_element(By.ID, "id_timelimit_number").send_keys("0")
-                self.driver.find_element(By.ID, "id_submitbutton2").click()
-                time.sleep(5)
-                self.logout()
-                return True
-            else:
-                self.logout()
-                return False
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.logout()
-            return False
     
-    def test_4(self):
+    def test_EditTime_4(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -175,11 +177,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
     
-    def test_5(self):
+    def test_EditTime_5(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -206,11 +210,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
         
-    def test_6(self):
+    def test_EditTime_6(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -237,11 +243,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
     
-    def test_7(self):
+    def test_EditTime_7(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -268,11 +276,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
         
-    def test_8(self):
+    def test_EditTime_8(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -299,11 +309,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
         
-    def test_9(self):
+    def test_EditTime_9(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -330,11 +342,13 @@ class TestEditTimeAndDoQuiz():
             self.logout()
             return False
     
-    def test_10(self):
+    def test_EditTime_10(self):
         print(sys._getframe(0).f_code.co_name)
         try:
             self.precondition()
-            self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
             self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
             self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
             time.sleep(5)
@@ -365,29 +379,29 @@ class TestEditTimeAndDoQuiz():
         result = []
         for test in test_list:
             result.append(test())
-        fail_test_name = []
+        fail_test_EditTime_name = []
         for i in range(0, len(result)):
             if not result[i]:
-                fail_test_name.append(test_list[i].__name__)
+                fail_test_EditTime_name.append(test_list[i].__name__)
 
-        fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
+        fail_test_EditTime_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_EditTime_name) if len(fail_test_EditTime_name) != 0 else 'Fail testcase: None'
         return f"""
-        \n- Test Edit Time To Quiz (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+        \n- Test Edit Time Of Quiz (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_EditTime_name_str}\n
         """
 
     def run(self):
         self.setup_method(None)
         result = self.test(
-            self.test_1,
-            self.test_2,
-            self.test_3,
-            self.test_4,
-            self.test_5,
-            self.test_6,
-            self.test_7,
-            self.test_8,
-            self.test_9,
-            self.test_10,
+            self.test_EditTime_1,
+            self.test_EditTime_2,
+            self.test_EditTime_3,
+            self.test_EditTime_4,
+            self.test_EditTime_5,
+            self.test_EditTime_6,
+            self.test_EditTime_7,
+            self.test_EditTime_8,
+            self.test_EditTime_9,
+            self.test_EditTime_10,
         )
         self.teardown_method(None)
         return result
@@ -395,8 +409,8 @@ class TestEditTimeAndDoQuiz():
     
     
      
-editTimeAndDoQuiz = TestEditTimeAndDoQuiz()
-print(editTimeAndDoQuiz.run())
+editQuizTime = TestEditQuizTime()
+print(editQuizTime.run())
   
 
 

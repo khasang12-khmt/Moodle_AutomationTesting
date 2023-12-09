@@ -12,556 +12,812 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.support import expected_conditions as EC
 
-class TestEditTimeAndDoQuiz():
+class TestDoQuiz():
+    def __init__(self):
+        self.first_run = True;
+    
     def setup_method(self, method):
-        self.driver = webdriver.Chrome()
-        self.vars = {}
+        options = webdriver.ChromeOptions()
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        self.driver = webdriver.Chrome(options=options)
   
     def teardown_method(self, method):
         self.driver.quit()
+            
+    def precondition(self):
+        self.driver.get("https://school.moodledemo.net/")
+        self.driver.set_window_size(1056, 804)
+        self.driver.find_element(By.LINK_TEXT, "Log in").click()
+        if self.first_run:
+            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
+            self.driver.find_element(By.ID, "username").send_keys("")
+            self.driver.find_element(By.ID, "password").click()
+            self.driver.find_element(By.ID, "username").click()
+            self.driver.find_element(By.ID, "username").send_keys("teacher")
+            self.driver.find_element(By.ID, "password").click()
+            self.first_run = False
+        self.driver.find_element(By.ID, "password").send_keys("moodle")
+        self.driver.find_element(By.ID, "loginbtn").click()
+        time.sleep(5)
+    
+    def logout(self):
+        self.driver.find_element(By.ID, "user-menu-toggle").click()
+        self.driver.find_element(By.LINK_TEXT, "Log out").click()
+        time.sleep(5)
         
-    def test(self, *testEditTimeAndDoQuiz_list):
-        result = []
-        for test in testEditTimeAndDoQuiz_list:
-            result.append(test())
-            fail_testEditTimeAndDoQuiz_name = []
-            for i in range(0, len(result)):
-                if not result[i]:
-                    fail_testEditTimeAndDoQuiz_name.append(testEditTimeAndDoQuiz_list[i].__name__)
 
-            fail_testEditTimeAndDoQuiz_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_testEditTimeAndDoQuiz_name) if len(fail_testEditTimeAndDoQuiz_name) != 0 else 'Fail testcase: None'
-            return f"""
-            \n- Test Edit Time And Do Quiz (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_testEditTimeAndDoQuiz_name_str}\n
-            """
+    def testDoQuiz_1(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("10")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("20")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("30")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("40")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("31003232")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("4")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("2121212121")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("123")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("456")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("9999999999999")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("1000000000000")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("657964394394")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("2023932932")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("0")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("0")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_2(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("sasabs")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("dsdsdsds")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("wqwqwqwqw")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("#!3433434")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("#$%^&&&*")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("sasar34354")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("me131433uh")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("0121243e")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("4302r3")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("54t4gj9")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("314084#5")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("284329u")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("#493r34")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("8y4tnc2")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("99999999")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_3(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("RUMW756;4Y%29n")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("~g/%")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("MQ5pNWz=J-B")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("foffQl.zq")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("<Zs|KlE=$3iU")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("^#f+o+")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("]!tS*rcw3f4Yb{4")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("IYO&PiN_g:bt")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("vUC")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("+3|N2&GZ?a")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys(">^rHfpe,ne")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("O-{e<Mla+]}=yQ")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("5]LwXJ;$-]4")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("~oS{-.gZ3YkubD0")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("Qpz7:&d~:lL")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_4(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("(")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("G.O2|~'1GwUj")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("U])k6,")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("ZC^n")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys(")dPCg9")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("R89<G53-")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("jJ")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("//?E,[h<v")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys(";eGx+%Gd`")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("%;L")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("47jD7'zUz1")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys(">$N(r+DpGFRn`d")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("E'iTw3V]")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("RSv`")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("P-@ylX^ee?bR5H")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_5(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("3G%7h")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("Z4#L")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("K8$1")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("Q2@9")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("*B5f")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("6&N3")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("M0#7")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("T1^5")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("R@7G")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("4J#2")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("6!X8")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("2%P9")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("Y@3H")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("8&K4")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("L0#5")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_6(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("7^C2")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("M@4E")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("3B#6")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("9!N1")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("5%K8")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("X@0R")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("7&J2")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("Q2^9")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("6@G4")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("B#1N")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("8!T5")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("3%P0")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("Y@7L")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("2&F8")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("4#W1")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_7(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("8^N0")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("E@3G")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("1B#4")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("7!K2")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("6%L9")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("R@1Y")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("5&J8")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("4^P7")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("8@H6")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("F#2N")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("9!Q1")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("0%G5")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("K@4L")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("3&C2")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("6#W8")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_8(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("1^L4")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("G@5E")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("2B#9")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("8!N6")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("7%R0")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("Y@2X")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("6&F1")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("5^T2")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("9@P3")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("H#0N")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("1!L7")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("2%N8")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("L@1K")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("4&C7")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("5#G3")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+        
+    def testDoQuiz_9(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("2^F3")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("H@6E")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("4B#1")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("9!L0")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("8%Y5")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("X@3R")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("7&K2")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("6^J1")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("0@T4")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("G#7N")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("2!P8")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("3%H9")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("L@8K")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("5&C1")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("4#Y7")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+    
+    def testDoQuiz_10(self):
+        print(sys._getframe(0).f_code.co_name) 
+        try:
+            self.precondition()
+            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("activity")
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//div[1]/div/div/div/a/span[3]").click()
+            self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
+            self.driver.find_element(By.XPATH, "//li[@id='module-703']/div/div[2]/div/div/div/div/a").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//button[contains(.,'Preview quiz')]").click()
+            time.sleep(5)
+            self.driver.find_element(By.XPATH, "//span/input").click()
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[1]/input").send_keys("0^Y7")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[2]/input").send_keys("X@9H")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[3]/input").send_keys("5B#2")
+            
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[1]/div[2]/div/p[2]/span[4]/input").send_keys("1!R3")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[1]/input").send_keys("9%L4")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[2]/input").send_keys("G@0E")
+            
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[2]/div[2]/div/p[2]/span[3]/input").send_keys("8&N6")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[1]/input").send_keys("7^F5")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[2]/input").send_keys("1@H0")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[3]/input").send_keys("K#4N")
+            
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[3]/div[2]/div/p[2]/span[4]/input").send_keys("3!Q9")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[1]/input").send_keys("4%P8")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[2]/input").send_keys("T@2Y")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[3]/input").send_keys("6&C0")
+            
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").click()
+            self.driver.find_element(By.XPATH, "//div[4]/div[2]/div/p[2]/span[4]/input").send_keys("W5#1")
+            
+
+            self.driver.find_element(By.XPATH, "//div[26]/input").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[5]/div/div/form/button").click()
+            time.sleep(3)
+            self.driver.find_element(By.XPATH, "//div[3]/button[2]").click()
+            self.logout()
+            return True
+        except Exception as err:
+            print(f'Unexpected error: {err}, type: {type(err)}')
+            self.logout()
+            return False
+    
+    def test(self, *test_list):
+        result = []
+        for test in test_list:
+            result.append(test())
+        fail_test_DoQuiz_name = []
+        for i in range(0, len(result)):
+            if not result[i]:
+                fail_test_DoQuiz_name.append(test_list[i].__name__)
+
+        fail_test_DoQuiz_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_DoQuiz_name) if len(fail_test_DoQuiz_name) != 0 else 'Fail testcase: None'
+        return f"""
+        \n- Test Do Quiz (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_DoQuiz_name_str}\n
+        """
 
     def run(self):
         self.setup_method(None)
         result = self.test(
-            self.test_responsive2,
-            # self.testEditTimeAndDoQuiz_1,
-            # self.testEditTimeAndDoQuiz_2,
-            # self.testEditTimeAndDoQuiz_3,
-            # self.testEditTimeAndDoQuiz_4,
-            # self.testEditTimeAndDoQuiz_5,
-            # self.testEditTimeAndDoQuiz_6,
-            # self.testEditTimeAndDoQuiz_7,
-            # self.testEditTimeAndDoQuiz_8,
-            # self.testEditTimeAndDoQuiz_9,
-            # self.testEditTimeAndDoQuiz_10,
+            self.test_DoQuiz_1,
+            self.test_DoQuiz_2,
+            self.test_DoQuiz_3,
+            self.test_DoQuiz_4,
+            self.test_DoQuiz_5,
+            self.test_DoQuiz_6,
+            self.test_DoQuiz_7,
+            self.test_DoQuiz_8,
+            self.test_DoQuiz_9,
+            self.test_DoQuiz_10,
         )
         self.teardown_method(None)
         return result
     
-    def test_responsive2(self):
-        self.driver.get("https://school.moodledemo.net/")
-        self.driver.set_window_size(1056, 804)
-        self.driver.find_element(By.LINK_TEXT, "Log in").click()
-        self.driver.find_element(By.ID, "username").click()
-        self.driver.find_element(By.ID, "username").send_keys("teacher")
-        self.driver.find_element(By.ID, "password").click()
-        self.driver.find_element(By.ID, "password").send_keys("moodle")
-        self.driver.find_element(By.ID, "loginbtn").click()
-        time.sleep(5)
-        self.driver.find_element(By.XPATH, "//div[3]/div/div/div/a/span[3]").click()
-        self.driver.find_element(By.LINK_TEXT, "Quizzes").click()
-        self.driver.find_element(By.XPATH, "//li[@id=\'module-703\']/div/div[2]/div/div/div/div/a").click()
-        self.driver.find_element(By.LINK_TEXT, "Settings").click()
-        self.driver.find_element(By.ID, "collapseElement-1").click()
-        self.driver.find_element(By.ID, "id_timeopen_day").click()
-        self.driver.find_element(By.ID, "id_timelimit_number").click()
-        self.driver.find_element(By.ID, "id_timelimit_number").send_keys("5")
-        time.sleep(5);
-        self.driver.find_element(By.ID, "id_submitbutton2").click()
-        self.driver.find_element(By.ID, "user-menu-toggle").click()
-        self.driver.find_element(By.LINK_TEXT, "Log out").click()
-        self.driver.close()
-        return True
     
-    def test_responsive1(self):
-        self.driver.get("https://school.moodledemo.net/")
-        self.driver.set_window_size(1056, 804)
-        self.driver.find_element(By.LINK_TEXT, "Log in").click()
-        self.driver.find_element(By.ID, "username").click()
-        self.driver.find_element(By.ID, "username").send_keys("teacher")
-        self.driver.find_element(By.ID, "password").click()
-        self.driver.find_element(By.ID, "password").send_keys("moodle")
-        self.driver.find_element(By.ID, "loginbtn").click()
-        time.sleep(3)
-        self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-        self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-        self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-        time.sleep(3)
-        self.driver.find_element(By.XPATH, "//span[3]").click()
-        time.sleep(3)
-        self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-        self.driver.find_element(By.LINK_TEXT, "Settings").click()
-        time.sleep(5)
-        self.driver.find_element(By.ID, "collapseElement-1").click()
-        self.driver.find_element(By.ID, "id_timeopen_day").click()
-        self.driver.find_element(By.ID, "id_timelimit_number").click()
-        self.driver.find_element(By.ID, "id_timelimit_number").send_keys("1")
-        self.driver.find_element(By.ID, "id_timelimit_number").send_keys(Keys.ENTER)
-        self.driver.find_element(By.ID, "id_submitbutton").click()
-        self.driver.find_element(By.ID, "user-menu-toggle").click()
-        self.driver.find_element(By.LINK_TEXT, "Log out").click()
-        self.driver.close()
-        return True
+    def run(self):
+        self.setup_method(None)
+        result = self.test(
+            self.testDoQuiz_1,
+            self.testDoQuiz_2,
+            self.testDoQuiz_3,
+            self.testDoQuiz_4,
+            self.testDoQuiz_5,
+            self.testDoQuiz_6,
+            self.testDoQuiz_7,
+            self.testDoQuiz_8,
+            self.testDoQuiz_9,
+            self.testDoQuiz_10,
+        )
+        self.teardown_method(None)
+        return result
     
-    def testEditTimeAndDoQuiz_1(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            time.sleep(5)
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            time.sleep(3)
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("1")
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys(Keys.ENTER)
-            self.driver.execute_script("window.scrollTo(400,400)")
-            time.sleep(3)
-            self.driver.find_element(By.ID, "id_submitbutton").click()
-            time.sleep(3)
-            # self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            # time.sleep(3)
-            # self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            # self.driver.execute_script("window.scrollTo(222,222)")
-            # self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            # self.driver.execute_script("window.scrollTo(100,100)")
-            # self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            # time.sleep(3)
-            # self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
     
-    def testEditTimeAndDoQuiz_2(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("0")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-       
-    def testEditTimeAndDoQuiz_3(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("15")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-    
-    def testEditTimeAndDoQuiz_4(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("abc2yugwvywuwyv22vw727wg9w82g92g929g29g29gg")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-       
-    def testEditTimeAndDoQuiz_5(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("@121232434343434343")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-        
-    def testEditTimeAndDoQuiz_6(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("INSERT malware to db.quiz")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-       
-    def testEditTimeAndDoQuiz_7(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("99999999999999999999999999999999")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-        
-    def testEditTimeAndDoQuiz_8(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("-100000000000000000000000")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-        
-    def testEditTimeAndDoQuiz_9(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("+1000000")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-        
-    def testEditTimeAndDoQuiz_10(self):
-        print(sys._getframe(0).f_code.co_name)
-        try:
-            self.driver.get("https://school.moodledemo.net/")
-            self.driver.set_window_size(790, 816)
-            self.driver.find_element(By.LINK_TEXT, "Log in").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".login-container").click()
-            self.driver.find_element(By.ID, "username").click()
-            self.driver.find_element(By.ID, "username").send_keys("teacher")
-            self.driver.find_element(By.ID, "password").click()
-            self.driver.find_element(By.ID, "password").send_keys("moodle")
-            self.driver.find_element(By.ID, "loginbtn").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").click();
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys("mind")
-            self.driver.find_element(By.CSS_SELECTOR, ".searchbar input.form-control").send_keys(Keys.ENTER)
-            time.sleep(3)
-            self.driver.find_element(By.XPATH, "//span[3]").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".modtype_quiz .aalink").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".nav-tabs > li:nth-child(2) > a").click()
-            self.driver.execute_script("window.scrollTo(0,391)")
-            self.driver.find_element(By.ID, "collapseElement-1").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").click()
-            self.driver.find_element(By.ID, "id_timelimit_number").send_keys("#$%^&(*)#")
-            time.sleep(3)
-            self.driver.execute_script("window.scrollTo(200,200)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary:nth-child(2)").click()
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".moodle-dialogue .btn-primary").click()
-            self.driver.execute_script("window.scrollTo(222,222)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            self.driver.execute_script("window.scrollTo(100,100)")
-            self.driver.find_element(By.CSS_SELECTOR, ".btn-primary").click()
-            time.sleep(3)
-            self.driver.find_element(By.CSS_SELECTOR, ".modal-footer > button:nth-child(2)").click()
-            time.sleep(5)
-            return True
-        
-        except Exception as err:
-            print(f"Unexpected {err=}, {type(err)=}")
-            self.driver.find_element(By.ID, "user-menu-toggle").click()
-            self.driver.find_element(By.LINK_TEXT, "Log out").click()
-            return False
-        
-editTimeAndDoQuiz = TestEditTimeAndDoQuiz()
-print(editTimeAndDoQuiz.run())
+doQuiz = TestDoQuiz()
+print(doQuiz.run())
   
 
 
