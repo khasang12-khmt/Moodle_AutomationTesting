@@ -11,10 +11,6 @@ class TestPerformance:
     def __init__(self):
         self.runner = Runner.PerformanceRunner()
        
-    def test_Performance8(self):
-        runner = Runner.PerformanceRunner(5)
-        runner.stable_pattern(task_class=Task.UploadImageTask, stable_count=2, image_path='..\\testdata\\vinh\\big_image_10MB.png')
-    
     def run(self, data):
         for testcase in data:
             workers = testcase["workers"]

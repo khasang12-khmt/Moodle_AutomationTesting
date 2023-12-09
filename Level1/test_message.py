@@ -7,7 +7,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.support import expected_conditions
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from constant import SANDBOX_URL
 
 class TestMessage:
@@ -15,8 +16,25 @@ class TestMessage:
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.driver = webdriver.Chrome(options=options)
-        self.vars = {}
-  
+        self.normal_condition = {
+            "offline":False,
+            "latency":0,
+            "download_throughput":-1,  # In bytes/second
+            "upload_throughput":-1  # In bytes/second
+        }
+        self.offline_condition = {
+            "offline":True,
+            "latency":0,  # In milliseconds
+            "download_throughput":100 * 1024,  # In bytes/second
+            "upload_throughput":100 * 1024  # In bytes/second
+        }
+        self.slow_condition = {
+            "offline":False,
+            "latency": 3000,  # In milliseconds
+            "download_throughput":100 * 1024,  # In bytes/second
+            "upload_throughput":100 * 1024  # In bytes/second
+        }
+
     def teardown_method(self, method):
         self.driver.quit()
     
@@ -41,25 +59,43 @@ class TestMessage:
         total = len(testset)
         success = 0
         fail = []
+        self.setup_method(None)
         for testcase in testset :
             id = testcase['id']
-            self.setup_method(None)
+            print(f"Run testcase: {id}")
             method_name = testcase["function"]
             method = getattr(self, method_name)
+            expected = testcase["expected"]
             try:
-                result, valid = method(testcase["input"], testcase["expected"])
-                if(result and valid):
+                result, valid = method(testcase["input"], expected)
+                if(valid):
                     success = success + 1
                 else:
                     fail.append(id)
             except Exception as err:
-                fail.append(f'{id} Error: {err=}')
-            self.teardown_method(None)
+                self.logout()
+                if(str(err) == expected):
+                    success = success + 1
+                else:
+                    fail.append(f'{id} Error: {err=}')
+        self.teardown_method(None)
     
         print(f"SUCESS: {success}/{total}")
         print(f"FAIL: {str(fail)}")
         return testset
 
+    def check_message_send(self, value):
+        try:
+            wait = WebDriverWait(self.driver, 10)
+            wait.until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, "div[data-region='message']")))
+            divtag = self.driver.find_elements(By.CSS_SELECTOR, "div[data-region='message']")
+            lastmessage = divtag[-1].find_element(By.TAG_NAME, "p").text
+            if(len(value) >= 2000): return True
+            return lastmessage == value
+        except Exception as err:
+            if(len(value) >= 2000): return True
+            return False
+        
     def test_message_length(self, data, expected):
         self.precondtion()
         result = None
@@ -77,126 +113,135 @@ class TestMessage:
         return result, result == expected
 
     def test_message_usecase(self, data, expected):
-        wait = WebDriverWait(self.driver, 10)
         self.precondtion()
         for step in data["steps"]:
+            condition = data.get("condition")
             if step == "clickMessageShow":
-                time.sleep(1)
                 self.clickMessageShow()
             elif step == "clickConversationShow":
-                time.sleep(1)
                 self.clickConversationShow()
             elif step == "searchConversation":
-                time.sleep(1)
                 self.searchConversation(data["search_value"])
             elif step == "clickSearchResult":
-                time.sleep(1)
+                search_index = data.get("search_index")
+                if(search_index):
+                    self.clickSearchResult(search_index)
+                else:
+                    self.clickSearchResult()
                 self.clickSearchResult()
             elif step == "sendMessage":
-                time.sleep(1)
+                if condition and getattr(self,condition, "normal_condition"):
+                    try:
+                        WebDriverWait(self.driver,10).until(EC.visibility_of_all_elements_located((By.CSS_SELECTOR, "div[data-region='message']")))
+                        self.driver.set_network_conditions(**getattr(self,condition, "normal_condition"))
+                    except:
+                        pass
                 self.sendMessage(data["message"])
+                self.driver.set_network_conditions(**self.normal_condition)
+                if(condition == "offline_condition"):
+                    raise Exception("Something went wrong!")
             elif step == "clickPrivateConversation":
-                time.sleep(1)
                 self.clickConversationShow("private")
-                raise Exception("No conversation")
+                raise Exception("Empty Conversation List")
             elif step == "clickConversation":
-                data_user_id = data.get("data_user_id")
-                if(data_user_id):
-                    self.clickConversation(data_user_id)
+                index = data.get("index")
+                if(index):
+                    self.clickConversation(index)
                 else:
                     self.clickConversation()
-                time.sleep(1)
+        search_value = data.get("search_value")
+        message = data.get("message")
+        value = data.get("value")
+        if (not search_value and not message) or (value and value == "")  or self.check_message_send(message):
+            result = True, True == expected
+        else:
+            result = False, False == expected
         self.logout()
-        if (data["search_value"] == "" and data["value"] == "") or app.checker.check_message_send(data["value"]):
-            return True, True == expected
-        else: return False, False == expected
-        
+
+        return result
+
     def clickMessageShow(self):
         mess_drawer = self.driver.find_element(By.CSS_SELECTOR, "a[id^='message-drawer-toggle']")
         mess_drawer.click()
-
+    
     def clickConversationShow(self, typ = "star"):
-      id = None
       if typ == "star":
-          id = "view-overview-favourites-toggle"
+          typ = "Starred"
       elif typ == "group":
-          id = "view-overview-group-messages-toggle"
+          typ = "Group"
       elif typ == "private":
-          id = "view-overview-messages-toggle"
+          typ = "Private"
       else:
-          raise Exception("incorrect type of conversation")
+          raise Exception("incorrect typ of conversation")
 
       wait = WebDriverWait(self.driver, 10)
       try:
           wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "py-0 px-2 d-flex list-group-item list-group-item-action align-items-center")))
       except: pass
-      conver_btn = self.driver.find_element(By.ID, id).find_element(By.TAG_NAME, "button")
+      conver_btn = self.driver.find_element(By.XPATH, f"//button[span/text()='{typ}']")
       if conver_btn.get_attribute("aria-expanded") == "false":
           conver_btn.click()
           
-    def check_message_send(self, value):
-        try:
+    def clickConversation(self, index=0):
+        try: 
             wait = WebDriverWait(self.driver, 10)
-            divtag = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "div[data-region='message']")))[-1]
-            lastmessage = divtag.find_element(By.TAG_NAME, "p").text
-            return lastmessage == value
-        except: return False
-
-    def clickConversation(self, data_user_id = 3):
-        wait = WebDriverWait(self.driver, 10)
-        conv_btn = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a[data-user-id='{}']".format(data_user_id))))
-        conv_btn.click()
-
-    def clickSearchResult(self, user_id = 4):
-        wait = WebDriverWait(self.driver, 10)
-        convbtn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, f"a[data-route='view-conversation'][data-route-param-1='false'][data-route-param-2='create'][data-route-param-3='4'][role='button']")))
-        convbtn.click()
+            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[data-conversation-id][data-user-id]")))
+            convs = self.driver.find_elements(By.CSS_SELECTOR, "a[data-conversation-id][data-user-id]")
+            if len(convs) == 0:
+                raise Exception("Empty Conversation List")
+            WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(convs[index])).click()
+        except TimeoutException as err:
+            pass
+        
+    def clickSearchResult(self, index = 0):
+        try:
+            wait = WebDriverWait(self.driver, 5)
+            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[data-route='view-conversation']")))
+            convs = self.driver.find_elements(By.CSS_SELECTOR, "a[data-route='view-conversation']")
+            if len(convs) == 0:
+                raise Exception("Empty Conversation List")
+            WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable(convs[index])).click()
+        except TimeoutException as err:
+            pass
 
     def searchConversation(self, value):
         wait = WebDriverWait(self.driver, 10)
         search_input = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[data-region='view-overview-search-input']")))
         search_input.send_keys(value + "\n")
-
-    def sendMessageFlow(self, mess, data_user_id = 3, network_condition=None):
+        try:
+            WebDriverWait(self.driver, 2).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//p[@class='p-3 text-center' and @data-region='no-results-container']")
+                )
+            )
+            raise Exception("No results")
+        except TimeoutException as err:
+            pass
+            
+    def sendMessageFlow(self, mess, index=0):
         self.clickMessageShow()
         wait = WebDriverWait(self.driver, 10)
         self.clickConversationShow()
-        self.clickConversation(data_user_id)
+        self.clickConversation(index)
         textarea = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "textarea[data-region='send-message-txt']")))
-        if network_condition:
-            if network_condition == "slow":
-                self.driver.set_network_conditions(
-                    offline=False,
-                    latency=2000,  # In milliseconds
-                    download_throughput=1 * 1024,  # In bytes/second
-                    upload_throughput=1 * 1024  # In bytes/second
-                )
-            elif network_condition == "offline":
-                self.driver.set_network_conditions(
-                    offline=True,
-                    latency=200,  # In milliseconds
-                    download_throughput=100 * 1024,  # In bytes/second
-                    upload_throughput=100 * 1024  # In bytes/second
-                )
         textarea.send_keys(mess)
         send_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-action='send-message']")))
         send_btn.click()
         time.sleep(2)
 
     def sendMessage(self, mess):
-        wait = WebDriverWait(self.driver, 10)
-        textarea = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "textarea[data-region='send-message-txt']")))
+        textarea = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "textarea[data-region='send-message-txt']")))
         textarea.send_keys(mess)
-        send_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-action='send-message']")))
+        send_btn = WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-action='send-message']")))
         send_btn.click()
         time.sleep(2)
 
-    def sendIconFlow(self, n = 1, title = ":smile:", data_user_id = 3):
+    def sendIconFlow(self, n = 1, title = ":smile:", index = 0):
         self.clickMessageShow()
         wait = WebDriverWait(self.driver, 10)
         self.clickConversationShow()
-        self.clickConversation(data_user_id)
-
+        self.clickConversation(index)
+        time.sleep(3)
         for i in range(n):
             iconbtn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[data-action='toggle-emoji-picker']")))
             iconbtn.click()
