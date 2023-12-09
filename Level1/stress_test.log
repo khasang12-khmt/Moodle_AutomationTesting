@@ -1,0 +1,1254 @@
+2023-12-09 19:52:02,601 - INFO - Starting Stable Pattern...
+2023-12-09 19:52:02,601 - INFO - -- Run 1--
+2023-12-09 19:52:16,280 - INFO - Result 0: True, Error: None
+2023-12-09 19:52:16,280 - INFO - Result 1: True, Error: None
+2023-12-09 19:52:16,281 - INFO - Result 2: True, Error: None
+2023-12-09 19:52:16,281 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:52:29,511 - INFO - -- Run 2--
+2023-12-09 19:52:43,782 - INFO - Result 0: True, Error: None
+2023-12-09 19:52:43,782 - INFO - Result 1: True, Error: None
+2023-12-09 19:52:43,783 - INFO - Result 2: True, Error: None
+2023-12-09 19:52:43,783 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:52:57,079 - INFO - -- Run 3--
+2023-12-09 19:53:12,626 - INFO - Result 0: True, Error: None
+2023-12-09 19:53:12,626 - INFO - Result 1: True, Error: None
+2023-12-09 19:53:12,626 - INFO - Result 2: True, Error: None
+2023-12-09 19:53:12,627 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:53:25,911 - INFO - -- Run 4--
+2023-12-09 19:53:39,204 - INFO - Result 0: True, Error: None
+2023-12-09 19:53:39,204 - INFO - Result 1: True, Error: None
+2023-12-09 19:53:39,204 - INFO - Result 2: True, Error: None
+2023-12-09 19:53:39,205 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:53:52,497 - INFO - -- Run 5--
+2023-12-09 19:54:07,118 - INFO - Result 0: True, Error: None
+2023-12-09 19:54:07,119 - INFO - Result 1: True, Error: None
+2023-12-09 19:54:07,119 - INFO - Result 2: True, Error: None
+2023-12-09 19:54:07,119 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:54:20,414 - INFO - -- Run 6--
+2023-12-09 19:54:33,741 - INFO - Result 0: True, Error: None
+2023-12-09 19:54:33,741 - INFO - Result 1: True, Error: None
+2023-12-09 19:54:33,741 - INFO - Result 2: True, Error: None
+2023-12-09 19:54:33,741 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:54:47,031 - INFO - -- Run 7--
+2023-12-09 19:55:00,338 - INFO - Result 0: True, Error: None
+2023-12-09 19:55:00,339 - INFO - Result 1: True, Error: None
+2023-12-09 19:55:00,339 - INFO - Result 2: True, Error: None
+2023-12-09 19:55:00,339 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:55:13,631 - INFO - -- Run 8--
+2023-12-09 19:55:26,851 - INFO - Result 0: True, Error: None
+2023-12-09 19:55:26,851 - INFO - Result 1: True, Error: None
+2023-12-09 19:55:26,851 - INFO - Result 2: True, Error: None
+2023-12-09 19:55:26,851 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:55:40,119 - INFO - -- Run 9--
+2023-12-09 19:55:53,299 - INFO - Result 0: True, Error: None
+2023-12-09 19:55:53,299 - INFO - Result 1: True, Error: None
+2023-12-09 19:55:53,299 - INFO - Result 2: True, Error: None
+2023-12-09 19:55:53,299 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:56:06,575 - INFO - -- Run 10--
+2023-12-09 19:56:19,955 - INFO - Result 0: True, Error: None
+2023-12-09 19:56:19,955 - INFO - Result 1: True, Error: None
+2023-12-09 19:56:19,955 - INFO - Result 2: True, Error: None
+2023-12-09 19:56:19,955 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:56:33,224 - INFO -    ========= Summary ==========
+Success: 30
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 19:56:33,224 - INFO - Starting Stable Pattern...
+2023-12-09 19:56:33,224 - INFO - -- Run 1--
+2023-12-09 19:56:46,899 - INFO - Result 0: True, Error: None
+2023-12-09 19:56:46,899 - INFO - Result 1: True, Error: None
+2023-12-09 19:56:46,899 - INFO - Result 2: True, Error: None
+2023-12-09 19:56:46,899 - INFO - Result 3: True, Error: None
+2023-12-09 19:56:46,899 - INFO - Result 4: True, Error: None
+2023-12-09 19:56:46,899 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:57:08,391 - INFO - -- Run 2--
+2023-12-09 19:57:22,180 - INFO - Result 0: True, Error: None
+2023-12-09 19:57:22,180 - INFO - Result 1: True, Error: None
+2023-12-09 19:57:22,180 - INFO - Result 2: True, Error: None
+2023-12-09 19:57:22,180 - INFO - Result 3: True, Error: None
+2023-12-09 19:57:22,180 - INFO - Result 4: True, Error: None
+2023-12-09 19:57:22,180 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:57:43,643 - INFO - -- Run 3--
+2023-12-09 19:57:57,370 - INFO - Result 0: True, Error: None
+2023-12-09 19:57:57,370 - INFO - Result 1: True, Error: None
+2023-12-09 19:57:57,370 - INFO - Result 2: True, Error: None
+2023-12-09 19:57:57,370 - INFO - Result 3: True, Error: None
+2023-12-09 19:57:57,370 - INFO - Result 4: True, Error: None
+2023-12-09 19:57:57,370 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:58:18,858 - INFO - -- Run 4--
+2023-12-09 19:58:32,562 - INFO - Result 0: True, Error: None
+2023-12-09 19:58:32,562 - INFO - Result 1: True, Error: None
+2023-12-09 19:58:32,562 - INFO - Result 2: True, Error: None
+2023-12-09 19:58:32,562 - INFO - Result 3: True, Error: None
+2023-12-09 19:58:32,562 - INFO - Result 4: True, Error: None
+2023-12-09 19:58:32,562 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:58:53,986 - INFO - -- Run 5--
+2023-12-09 19:59:10,440 - INFO - Result 0: True, Error: None
+2023-12-09 19:59:10,440 - INFO - Result 1: True, Error: None
+2023-12-09 19:59:10,440 - INFO - Result 2: True, Error: None
+2023-12-09 19:59:10,440 - INFO - Result 3: True, Error: None
+2023-12-09 19:59:10,440 - INFO - Result 4: True, Error: None
+2023-12-09 19:59:10,440 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 19:59:31,824 - INFO - -- Run 6--
+2023-12-09 19:59:45,636 - INFO - Result 0: True, Error: None
+2023-12-09 19:59:45,636 - INFO - Result 1: True, Error: None
+2023-12-09 19:59:45,636 - INFO - Result 2: True, Error: None
+2023-12-09 19:59:45,637 - INFO - Result 3: True, Error: None
+2023-12-09 19:59:45,637 - INFO - Result 4: True, Error: None
+2023-12-09 19:59:45,637 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:00:07,106 - INFO - -- Run 7--
+2023-12-09 20:00:29,298 - INFO - Result 0: True, Error: None
+2023-12-09 20:00:29,298 - INFO - Result 1: True, Error: None
+2023-12-09 20:00:29,298 - INFO - Result 2: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:00:29,298 - INFO - Result 3: True, Error: None
+2023-12-09 20:00:29,298 - INFO - Result 4: True, Error: None
+2023-12-09 20:00:29,298 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 20:00:50,751 - INFO - -- Run 8--
+2023-12-09 20:01:07,709 - INFO - Result 0: True, Error: None
+2023-12-09 20:01:07,709 - INFO - Result 1: True, Error: None
+2023-12-09 20:01:07,710 - INFO - Result 2: True, Error: None
+2023-12-09 20:01:07,710 - INFO - Result 3: True, Error: None
+2023-12-09 20:01:07,710 - INFO - Result 4: True, Error: None
+2023-12-09 20:01:07,710 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:01:29,122 - INFO - -- Run 9--
+2023-12-09 20:01:43,686 - INFO - Result 0: True, Error: None
+2023-12-09 20:01:43,686 - INFO - Result 1: True, Error: None
+2023-12-09 20:01:43,686 - INFO - Result 2: True, Error: None
+2023-12-09 20:01:43,686 - INFO - Result 3: True, Error: None
+2023-12-09 20:01:43,686 - INFO - Result 4: True, Error: None
+2023-12-09 20:01:43,687 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:02:05,140 - INFO - -- Run 10--
+2023-12-09 20:02:19,075 - INFO - Result 0: True, Error: None
+2023-12-09 20:02:19,075 - INFO - Result 1: True, Error: None
+2023-12-09 20:02:19,075 - INFO - Result 2: True, Error: None
+2023-12-09 20:02:19,075 - INFO - Result 3: True, Error: None
+2023-12-09 20:02:19,076 - INFO - Result 4: True, Error: None
+2023-12-09 20:02:19,076 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:02:40,561 - INFO -    ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+                  
+2023-12-09 20:02:40,561 - INFO - Starting Stable Pattern...
+2023-12-09 20:02:40,561 - INFO - -- Run 1--
+2023-12-09 20:02:56,056 - INFO - Result 0: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 1: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 2: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 3: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 4: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 5: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 6: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 7: True, Error: None
+2023-12-09 20:02:56,057 - INFO - Result 8: True, Error: None
+2023-12-09 20:02:56,058 - INFO - Result 9: True, Error: None
+2023-12-09 20:02:56,058 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:03:37,996 - INFO - -- Run 2--
+2023-12-09 20:04:12,661 - INFO - Result 0: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 1: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 2: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 3: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 4: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 5: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 6: True, Error: None
+2023-12-09 20:04:12,661 - INFO - Result 7: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:04:12,661 - INFO - Result 8: True, Error: None
+2023-12-09 20:04:12,663 - INFO - Result 9: True, Error: None
+2023-12-09 20:04:12,663 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 20:04:54,606 - INFO - -- Run 3--
+2023-12-09 20:05:12,471 - INFO - Result 0: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 1: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 2: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 3: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 4: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 5: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 6: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 7: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 8: True, Error: None
+2023-12-09 20:05:12,472 - INFO - Result 9: True, Error: None
+2023-12-09 20:05:12,472 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:05:54,407 - INFO - -- Run 4--
+2023-12-09 20:06:10,686 - INFO - Result 0: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 1: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 2: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 3: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 4: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 5: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 6: True, Error: None
+2023-12-09 20:06:10,687 - INFO - Result 7: True, Error: None
+2023-12-09 20:06:10,688 - INFO - Result 8: True, Error: None
+2023-12-09 20:06:10,688 - INFO - Result 9: True, Error: None
+2023-12-09 20:06:10,688 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:06:52,632 - INFO - -- Run 5--
+2023-12-09 20:07:09,869 - INFO - Result 0: True, Error: None
+2023-12-09 20:07:09,869 - INFO - Result 1: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 2: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 3: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 4: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 5: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 6: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 7: True, Error: None
+2023-12-09 20:07:09,870 - INFO - Result 8: True, Error: None
+2023-12-09 20:07:09,871 - INFO - Result 9: True, Error: None
+2023-12-09 20:07:09,871 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:07:51,780 - INFO - -- Run 6--
+2023-12-09 20:08:09,121 - INFO - Result 0: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 1: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 2: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 3: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 4: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 5: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 6: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 7: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 8: True, Error: None
+2023-12-09 20:08:09,122 - INFO - Result 9: True, Error: None
+2023-12-09 20:08:09,122 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:08:51,058 - INFO - -- Run 7--
+2023-12-09 20:09:09,397 - INFO - Result 0: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 1: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 2: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 3: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 4: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 5: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 6: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 7: True, Error: None
+2023-12-09 20:09:09,398 - INFO - Result 8: True, Error: None
+2023-12-09 20:09:09,399 - INFO - Result 9: True, Error: None
+2023-12-09 20:09:09,399 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:09:51,362 - INFO - -- Run 8--
+2023-12-09 20:10:11,672 - INFO - Result 0: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 1: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 2: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 3: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 4: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 5: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 6: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 7: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 8: True, Error: None
+2023-12-09 20:10:11,673 - INFO - Result 9: True, Error: None
+2023-12-09 20:10:11,673 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:10:53,571 - INFO - -- Run 9--
+2023-12-09 20:11:10,058 - INFO - Result 0: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 1: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 2: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 3: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 4: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 5: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 6: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 7: True, Error: None
+2023-12-09 20:11:10,059 - INFO - Result 8: True, Error: None
+2023-12-09 20:11:10,060 - INFO - Result 9: True, Error: None
+2023-12-09 20:11:10,060 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:11:51,908 - INFO - -- Run 10--
+2023-12-09 20:12:08,706 - INFO - Result 0: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 1: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 2: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 3: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 4: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 5: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 6: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 7: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 8: True, Error: None
+2023-12-09 20:12:08,706 - INFO - Result 9: True, Error: None
+2023-12-09 20:12:08,706 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:12:50,629 - INFO -    ========= Summary ==========
+Success: 99
+Error: 1
+Error Rate: 0.01
+                  
+2023-12-09 20:12:50,629 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 20:12:50,629 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 20:13:02,641 - INFO - Result 0: True, Error: None
+2023-12-09 20:13:02,641 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:13:07,737 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 20:13:21,127 - INFO - Result 0: True, Error: None
+2023-12-09 20:13:21,127 - INFO - Result 1: True, Error: None
+2023-12-09 20:13:21,127 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:13:30,293 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 20:13:43,556 - INFO - Result 0: True, Error: None
+2023-12-09 20:13:43,556 - INFO - Result 1: True, Error: None
+2023-12-09 20:13:43,556 - INFO - Result 2: True, Error: None
+2023-12-09 20:13:43,556 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:13:56,823 - INFO - -- Run 4-- Num workers: 3
+2023-12-09 20:14:10,519 - INFO - Result 0: True, Error: None
+2023-12-09 20:14:10,519 - INFO - Result 1: True, Error: None
+2023-12-09 20:14:10,519 - INFO - Result 2: True, Error: None
+2023-12-09 20:14:10,519 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:14:22,710 - INFO - -- Run 6-- Num workers: 3
+2023-12-09 20:14:35,926 - INFO - Result 0: True, Error: None
+2023-12-09 20:14:35,926 - INFO - Result 1: True, Error: None
+2023-12-09 20:14:35,926 - INFO - Result 2: True, Error: None
+2023-12-09 20:14:35,926 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:14:49,258 - INFO - -- Run 7-- Num workers: 3
+2023-12-09 20:15:03,060 - INFO - Result 0: True, Error: None
+2023-12-09 20:15:03,060 - INFO - Result 1: True, Error: None
+2023-12-09 20:15:03,060 - INFO - Result 2: True, Error: None
+2023-12-09 20:15:03,060 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:15:16,302 - INFO - -- Run 8-- Num workers: 3
+2023-12-09 20:15:29,562 - INFO - Result 0: True, Error: None
+2023-12-09 20:15:29,562 - INFO - Result 1: True, Error: None
+2023-12-09 20:15:29,562 - INFO - Result 2: True, Error: None
+2023-12-09 20:15:29,562 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:15:42,816 - INFO - -- Run 9-- Num workers: 3
+2023-12-09 20:15:56,475 - INFO - Result 0: True, Error: None
+2023-12-09 20:15:56,475 - INFO - Result 1: True, Error: None
+2023-12-09 20:15:56,475 - INFO - Result 2: True, Error: None
+2023-12-09 20:15:56,475 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:16:09,746 - INFO - -- Run 10-- Num workers: 3
+2023-12-09 20:16:23,006 - INFO - Result 0: True, Error: None
+2023-12-09 20:16:23,006 - INFO - Result 1: True, Error: None
+2023-12-09 20:16:23,007 - INFO - Result 2: True, Error: None
+2023-12-09 20:16:23,007 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:16:36,300 - INFO -    ========= Summary ==========
+Success: 24
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 20:16:36,300 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 20:16:36,300 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 20:16:48,240 - INFO - Result 0: True, Error: None
+2023-12-09 20:16:48,240 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:16:53,334 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 20:17:08,590 - INFO - Result 0: True, Error: None
+2023-12-09 20:17:08,591 - INFO - Result 1: True, Error: None
+2023-12-09 20:17:08,591 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:17:17,777 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 20:17:30,453 - INFO - Result 0: True, Error: None
+2023-12-09 20:17:30,453 - INFO - Result 1: True, Error: None
+2023-12-09 20:17:30,453 - INFO - Result 2: True, Error: None
+2023-12-09 20:17:30,453 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:17:43,724 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 20:17:57,353 - INFO - Result 0: True, Error: None
+2023-12-09 20:17:57,353 - INFO - Result 1: True, Error: None
+2023-12-09 20:17:57,353 - INFO - Result 2: True, Error: None
+2023-12-09 20:17:57,353 - INFO - Result 3: True, Error: None
+2023-12-09 20:17:57,353 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:18:14,748 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 20:18:28,199 - INFO - Result 0: True, Error: None
+2023-12-09 20:18:28,199 - INFO - Result 1: True, Error: None
+2023-12-09 20:18:28,199 - INFO - Result 2: True, Error: None
+2023-12-09 20:18:28,199 - INFO - Result 3: True, Error: None
+2023-12-09 20:18:28,199 - INFO - Result 4: True, Error: None
+2023-12-09 20:18:28,199 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:18:49,672 - INFO - -- Run 6-- Num workers: 5
+2023-12-09 20:19:03,349 - INFO - Result 0: True, Error: None
+2023-12-09 20:19:03,349 - INFO - Result 1: True, Error: None
+2023-12-09 20:19:03,349 - INFO - Result 2: True, Error: None
+2023-12-09 20:19:03,349 - INFO - Result 3: True, Error: None
+2023-12-09 20:19:03,349 - INFO - Result 4: True, Error: None
+2023-12-09 20:19:03,349 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:19:23,815 - INFO - -- Run 8-- Num workers: 5
+2023-12-09 20:19:37,426 - INFO - Result 0: True, Error: None
+2023-12-09 20:19:37,426 - INFO - Result 1: True, Error: None
+2023-12-09 20:19:37,426 - INFO - Result 2: True, Error: None
+2023-12-09 20:19:37,428 - INFO - Result 3: True, Error: None
+2023-12-09 20:19:37,428 - INFO - Result 4: True, Error: None
+2023-12-09 20:19:37,428 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:19:58,833 - INFO - -- Run 9-- Num workers: 5
+2023-12-09 20:20:32,922 - INFO - Result 0: True, Error: None
+2023-12-09 20:20:32,922 - INFO - Result 1: True, Error: None
+2023-12-09 20:20:32,922 - INFO - Result 2: True, Error: None
+2023-12-09 20:20:32,922 - INFO - Result 3: True, Error: None
+2023-12-09 20:20:32,922 - INFO - Result 4: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:20:32,922 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 20:20:54,421 - INFO - -- Run 10-- Num workers: 5
+2023-12-09 20:21:09,844 - INFO - Result 0: True, Error: None
+2023-12-09 20:21:09,844 - INFO - Result 1: True, Error: None
+2023-12-09 20:21:09,844 - INFO - Result 2: True, Error: None
+2023-12-09 20:21:09,845 - INFO - Result 3: True, Error: None
+2023-12-09 20:21:09,845 - INFO - Result 4: True, Error: None
+2023-12-09 20:21:09,845 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:21:31,365 - INFO - -- Run 11-- Num workers: 5
+2023-12-09 20:21:44,850 - INFO - Result 0: True, Error: None
+2023-12-09 20:21:44,850 - INFO - Result 1: True, Error: None
+2023-12-09 20:21:44,850 - INFO - Result 2: True, Error: None
+2023-12-09 20:21:44,850 - INFO - Result 3: True, Error: None
+2023-12-09 20:21:44,851 - INFO - Result 4: True, Error: None
+2023-12-09 20:21:44,851 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:22:06,246 - INFO - -- Run 12-- Num workers: 5
+2023-12-09 20:22:19,694 - INFO - Result 0: True, Error: None
+2023-12-09 20:22:19,695 - INFO - Result 1: True, Error: None
+2023-12-09 20:22:19,695 - INFO - Result 2: True, Error: None
+2023-12-09 20:22:19,695 - INFO - Result 3: True, Error: None
+2023-12-09 20:22:19,695 - INFO - Result 4: True, Error: None
+2023-12-09 20:22:19,695 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:22:41,191 - INFO -    ========= Summary ==========
+Success: 44
+Error: 1
+Error Rate: 0.022222222222222223
+                  
+2023-12-09 20:22:41,191 - INFO - Starting Ramp-Up Pattern...
+2023-12-09 20:22:41,191 - INFO - -- Run 1-- Num workers: 1
+2023-12-09 20:22:54,273 - INFO - Result 0: True, Error: None
+2023-12-09 20:22:54,273 - INFO - =======Run Succesfully with======== 
+    Success: 1, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:22:59,377 - INFO - -- Run 2-- Num workers: 2
+2023-12-09 20:23:13,225 - INFO - Result 0: True, Error: None
+2023-12-09 20:23:13,225 - INFO - Result 1: True, Error: None
+2023-12-09 20:23:13,225 - INFO - =======Run Succesfully with======== 
+    Success: 2, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:23:22,407 - INFO - -- Run 3-- Num workers: 3
+2023-12-09 20:23:35,716 - INFO - Result 0: True, Error: None
+2023-12-09 20:23:35,716 - INFO - Result 1: True, Error: None
+2023-12-09 20:23:35,717 - INFO - Result 2: True, Error: None
+2023-12-09 20:23:35,717 - INFO - =======Run Succesfully with======== 
+    Success: 3, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:23:49,006 - INFO - -- Run 4-- Num workers: 4
+2023-12-09 20:24:05,220 - INFO - Result 0: True, Error: None
+2023-12-09 20:24:05,221 - INFO - Result 1: True, Error: None
+2023-12-09 20:24:05,221 - INFO - Result 2: True, Error: None
+2023-12-09 20:24:05,221 - INFO - Result 3: True, Error: None
+2023-12-09 20:24:05,221 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:24:22,584 - INFO - -- Run 5-- Num workers: 5
+2023-12-09 20:24:35,990 - INFO - Result 0: True, Error: None
+2023-12-09 20:24:35,990 - INFO - Result 1: True, Error: None
+2023-12-09 20:24:35,990 - INFO - Result 2: True, Error: None
+2023-12-09 20:24:35,992 - INFO - Result 3: True, Error: None
+2023-12-09 20:24:35,992 - INFO - Result 4: True, Error: None
+2023-12-09 20:24:35,992 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:24:57,474 - INFO - -- Run 6-- Num workers: 6
+2023-12-09 20:25:31,561 - INFO - Result 0: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:25:31,561 - INFO - Result 1: True, Error: None
+2023-12-09 20:25:31,561 - INFO - Result 2: True, Error: None
+2023-12-09 20:25:31,561 - INFO - Result 3: True, Error: None
+2023-12-09 20:25:31,561 - INFO - Result 4: True, Error: None
+2023-12-09 20:25:31,562 - INFO - Result 5: True, Error: None
+2023-12-09 20:25:31,562 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 1
+    Error rate: 0.16666666666666666   
+                
+2023-12-09 20:25:57,163 - INFO - -- Run 7-- Num workers: 7
+2023-12-09 20:26:13,769 - INFO - Result 0: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 1: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 2: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 3: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 4: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 5: True, Error: None
+2023-12-09 20:26:13,769 - INFO - Result 6: True, Error: None
+2023-12-09 20:26:13,769 - INFO - =======Run Succesfully with======== 
+    Success: 7, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:26:43,455 - INFO - -- Run 8-- Num workers: 8
+2023-12-09 20:26:58,141 - INFO - Result 0: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 1: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 2: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 3: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 4: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 5: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 6: True, Error: None
+2023-12-09 20:26:58,142 - INFO - Result 7: True, Error: None
+2023-12-09 20:26:58,142 - INFO - =======Run Succesfully with======== 
+    Success: 8, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:27:31,836 - INFO - -- Run 9-- Num workers: 9
+2023-12-09 20:27:46,786 - INFO - Result 0: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 1: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 2: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 3: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 4: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 5: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 6: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 7: True, Error: None
+2023-12-09 20:27:46,786 - INFO - Result 8: True, Error: None
+2023-12-09 20:27:46,786 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:28:24,630 - INFO - -- Run 10-- Num workers: 10
+2023-12-09 20:28:39,975 - INFO - Result 0: True, Error: None
+2023-12-09 20:28:39,976 - INFO - Result 1: True, Error: None
+2023-12-09 20:28:39,976 - INFO - Result 2: True, Error: None
+2023-12-09 20:28:39,976 - INFO - Result 3: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 4: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 5: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 6: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 7: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 8: True, Error: None
+2023-12-09 20:28:39,977 - INFO - Result 9: True, Error: None
+2023-12-09 20:28:39,977 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:29:21,942 - INFO - -- Run 11-- Num workers: 10
+2023-12-09 20:29:36,860 - INFO - Result 0: True, Error: None
+2023-12-09 20:29:36,860 - INFO - Result 1: True, Error: None
+2023-12-09 20:29:36,860 - INFO - Result 2: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 3: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 4: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 5: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 6: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 7: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 8: True, Error: None
+2023-12-09 20:29:36,861 - INFO - Result 9: True, Error: None
+2023-12-09 20:29:36,861 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:30:17,847 - INFO - -- Run 13-- Num workers: 10
+2023-12-09 20:30:33,020 - INFO - Result 0: True, Error: None
+2023-12-09 20:30:33,020 - INFO - Result 1: True, Error: None
+2023-12-09 20:30:33,020 - INFO - Result 2: True, Error: None
+2023-12-09 20:30:33,020 - INFO - Result 3: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 4: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 5: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 6: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 7: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 8: True, Error: None
+2023-12-09 20:30:33,021 - INFO - Result 9: True, Error: None
+2023-12-09 20:30:33,021 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:31:14,879 - INFO - -- Run 14-- Num workers: 10
+2023-12-09 20:31:31,709 - INFO - Result 0: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 1: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 2: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 3: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 4: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 5: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 6: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 7: True, Error: None
+2023-12-09 20:31:31,709 - INFO - Result 8: True, Error: None
+2023-12-09 20:31:31,710 - INFO - Result 9: True, Error: None
+2023-12-09 20:31:31,710 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:32:13,698 - INFO - -- Run 15-- Num workers: 10
+2023-12-09 20:32:29,324 - INFO - Result 0: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 1: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 2: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 3: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 4: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 5: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 6: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 7: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 8: True, Error: None
+2023-12-09 20:32:29,325 - INFO - Result 9: True, Error: None
+2023-12-09 20:32:29,325 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:33:11,273 - INFO - -- Run 16-- Num workers: 10
+2023-12-09 20:33:26,709 - INFO - Result 0: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 1: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 2: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 3: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 4: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 5: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 6: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 7: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 8: True, Error: None
+2023-12-09 20:33:26,709 - INFO - Result 9: True, Error: None
+2023-12-09 20:33:26,709 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:34:08,650 - INFO - -- Run 17-- Num workers: 10
+2023-12-09 20:34:43,252 - INFO - Result 0: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 1: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 2: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 3: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 4: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 5: True, Error: None
+2023-12-09 20:34:43,252 - INFO - Result 6: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:34:43,252 - INFO - Result 7: True, Error: None
+2023-12-09 20:34:43,253 - INFO - Result 8: True, Error: None
+2023-12-09 20:34:43,253 - INFO - Result 9: True, Error: None
+2023-12-09 20:34:43,253 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 20:35:25,198 - INFO -    ========= Summary ==========
+Success: 113
+Error: 2
+Error Rate: 0.017391304347826087
+                  
+2023-12-09 20:35:25,198 - INFO - Starting Stable Pattern...
+2023-12-09 20:35:25,198 - INFO - -- Run 1--
+2023-12-09 20:35:41,044 - INFO - Result 0: True, Error: None
+2023-12-09 20:35:41,044 - INFO - Result 1: True, Error: None
+2023-12-09 20:35:41,045 - INFO - Result 2: True, Error: None
+2023-12-09 20:35:41,045 - INFO - Result 3: True, Error: None
+2023-12-09 20:35:41,045 - INFO - Result 4: True, Error: None
+2023-12-09 20:35:41,045 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:36:02,500 - INFO - -- Run 2--
+2023-12-09 20:36:17,591 - INFO - Result 0: True, Error: None
+2023-12-09 20:36:17,592 - INFO - Result 1: True, Error: None
+2023-12-09 20:36:17,592 - INFO - Result 2: True, Error: None
+2023-12-09 20:36:17,592 - INFO - Result 3: True, Error: None
+2023-12-09 20:36:17,592 - INFO - Result 4: True, Error: None
+2023-12-09 20:36:17,592 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:36:39,069 - INFO - -- Run 3--
+2023-12-09 20:36:54,240 - INFO - Result 0: True, Error: None
+2023-12-09 20:36:54,240 - INFO - Result 1: True, Error: None
+2023-12-09 20:36:54,240 - INFO - Result 2: True, Error: None
+2023-12-09 20:36:54,240 - INFO - Result 3: True, Error: None
+2023-12-09 20:36:54,240 - INFO - Result 4: True, Error: None
+2023-12-09 20:36:54,240 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:37:15,748 - INFO - -- Run 4--
+2023-12-09 20:37:30,786 - INFO - Result 0: True, Error: None
+2023-12-09 20:37:30,786 - INFO - Result 1: True, Error: None
+2023-12-09 20:37:30,786 - INFO - Result 2: True, Error: None
+2023-12-09 20:37:30,786 - INFO - Result 3: True, Error: None
+2023-12-09 20:37:30,786 - INFO - Result 4: True, Error: None
+2023-12-09 20:37:30,786 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:37:52,244 - INFO - -- Run 5--
+2023-12-09 20:38:09,731 - INFO - Result 0: True, Error: None
+2023-12-09 20:38:09,731 - INFO - Result 1: True, Error: None
+2023-12-09 20:38:09,731 - INFO - Result 2: True, Error: None
+2023-12-09 20:38:09,731 - INFO - Result 3: True, Error: None
+2023-12-09 20:38:09,731 - INFO - Result 4: True, Error: None
+2023-12-09 20:38:09,731 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:38:31,191 - INFO - -- Run 6--
+2023-12-09 20:38:46,077 - INFO - Result 0: True, Error: None
+2023-12-09 20:38:46,078 - INFO - Result 1: True, Error: None
+2023-12-09 20:38:46,078 - INFO - Result 2: True, Error: None
+2023-12-09 20:38:46,078 - INFO - Result 3: True, Error: None
+2023-12-09 20:38:46,078 - INFO - Result 4: True, Error: None
+2023-12-09 20:38:46,078 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:39:07,556 - INFO - -- Run 7--
+2023-12-09 20:39:23,065 - INFO - Result 0: True, Error: None
+2023-12-09 20:39:23,066 - INFO - Result 1: True, Error: None
+2023-12-09 20:39:23,066 - INFO - Result 2: True, Error: None
+2023-12-09 20:39:23,066 - INFO - Result 3: True, Error: None
+2023-12-09 20:39:23,066 - INFO - Result 4: True, Error: None
+2023-12-09 20:39:23,066 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:39:44,515 - INFO - -- Run 8--
+2023-12-09 20:39:59,433 - INFO - Result 0: True, Error: None
+2023-12-09 20:39:59,433 - INFO - Result 1: True, Error: None
+2023-12-09 20:39:59,433 - INFO - Result 2: True, Error: None
+2023-12-09 20:39:59,433 - INFO - Result 3: True, Error: None
+2023-12-09 20:39:59,433 - INFO - Result 4: True, Error: None
+2023-12-09 20:39:59,433 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:40:20,897 - INFO - -- Run 9--
+2023-12-09 20:40:54,932 - INFO - Result 0: True, Error: None
+2023-12-09 20:40:54,932 - INFO - Result 1: True, Error: None
+2023-12-09 20:40:54,932 - INFO - Result 2: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:40:54,932 - INFO - Result 3: True, Error: None
+2023-12-09 20:40:54,932 - INFO - Result 4: True, Error: None
+2023-12-09 20:40:54,932 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 20:41:16,434 - INFO - -- Run 10--
+2023-12-09 20:41:32,626 - INFO - Result 0: True, Error: None
+2023-12-09 20:41:32,627 - INFO - Result 1: True, Error: None
+2023-12-09 20:41:32,627 - INFO - Result 2: True, Error: None
+2023-12-09 20:41:32,627 - INFO - Result 3: True, Error: None
+2023-12-09 20:41:32,627 - INFO - Result 4: True, Error: None
+2023-12-09 20:41:32,627 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:41:54,101 - INFO -    ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+                  
+2023-12-09 20:41:54,101 - INFO - Starting Stable Pattern...
+2023-12-09 20:41:54,101 - INFO - -- Run 1--
+2023-12-09 20:42:22,687 - INFO - Result 0: True, Error: None
+2023-12-09 20:42:22,687 - INFO - Result 1: True, Error: None
+2023-12-09 20:42:22,687 - INFO - Result 2: True, Error: None
+2023-12-09 20:42:22,687 - INFO - Result 3: True, Error: None
+2023-12-09 20:42:22,687 - INFO - Result 4: True, Error: None
+2023-12-09 20:42:22,689 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:42:44,176 - INFO - -- Run 2--
+2023-12-09 20:43:05,325 - INFO - Result 0: True, Error: None
+2023-12-09 20:43:05,325 - INFO - Result 1: True, Error: None
+2023-12-09 20:43:05,325 - INFO - Result 2: True, Error: None
+2023-12-09 20:43:05,325 - INFO - Result 3: True, Error: None
+2023-12-09 20:43:05,325 - INFO - Result 4: True, Error: None
+2023-12-09 20:43:05,325 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:43:26,828 - INFO - -- Run 3--
+2023-12-09 20:43:45,019 - INFO - Result 0: True, Error: None
+2023-12-09 20:43:45,019 - INFO - Result 1: True, Error: None
+2023-12-09 20:43:45,019 - INFO - Result 2: True, Error: None
+2023-12-09 20:43:45,019 - INFO - Result 3: True, Error: None
+2023-12-09 20:43:45,019 - INFO - Result 4: True, Error: None
+2023-12-09 20:43:45,019 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:44:06,506 - INFO - -- Run 4--
+2023-12-09 20:44:24,278 - INFO - Result 0: True, Error: None
+2023-12-09 20:44:24,278 - INFO - Result 1: True, Error: None
+2023-12-09 20:44:24,278 - INFO - Result 2: True, Error: None
+2023-12-09 20:44:24,278 - INFO - Result 3: True, Error: None
+2023-12-09 20:44:24,278 - INFO - Result 4: True, Error: None
+2023-12-09 20:44:24,278 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:44:45,744 - INFO - -- Run 5--
+2023-12-09 20:45:04,998 - INFO - Result 0: True, Error: None
+2023-12-09 20:45:04,998 - INFO - Result 1: True, Error: None
+2023-12-09 20:45:04,998 - INFO - Result 2: True, Error: None
+2023-12-09 20:45:04,999 - INFO - Result 3: True, Error: None
+2023-12-09 20:45:04,999 - INFO - Result 4: True, Error: None
+2023-12-09 20:45:04,999 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:45:26,442 - INFO - -- Run 6--
+2023-12-09 20:45:46,019 - INFO - Result 0: True, Error: None
+2023-12-09 20:45:46,019 - INFO - Result 1: True, Error: None
+2023-12-09 20:45:46,019 - INFO - Result 2: True, Error: None
+2023-12-09 20:45:46,019 - INFO - Result 3: True, Error: None
+2023-12-09 20:45:46,019 - INFO - Result 4: True, Error: None
+2023-12-09 20:45:46,019 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:46:07,413 - INFO - -- Run 7--
+2023-12-09 20:46:25,342 - INFO - Result 0: True, Error: None
+2023-12-09 20:46:25,342 - INFO - Result 1: True, Error: None
+2023-12-09 20:46:25,343 - INFO - Result 2: True, Error: None
+2023-12-09 20:46:25,343 - INFO - Result 3: True, Error: None
+2023-12-09 20:46:25,343 - INFO - Result 4: True, Error: None
+2023-12-09 20:46:25,343 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:46:46,820 - INFO - -- Run 8--
+2023-12-09 20:47:14,209 - INFO - Result 0: True, Error: None
+2023-12-09 20:47:14,209 - INFO - Result 1: True, Error: None
+2023-12-09 20:47:14,209 - INFO - Result 2: True, Error: None
+2023-12-09 20:47:14,209 - INFO - Result 3: True, Error: None
+2023-12-09 20:47:14,210 - INFO - Result 4: True, Error: None
+2023-12-09 20:47:14,210 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:47:35,616 - INFO - -- Run 9--
+2023-12-09 20:47:54,774 - INFO - Result 0: True, Error: None
+2023-12-09 20:47:54,774 - INFO - Result 1: True, Error: None
+2023-12-09 20:47:54,774 - INFO - Result 2: True, Error: None
+2023-12-09 20:47:54,774 - INFO - Result 3: True, Error: None
+2023-12-09 20:47:54,774 - INFO - Result 4: True, Error: None
+2023-12-09 20:47:54,774 - INFO - =======Run Succesfully with======== 
+    Success: 5, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:48:16,196 - INFO - -- Run 10--
+2023-12-09 20:48:50,122 - INFO - Result 0: True, Error: None
+2023-12-09 20:48:50,122 - INFO - Result 1: True, Error: None
+2023-12-09 20:48:50,122 - INFO - Result 2: True, Error: None
+2023-12-09 20:48:50,122 - INFO - Result 3: True, Error: None
+2023-12-09 20:48:50,122 - INFO - Result 4: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 20:48:50,122 - INFO - =======Run Succesfully with======== 
+    Success: 4, Failure: 1
+    Error rate: 0.2   
+                
+2023-12-09 20:49:11,573 - INFO -    ========= Summary ==========
+Success: 49
+Error: 1
+Error Rate: 0.02
+                  
+2023-12-09 20:49:11,573 - INFO - Starting Stable Pattern...
+2023-12-09 20:49:11,573 - INFO - -- Run 1--
+2023-12-09 20:49:29,670 - INFO - Result 0: True, Error: None
+2023-12-09 20:49:29,670 - INFO - Result 1: True, Error: None
+2023-12-09 20:49:29,670 - INFO - Result 2: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 3: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 4: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 5: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 6: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 7: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 8: True, Error: None
+2023-12-09 20:49:29,671 - INFO - Result 9: True, Error: None
+2023-12-09 20:49:29,671 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:50:11,636 - INFO - -- Run 2--
+2023-12-09 20:50:48,910 - INFO - Result 0: True, Error: None
+2023-12-09 20:50:48,910 - INFO - Result 1: True, Error: None
+2023-12-09 20:50:48,910 - INFO - Result 2: True, Error: None
+2023-12-09 20:50:48,910 - INFO - Result 3: True, Error: None
+2023-12-09 20:50:48,910 - INFO - Result 4: True, Error: None
+2023-12-09 20:50:48,911 - INFO - Result 5: True, Error: None
+2023-12-09 20:50:48,911 - INFO - Result 6: True, Error: None
+2023-12-09 20:50:48,911 - INFO - Result 7: True, Error: None
+2023-12-09 20:50:48,911 - INFO - Result 8: True, Error: None
+2023-12-09 20:50:48,911 - INFO - Result 9: True, Error: None
+2023-12-09 20:50:48,911 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:51:30,802 - INFO - -- Run 3--
+2023-12-09 20:51:48,751 - INFO - Result 0: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 1: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 2: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 3: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 4: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 5: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 6: True, Error: None
+2023-12-09 20:51:48,751 - INFO - Result 7: True, Error: None
+2023-12-09 20:51:48,752 - INFO - Result 8: True, Error: None
+2023-12-09 20:51:48,752 - INFO - Result 9: True, Error: None
+2023-12-09 20:51:48,752 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:52:30,651 - INFO - -- Run 4--
+2023-12-09 20:52:50,365 - INFO - Result 0: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 1: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 2: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 3: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 4: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 5: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 6: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 7: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 8: True, Error: None
+2023-12-09 20:52:50,365 - INFO - Result 9: True, Error: None
+2023-12-09 20:52:50,365 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:53:32,269 - INFO - -- Run 5--
+2023-12-09 20:53:50,176 - INFO - Result 0: True, Error: None
+2023-12-09 20:53:50,176 - INFO - Result 1: True, Error: None
+2023-12-09 20:53:50,176 - INFO - Result 2: True, Error: None
+2023-12-09 20:53:50,176 - INFO - Result 3: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 4: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 5: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 6: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 7: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 8: True, Error: None
+2023-12-09 20:53:50,177 - INFO - Result 9: True, Error: None
+2023-12-09 20:53:50,177 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:54:32,130 - INFO - -- Run 6--
+2023-12-09 20:54:48,936 - INFO - Result 0: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 1: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 2: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 3: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 4: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 5: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 6: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 7: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 8: True, Error: None
+2023-12-09 20:54:48,936 - INFO - Result 9: True, Error: None
+2023-12-09 20:54:48,936 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:55:30,878 - INFO - -- Run 7--
+2023-12-09 20:55:48,342 - INFO - Result 0: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 1: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 2: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 3: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 4: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 5: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 6: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 7: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 8: True, Error: None
+2023-12-09 20:55:48,342 - INFO - Result 9: True, Error: None
+2023-12-09 20:55:48,342 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:56:30,284 - INFO - -- Run 8--
+2023-12-09 20:57:06,397 - INFO - Result 0: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 1: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 2: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 3: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 4: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 5: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 6: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 7: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 8: True, Error: None
+2023-12-09 20:57:06,398 - INFO - Result 9: True, Error: None
+2023-12-09 20:57:06,399 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:57:48,275 - INFO - -- Run 9--
+2023-12-09 20:58:07,494 - INFO - Result 0: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 1: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 2: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 3: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 4: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 5: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 6: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 7: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 8: True, Error: None
+2023-12-09 20:58:07,494 - INFO - Result 9: True, Error: None
+2023-12-09 20:58:07,494 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:58:49,382 - INFO - -- Run 10--
+2023-12-09 20:59:07,967 - INFO - Result 0: True, Error: None
+2023-12-09 20:59:07,967 - INFO - Result 1: True, Error: None
+2023-12-09 20:59:07,967 - INFO - Result 2: True, Error: None
+2023-12-09 20:59:07,967 - INFO - Result 3: True, Error: None
+2023-12-09 20:59:07,967 - INFO - Result 4: True, Error: None
+2023-12-09 20:59:07,967 - INFO - Result 5: True, Error: None
+2023-12-09 20:59:07,968 - INFO - Result 6: True, Error: None
+2023-12-09 20:59:07,968 - INFO - Result 7: True, Error: None
+2023-12-09 20:59:07,968 - INFO - Result 8: True, Error: None
+2023-12-09 20:59:07,968 - INFO - Result 9: True, Error: None
+2023-12-09 20:59:07,968 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 20:59:49,863 - INFO -    ========= Summary ==========
+Success: 100
+Error: 0
+Error Rate: 0.0
+                  
+2023-12-09 20:59:49,863 - INFO - Starting Stable Pattern...
+2023-12-09 20:59:49,863 - INFO - -- Run 1--
+2023-12-09 21:02:11,231 - INFO - Result 0: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:02:11,231 - INFO - Result 1: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:02:11,231 - INFO - Result 2: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 21:02:11,231 - INFO - Result 3: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:02:11,231 - INFO - Result 4: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 21:02:11,231 - INFO - Result 5: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:02:11,231 - INFO - Result 6: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 21:02:11,231 - INFO - Result 7: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 21:02:11,232 - INFO - Result 8: False, Error: result=Exception("Unexpected err=TimeoutException(), type(err)=<class 'selenium.common.exceptions.TimeoutException'>")
+2023-12-09 21:02:11,232 - INFO - Result 9: False, Error: result=Exception("Unexpected err=WebDriverException(), type(err)=<class 'selenium.common.exceptions.WebDriverException'>")
+2023-12-09 21:02:11,232 - INFO - =======Run Succesfully with======== 
+    Success: 0, Failure: 10
+    Error rate: 1.0   
+                
+2023-12-09 21:02:53,193 - INFO - -- Run 2--
+2023-12-09 21:03:34,849 - INFO - Result 0: True, Error: None
+2023-12-09 21:03:34,850 - INFO - Result 1: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:03:34,850 - INFO - Result 2: True, Error: None
+2023-12-09 21:03:34,850 - INFO - Result 3: True, Error: None
+2023-12-09 21:03:34,850 - INFO - Result 4: True, Error: None
+2023-12-09 21:03:34,850 - INFO - Result 5: True, Error: None
+2023-12-09 21:03:34,850 - INFO - Result 6: True, Error: None
+2023-12-09 21:03:34,851 - INFO - Result 7: True, Error: None
+2023-12-09 21:03:34,851 - INFO - Result 8: True, Error: None
+2023-12-09 21:03:34,851 - INFO - Result 9: True, Error: None
+2023-12-09 21:03:34,851 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 21:04:16,793 - INFO - -- Run 3--
+2023-12-09 21:04:48,272 - INFO - Result 0: True, Error: None
+2023-12-09 21:04:48,272 - INFO - Result 1: True, Error: None
+2023-12-09 21:04:48,272 - INFO - Result 2: True, Error: None
+2023-12-09 21:04:48,272 - INFO - Result 3: True, Error: None
+2023-12-09 21:04:48,272 - INFO - Result 4: True, Error: None
+2023-12-09 21:04:48,272 - INFO - Result 5: True, Error: None
+2023-12-09 21:04:48,273 - INFO - Result 6: True, Error: None
+2023-12-09 21:04:48,273 - INFO - Result 7: True, Error: None
+2023-12-09 21:04:48,273 - INFO - Result 8: True, Error: None
+2023-12-09 21:04:48,273 - INFO - Result 9: True, Error: None
+2023-12-09 21:04:48,273 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:05:30,210 - INFO - -- Run 4--
+2023-12-09 21:06:01,400 - INFO - Result 0: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 1: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 2: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 3: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 4: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 5: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 6: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 7: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 8: True, Error: None
+2023-12-09 21:06:01,400 - INFO - Result 9: True, Error: None
+2023-12-09 21:06:01,400 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:06:43,075 - INFO - -- Run 5--
+2023-12-09 21:07:16,252 - INFO - Result 0: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 1: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 2: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 3: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 4: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 5: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 6: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 7: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 8: True, Error: None
+2023-12-09 21:07:16,252 - INFO - Result 9: True, Error: None
+2023-12-09 21:07:16,252 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:07:58,142 - INFO - -- Run 6--
+2023-12-09 21:08:32,894 - INFO - Result 0: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 1: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 2: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 3: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 4: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:08:32,894 - INFO - Result 5: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 6: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 7: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 8: True, Error: None
+2023-12-09 21:08:32,894 - INFO - Result 9: True, Error: None
+2023-12-09 21:08:32,894 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 21:09:14,851 - INFO - -- Run 7--
+2023-12-09 21:09:44,800 - INFO - Result 0: True, Error: None
+2023-12-09 21:09:44,800 - INFO - Result 1: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 2: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 3: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 4: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 5: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 6: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 7: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 8: True, Error: None
+2023-12-09 21:09:44,801 - INFO - Result 9: True, Error: None
+2023-12-09 21:09:44,801 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:10:26,715 - INFO - -- Run 8--
+2023-12-09 21:11:00,111 - INFO - Result 0: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 1: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 2: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 3: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 4: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 5: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 6: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 7: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 8: True, Error: None
+2023-12-09 21:11:00,112 - INFO - Result 9: True, Error: None
+2023-12-09 21:11:00,113 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:11:42,033 - INFO - -- Run 9--
+2023-12-09 21:12:16,638 - INFO - Result 0: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 1: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 2: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 3: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 4: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 5: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 6: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 7: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 8: True, Error: None
+2023-12-09 21:12:16,638 - INFO - Result 9: False, Error: result=Exception("Unexpected err=NoSuchElementException(), type(err)=<class 'selenium.common.exceptions.NoSuchElementException'>")
+2023-12-09 21:12:16,638 - INFO - =======Run Succesfully with======== 
+    Success: 9, Failure: 1
+    Error rate: 0.1   
+                
+2023-12-09 21:12:58,521 - INFO - -- Run 10--
+2023-12-09 21:13:30,953 - INFO - Result 0: True, Error: None
+2023-12-09 21:13:30,953 - INFO - Result 1: True, Error: None
+2023-12-09 21:13:30,953 - INFO - Result 2: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 3: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 4: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 5: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 6: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 7: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 8: True, Error: None
+2023-12-09 21:13:30,954 - INFO - Result 9: True, Error: None
+2023-12-09 21:13:30,954 - INFO - =======Run Succesfully with======== 
+    Success: 10, Failure: 0
+    Error rate: 0.0   
+                
+2023-12-09 21:14:12,875 - INFO -    ========= Summary ==========
+Success: 87
+Error: 13
+Error Rate: 0.13
+                  

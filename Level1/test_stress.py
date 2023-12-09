@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description='Stress test the Python Selenium We
 parser.add_argument('--num', type=int, help='Number of simultaneous instances', default=20)
 args = parser.parse_args()
 
-class TestPerformance:
+class TestStress:
     def __init__(self):
         self.runner = Runner.PerformanceRunner()
        
@@ -22,7 +22,7 @@ class TestPerformance:
             self.runner.setWorker(workers)
             getattr(self.runner, method_name)(task_class=getattr(Task, task_class), stable_count=stable_count, **kwargs)
 
-with open('./input/input_testPerformance.json') as f:
+with open('./input/input_testStress.json') as f:
     data = json.load(f)
     
-TestPerformance().run(data)
+TestStress().run(data)

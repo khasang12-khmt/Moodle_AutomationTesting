@@ -77,7 +77,7 @@ class TestProfileUpdate():
                 fail_test_name.append(testdata[i]["test_name"])
         fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
         print(f"""
-        \n- Test Add User To Course (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+        \n- Test Update Profile (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
         """)
 
     def test_profile_edit_case(self,testcase):
@@ -142,7 +142,7 @@ class TestProfileUpdate():
                 fail_test_name.append(testdata[i]["test_name"])
         fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
         print(f"""
-        \n- Test Add User To Course (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+        \n- Test update Profile (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
         """)   
     
     def test_EqClass_profileEdit_case(self,testcase):
@@ -199,7 +199,7 @@ class TestProfileUpdate():
         
     def run(self):
         self.setup_method(None)
-        # self.test_profile_edit()
+        self.test_profile_edit()
         self.test_EqClass_profileEdit()
         self.teardown_method(None)
         

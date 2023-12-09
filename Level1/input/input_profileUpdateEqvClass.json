@@ -11,7 +11,7 @@
   {
     "testCaseName": "profileEdit2",
     "test_data": {
-      "firstName": "@#",
+      "firstName": "",
       "lastName": "Huynh",
       "email": "abc@gmail.com",
       "imagePaths": ["..\\testdata\\vinh\\image.png"]
@@ -21,7 +21,7 @@
     "testCaseName": "profileEdit3",
     "test_data": {
       "firstName": "Vinh",
-      "lastName": "Huynh",
+      "lastName": "",
       "email": "vinh@gmail.com",
       "imagePaths": ["..\\testdata\\vinh\\image.png"]
     }
