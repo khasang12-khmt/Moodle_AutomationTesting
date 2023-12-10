@@ -147,7 +147,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": ""},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -165,7 +165,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "a"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -183,7 +183,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "ab"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -201,7 +201,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -219,7 +219,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -237,7 +237,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -255,7 +255,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Hello World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -273,7 +273,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p></p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -291,7 +291,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>a</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -309,7 +309,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>ab</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -327,7 +327,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
       
@@ -345,7 +345,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
 
@@ -369,7 +369,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "Hello"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
 
@@ -393,7 +393,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "ab"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>H World</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
 
@@ -417,7 +417,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": "aabc"},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p></p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
 
@@ -441,7 +441,7 @@
       {"element_type": "id", "element_locator": "id_subject", "action": "click", "value": null},
       {"element_type": "id", "element_locator": "id_subject", "action": "input", "value": ""},
 
-      {"element_type": null, "element_locator": null, "action": "wait", "value": "id_message_ifr"},      
+      {"element_type": null, "element_locator": null, "action": "wait_frame", "value": "id_message_ifr"},      
       {"element_type": "id", "element_locator": "tinymce", "action": "input_script", "value": "if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Xin chào</p>'}"},
       {"element_type": null, "element_locator": null, "action": "switch_to_default_content", "value": null},
 

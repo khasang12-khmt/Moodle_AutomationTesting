@@ -15,7 +15,7 @@
             {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
             {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -33,7 +33,7 @@
             {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
             {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -51,7 +51,7 @@
             {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
             {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -69,7 +69,7 @@
             {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
             {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -87,7 +87,7 @@
             {"element_type": null, "element_locator": null, "action": "sleep", "value": 1},
             {"element_type": "id", "element_locator": "instance-472-header", "action": "text_check", "value": "Course overview"},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -107,7 +107,7 @@
 
             {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -127,7 +127,7 @@
 
             {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -147,7 +147,7 @@
 
             {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -167,7 +167,7 @@
 
             {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
@@ -187,7 +187,7 @@
 
             {"element_type": "css selector", "element_locator": ".navbar-toggler-icon", "action": "click", "value": null},
 
-            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait", "value": "Dashboard"},
+            {"element_type": "link text", "element_locator": "Dashboard", "action": "wait_element", "value": "Dashboard"},
             {"element_type": "css selector", "element_locator": ".h2", "action": "text_check", "value": "Dashboard"},
             {"element_type": "id", "element_locator": "user-menu-toggle", "action": "click", "value": null},
             {"element_type": "link text", "element_locator": "Log out", "action": "click", "value": null}
