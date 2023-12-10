@@ -1,0 +1,286 @@
+[
+    {
+        "id": 1,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null}, 
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 3},  
+            
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "T"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timestart_day", "value": "7"},
+
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 2,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null}, 
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 3},  
+            
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": ""},
+
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//div[5]/div[2]/div/div/div/button/span", "value": null},
+
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 3,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null}, 
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 3},  
+            
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timestart_day", "value": "7"},
+
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 4,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+    
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timestart_day", "value": "6"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//a[contains(.,'Show more...')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_duration_1", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": "7"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+    
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 5,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+    
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timestart_day", "value": "6"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//a[contains(.,'Show more...')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_duration_1", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": "5"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+    
+            {"action": "click", "element_type": "css selector", "element_locator": ".modal-header", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//div[5]/div[2]/div/div/div/button/span", "value": null},
+    
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 6,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timestart_day", "value": "7"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//a[contains(.,'Show more...')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_duration_1", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": "7"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 7,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//option[. = '7']", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 8,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//option[. = '7']", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//a[contains(.,'Show more...')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_duration_1", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": "8"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 9,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//option[. = '31']", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_month", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//option[. = 'February']", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    },
+    {
+        "id": 10,
+        "url": "https://sandbox.moodledemo.net/",
+        "tasks": [
+            {"action": "click", "element_type": "link text", "element_locator": "Log in", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "clear", "element_type": "id", "element_locator": "username", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "username", "value": "student"},
+            {"action": "click", "element_type": "id", "element_locator": "password", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "password", "value": "sandbox"},
+            {"action": "click", "element_type": "id", "element_locator": "loginbtn", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Calendar", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'New event')]", "value": null},
+            {"action": "sleep", "element_type": null, "element_locator": null, "value": 5},
+            {"action": "click", "element_type": "id", "element_locator": "id_name", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_name", "value": "Test Event"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timestart_day", "value": null},
+            {"action": "click", "element_type": "xpath", "element_locator": "//option[. = '6']", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Show more...", "value": null},
+            {"action": "click", "element_type": "css selector", "element_locator": ".form-check-inline:nth-child(4)", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_day", "value": "31"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_month", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_month", "value": "February']"},
+            {"action": "click", "element_type": "id", "element_locator": "id_timedurationuntil_year", "value": null},
+            {"action": "input", "element_type": "id", "element_locator": "id_timedurationuntil_year", "value": "2024"},
+            {"action": "click", "element_type": "xpath", "element_locator": "//button[contains(.,'Save')]", "value": null},
+            {"action": "click", "element_type": "id", "element_locator": "user-menu-toggle", "value": null},
+            {"action": "click", "element_type": "link text", "element_locator": "Log out", "value": null}
+        ]
+    }
+    
+    
+    
+]
