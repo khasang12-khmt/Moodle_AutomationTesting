@@ -728,7 +728,7 @@ class TestUpdateCourse():
   def test(self, *test_list):
     result = []
     for test in test_list:
-        result.append(True or test())
+        result.append(test())
     fail_test_name = []
     for i in range(0, len(result)):
         if not result[i]:

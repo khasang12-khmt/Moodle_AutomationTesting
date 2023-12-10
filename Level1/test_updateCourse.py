@@ -110,7 +110,6 @@ class TestCreateEvent():
     def test(self, test_dict: dict):
         result = []
         for name, test in test_dict.items():
-            print(name)
             result.append(self.test_updateCourse(test["fullname"],test["shortname"],  test["startDay"], test["startMonth"], test["startYear"], test["endDay"], test["endMonth"], test["endYear"], test["summary"], test["file"], test["category"], test["error"]))
         fail_test_name = []
         for i in range(0, len(result)):
