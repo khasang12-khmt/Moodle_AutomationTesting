@@ -11,16 +11,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestCreateDiscussion():
-  def setup_method(self, method):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    self.driver = webdriver.Chrome(options=options)
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
+from BaseTestSuite import BaseTestSuite
+from TestRunner import TestRunner
+
+class TestCreateDiscussionSuite(BaseTestSuite):
   def test_discussion1(self):
     print(sys._getframe(0).f_code.co_name)
     try:
@@ -626,46 +620,5 @@ class TestCreateDiscussion():
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
-  def test(self, *test_list):
-    result = []
-    for test in test_list:
-        result.append(test())
-    fail_test_name = []
-    for i in range(0, len(result)):
-        if not result[i]:
-            fail_test_name.append(test_list[i].__name__)
-
-    fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
-    return f"""
-    \n- Test Create Discussion To Course (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
-    """
-    
-  def run(self):
-
-    self.setup_method(None)
-
-    result = self.test(
-      self.test_discussion1,
-      self.test_discussion2,
-      self.test_discussion3,
-      self.test_discussion4,
-      self.test_discussion5,
-      self.test_discussion6,
-      self.test_discussion7,
-      self.test_discussion8,
-      self.test_discussion9,
-      self.test_discussion10,
-      self.test_discussion11,
-      self.test_discussion12,
-      self.test_discussion13,
-      self.test_discussion14,
-      self.test_discussion15,
-      self.test_discussion16
-    )
-
-    self.teardown_method(None)
-
-    return result
-  
-createDiscussion = TestCreateDiscussion()
-print(createDiscussion.run())
+createDiscussionTestSuite = TestCreateDiscussionSuite()
+TestRunner.run(createDiscussionTestSuite,"Create Discussion To Course")
