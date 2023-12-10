@@ -11,16 +11,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestUserCourse():
-  def setup_method(self, method):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    self.driver = webdriver.Chrome(options=options)
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
+from BaseTestSuite import BaseTestSuite
+from TestRunner import TestRunner
+
+class TestUserCourseSuite(BaseTestSuite):  
   def test_userCourse1(self):
     self.driver.get("https://school.moodledemo.net/")
     self.driver.set_window_size(784, 816)
@@ -690,50 +684,6 @@ class TestUserCourse():
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
-  
-  def test(self, *test_list):
-    result = []
-    for test in test_list:
-        result.append(test())
-    fail_test_name = []
-    for i in range(0, len(result)):
-        if not result[i]:
-            fail_test_name.append(test_list[i].__name__)
-
-    fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
-    return f"""
-    \n- Test Add User To Course (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
-    """
     
-  def run(self):
-
-    self.setup_method(None)
-
-    result = self.test(
-      self.test_userCourse1,
-      self.test_userCourse2,
-      self.test_userCourse3,
-      self.test_userCourse4,
-      self.test_userCourse5,
-      self.test_userCourse6,
-      self.test_userCourse7,
-      self.test_userCourse8,
-      self.test_userCourse9,
-      self.test_userCourse10,
-      self.test_userCourse11,
-      self.test_userCourse12,
-      self.test_userCourse13,
-      self.test_userCourse14,
-      self.test_userCourse15,
-      self.test_userCourse16,
-      self.test_userCourse17,
-      self.test_userCourse18,
-      self.test_userCourse19,
-    )
-
-    self.teardown_method(None)
-
-    return result
-  
-userCourse = TestUserCourse()
-print(userCourse.run())
+userCourseTestSuite = TestUserCourseSuite()
+TestRunner.run(userCourseTestSuite,"Add User To Course")

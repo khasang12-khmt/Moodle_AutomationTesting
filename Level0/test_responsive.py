@@ -10,16 +10,10 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestResponsive():
-  def setup_method(self, method):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    self.driver = webdriver.Chrome(options=options)
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-  
+from BaseTestSuite import BaseTestSuite
+from TestRunner import TestRunner
+
+class TestResponsiveSuite(BaseTestSuite):
   def test_responsive1(self):
     try:
       self.driver.get("https://school.moodledemo.net/")
@@ -296,40 +290,5 @@ class TestResponsive():
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
       return False
   
-  def test(self, *test_list):
-    result = []
-    for test in test_list:
-        result.append(test())
-    fail_test_name = []
-    for i in range(0, len(result)):
-        if not result[i]:
-            fail_test_name.append(test_list[i].__name__)
-
-    fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
-    return f"""
-    \n- Test Responsiveness (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
-    """
-    
-  def run(self):
-
-    self.setup_method(None)
-
-    result = self.test(
-      self.test_responsive1,
-      self.test_responsive2,
-      self.test_responsive3,
-      self.test_responsive4,
-      self.test_responsive5,
-      self.test_responsive6,
-      self.test_responsive7,
-      self.test_responsive8,
-      self.test_responsive9,
-      self.test_responsive10
-    )
-
-    self.teardown_method(None)
-
-    return result
-  
-responsive = TestResponsive()
-print(responsive.run())
+responsiveTestSuite = TestResponsiveSuite()
+TestRunner.run(responsiveTestSuite,"Responsiveness")

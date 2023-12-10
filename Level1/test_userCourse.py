@@ -11,22 +11,13 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestUserCourse():
-  def __init__(self, data):
-    self.data = data
-    self.first_run = True
-        
-  def setup_method(self, method):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    self.driver = webdriver.Chrome(options=options)
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-    
-  def test_userCourse(self, email: str, cohort: str, role: str, helper_email: int, helper_cohort: int, expected: str):
+from BaseTestSuite import BaseTestSuite
+from TestRunner import TestRunner
+
+class TestUserCourseSuite(BaseTestSuite):
+  def test_userCourse(self, test):
     try:
+      email, cohort, role, helper_email, helper_cohort, expected = test["email"], test["cohort"], test["role"], test["helper_email"], test["helper_cohort"], test["expected"]
       # init setup
       self.driver.get("https://school.moodledemo.net/")
       self.driver.set_window_size(784, 816)
@@ -70,7 +61,6 @@ class TestUserCourse():
         select = Select(dropdown)
         select.select_by_value('4')
         
-      
       # submit
       time.sleep(1)
       self.driver.find_element(By.XPATH, "//div[2]/div/div/div[3]/button[2]").click()
@@ -92,30 +82,6 @@ class TestUserCourse():
     except Exception as err: 
       print(f"Unexpected {err=}, {type(err)=}")
       return False
-  
-  def test(self, test_dict: dict):
-    result = []
-    for test in test_dict.values():
-        result.append(self.test_userCourse(test["email"], test["cohort"], test["role"], test["helper_email"], test["helper_cohort"], test["expected"]))
-    fail_test_name = []
-    for i in range(0, len(result)):
-        if not result[i]:
-            fail_test_name.append(list(test_dict.keys())[i])
 
-    fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
-    return f"""
-    \n- Test Add User To Course (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
-    """
-    
-  def run(self):
-
-    self.setup_method(None)
-    result = self.test(data)
-    self.teardown_method(None)
-    return result
-
-
-with open('./input/input_UserCourse.json', encoding='UTF-8') as f:
-    data = json.load(f)
-    test_UserCourse_DataDriven = TestUserCourse(data)
-    print(test_UserCourse_DataDriven.run())
+userCourseTestSuite = TestUserCourseSuite('./input/input_UserCourse.json')
+TestRunner.run(userCourseTestSuite,"Add User To Course")
