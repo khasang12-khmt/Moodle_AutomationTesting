@@ -110,7 +110,8 @@ class TestTeacherUploadFile:
             assert driver.find_element(By.XPATH, "//span[contains(.,'The maximum size for a file is 256 MB')]").is_displayed()
             return
 
-        driver.find_element(By.ID, "id_submitbutton2").click()
+        wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+        wait.until(lambda d : d.find_element(By.ID, "id_submitbutton2").click() or True)
 
         if specialCheck == "no_name":
             assert driver.find_element(By.ID, "id_error_name").text == "- You must supply a value here."
