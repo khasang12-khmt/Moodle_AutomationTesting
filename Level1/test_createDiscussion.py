@@ -11,26 +11,17 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-class TestCreateDiscussion():
-  def __init__(self, data):
-    self.data = data
-    self.first_run = True
-    
-  def setup_method(self, method):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    self.driver = webdriver.Chrome(options=options)
-    self.vars = {}
-  
-  def teardown_method(self, method):
-    self.driver.quit()
-    
+from BaseTestSuite import BaseTestSuite
+from TestRunner import TestRunner
+
+class TestCreateDiscussionSuite(BaseTestSuite):    
   def logout(self):
     self.driver.find_element(By.ID, "user-menu-toggle").click()
     self.driver.find_element(By.LINK_TEXT, "Log out").click()
     
-  def test_discussion(self, subject: str, description: str, tag: str, expected_locator: str, expected_value: str or None):
+  def test_discussion(self, test):
     try:
+      subject, description, tag, expected_locator, expected_value = test["subject"], test["description"], test["tag"], test["expected_locator"], test["expected_value"]
       self.driver.get("https://school.moodledemo.net/")
       self.driver.set_window_size(790, 816)
       self.driver.find_element(By.LINK_TEXT, "Log in").click()
@@ -90,29 +81,5 @@ class TestCreateDiscussion():
       self.logout()
       return False
   
-  def test(self, test_dict: dict):
-    result = []
-    for name, test in test_dict.items():
-        print(name)
-        result.append(self.test_discussion(test["subject"], test["description"], test["tag"], test["expected_locator"], test["expected_value"]))
-    fail_test_name = []
-    for i in range(0, len(result)):
-        if not result[i]:
-            fail_test_name.append(list(test_dict.keys())[i])
-
-    fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
-    return f"""
-    \n- Test Create Discussion To Course (Level 1) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
-    """
-    
-  def run(self):
-
-    self.setup_method(None)
-    result = self.test(data)
-    self.teardown_method(None)
-    return result
-  
-with open('./input/input_CreateDiscussion.json', encoding='UTF-8') as f:
-    data = json.load(f)
-    test_CreateDiscussion_DataDriven = TestCreateDiscussion(data)
-    print(test_CreateDiscussion_DataDriven.run())
+createDiscussionTestSuite = TestCreateDiscussionSuite('./input/input_CreateDiscussion.json')
+TestRunner.run(createDiscussionTestSuite,"Create Discussion To Course")
