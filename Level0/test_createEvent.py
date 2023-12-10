@@ -66,9 +66,8 @@ class TestCreateEvent():
             self.driver.find_element(By.LINK_TEXT, "Calendar").click()
             self.driver.find_element(By.XPATH, "//button[contains(.,\'New event\')]").click()
             time.sleep(5)
-            element = self.driver.find_element(By.ID, "id_timestart_calendar")
-            actions = ActionChains(self.driver)
-            actions.move_to_element(element).perform()
+            self.driver.find_element(By.ID, "id_name").click()
+            self.driver.find_element(By.ID, "id_name").clear()
             self.driver.find_element(By.XPATH, "//button[contains(.,\'Save\')]").click()
             assert self.driver.find_element(By.ID, "id_error_name").text == "- Required"
             self.driver.find_element(By.XPATH, "//div[5]/div[2]/div/div/div/button/span").click()
@@ -134,7 +133,8 @@ class TestCreateEvent():
             dropdown = self.driver.find_element(By.ID, "id_timestart_day")
             dropdown.find_element(By.XPATH, "//option[. = '6']").click()
             self.driver.find_element(By.XPATH, "//a[contains(.,\'Show more...\')]").click()
-            self.driver.find_element(By.ID, "id_duration_1").click()
+            if not self.driver.find_element(By.ID, "id_duration_1").is_selected():
+                self.driver.find_element(By.ID, "id_duration_1").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").send_keys("7")
             self.driver.find_element(By.XPATH, "//button[contains(.,\'Save\')]").click()
@@ -170,7 +170,8 @@ class TestCreateEvent():
             dropdown = self.driver.find_element(By.ID, "id_timestart_day")
             dropdown.find_element(By.XPATH, "//option[. = '6']").click()
             self.driver.find_element(By.XPATH, "//a[contains(.,\'Show more...\')]").click()
-            self.driver.find_element(By.ID, "id_duration_1").click()
+            if not self.driver.find_element(By.ID, "id_duration_1").is_selected():
+                self.driver.find_element(By.ID, "id_duration_1").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").send_keys("5")
             self.driver.find_element(By.XPATH, "//button[contains(.,\'Save\')]").click()
@@ -209,7 +210,8 @@ class TestCreateEvent():
             dropdown = self.driver.find_element(By.ID, "id_timestart_day")
             dropdown.find_element(By.XPATH, "//option[. = '7']").click()
             self.driver.find_element(By.XPATH, "//a[contains(.,\'Show more...\')]").click()
-            self.driver.find_element(By.ID, "id_duration_1").click()
+            if not self.driver.find_element(By.ID, "id_duration_1").is_selected():
+                self.driver.find_element(By.ID, "id_duration_1").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").send_keys("7")
             self.driver.find_element(By.XPATH, "//button[contains(.,\'Save\')]").click()
@@ -278,7 +280,8 @@ class TestCreateEvent():
             dropdown = self.driver.find_element(By.ID, "id_timestart_day")
             dropdown.find_element(By.XPATH, "//option[. = '7']").click()
             self.driver.find_element(By.XPATH, "//a[contains(.,\'Show more...\')]").click()
-            self.driver.find_element(By.ID, "id_duration_1").click()
+            if not self.driver.find_element(By.ID, "id_duration_1").is_selected():
+                self.driver.find_element(By.ID, "id_duration_1").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").click()
             self.driver.find_element(By.ID, "id_timedurationuntil_day").send_keys("8")
             self.driver.find_element(By.XPATH, "//button[contains(.,\'Save\')]").click()

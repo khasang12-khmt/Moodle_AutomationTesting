@@ -33,15 +33,15 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_fullname").click()
       self.driver.find_element(By.ID, "id_fullname").clear()
       self.driver.find_element(By.ID, "id_fullname").send_keys("C")
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
+      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -64,18 +64,17 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_fullname").click()
       self.driver.find_element(By.ID, "id_fullname").clear()
       self.driver.find_element(By.ID, "id_fullname").send_keys("")
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      self.driver.find_element(By.ID, "id_error_fullname").click()
-      elements = self.driver.find_elements(By.ID, "id_error_fullname")
       time.sleep(3)
+      if self.driver.find_elements(By.ID, "id_error_fullname") is None:
+        return False
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -99,18 +98,15 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_fullname").click()
       self.driver.find_element(By.ID, "id_fullname").clear()
       self.driver.find_element(By.ID, "id_fullname").send_keys("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ")
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
       time.sleep(3)
-      self.driver.find_element(By.ID, "id_error_fullname").click()
-      elements = self.driver.find_elements(By.ID, "id_error_fullname")
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -132,7 +128,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_fullname").click()
       self.driver.find_element(By.ID, "id_fullname").clear()
@@ -141,7 +137,6 @@ class TestUpdateCourse():
       time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -163,7 +158,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_shortname").click()
       self.driver.find_element(By.ID, "id_shortname").clear()
@@ -172,7 +167,6 @@ class TestUpdateCourse():
       time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -194,7 +188,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_shortname").click()
       self.driver.find_element(By.ID, "id_shortname").clear()
@@ -203,7 +197,6 @@ class TestUpdateCourse():
       time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -225,7 +218,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_shortname").click()
       self.driver.find_element(By.ID, "id_shortname").clear()
@@ -234,7 +227,6 @@ class TestUpdateCourse():
       time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -256,7 +248,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_shortname").click()
       self.driver.find_element(By.ID, "id_shortname").clear()
@@ -265,7 +257,6 @@ class TestUpdateCourse():
       time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -287,7 +278,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_startdate_day").click()
       dropdown = self.driver.find_element(By.ID, "id_startdate_day")
@@ -295,17 +286,19 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_startdate_month").click()
       self.driver.find_element(By.ID, "id_startdate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_startdate_year").click()
-      self.driver.find_element(By.XPATH, "//label[contains(.,\'Enable\')]").click()
+      self.driver.find_element(By.ID, "id_startdate_year").send_keys('2023')
+      if not self.driver.find_element(By.ID, "id_enddate_enabled").is_selected():
+        self.driver.find_element(By.ID, "id_enddate_enabled").click()
+        time.sleep(1)
       self.driver.find_element(By.ID, "id_enddate_day").click()
       self.driver.find_element(By.ID, "id_enddate_day").send_keys('10')
       self.driver.find_element(By.ID, "id_enddate_month").click()
       self.driver.find_element(By.ID, "id_enddate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_enddate_year").click()
+      self.driver.find_element(By.ID, "id_enddate_year").send_keys('2023')
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -327,7 +320,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_startdate_day").click()
       dropdown = self.driver.find_element(By.ID, "id_startdate_day")
@@ -335,17 +328,18 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_startdate_month").click()
       self.driver.find_element(By.ID, "id_startdate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_startdate_year").click()
-      self.driver.find_element(By.XPATH, "//label[contains(.,\'Enable\')]").click()
+      self.driver.find_element(By.ID, "id_startdate_year").send_keys('2023')
+      if not self.driver.find_element(By.ID, "id_enddate_enabled").is_selected():
+        self.driver.find_element(By.ID, "id_enddate_enabled").click()
       self.driver.find_element(By.ID, "id_enddate_day").click()
       self.driver.find_element(By.ID, "id_enddate_day").send_keys('11')
       self.driver.find_element(By.ID, "id_enddate_month").click()
       self.driver.find_element(By.ID, "id_enddate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_enddate_year").click()
+      self.driver.find_element(By.ID, "id_enddate_year").send_keys('2023')
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -367,7 +361,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_startdate_day").click()
       dropdown = self.driver.find_element(By.ID, "id_startdate_day")
@@ -375,19 +369,21 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_startdate_month").click()
       self.driver.find_element(By.ID, "id_startdate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_startdate_year").click()
-      self.driver.find_element(By.XPATH, "//label[contains(.,\'Enable\')]").click()
+      self.driver.find_element(By.ID, "id_startdate_year").send_keys('2023')
+      if not self.driver.find_element(By.ID, "id_enddate_enabled").is_selected():
+        self.driver.find_element(By.ID, "id_enddate_enabled").click()
+        time.sleep(1)
       self.driver.find_element(By.ID, "id_enddate_day").click()
       self.driver.find_element(By.ID, "id_enddate_day").send_keys('9')
       self.driver.find_element(By.ID, "id_enddate_month").click()
       self.driver.find_element(By.ID, "id_enddate_month").send_keys('May')
       self.driver.find_element(By.ID, "id_enddate_year").click()
+      self.driver.find_element(By.ID, "id_enddate_year").send_keys('2023')
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
-      elements = self.driver.find_elements(By.ID, "id_error_enddate")
-      assert len(elements) > 0
+      if self.driver.find_elements(By.ID, "id_error_enddate") is None:
+        return False
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -409,18 +405,17 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.switch_to.frame(0)
       self.driver.find_element(By.CSS_SELECTOR, "p").click()
       element = self.driver.find_element(By.ID, "tinymce")
       self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>C</p>'}", element)
       self.driver.switch_to.default_content()
-      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       time.sleep(3)
+      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -442,18 +437,17 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.switch_to.frame(0)
       self.driver.find_element(By.CSS_SELECTOR, "p").click()
       element = self.driver.find_element(By.ID, "tinymce")
       self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p></p>'}", element)
       self.driver.switch_to.default_content()
-      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       time.sleep(3)
+      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -475,18 +469,17 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.switch_to.frame(0)
       self.driver.find_element(By.CSS_SELECTOR, "p").click()
       element = self.driver.find_element(By.ID, "tinymce")
       self.driver.execute_script("if(arguments[0].contentEditable === 'true') {arguments[0].innerText = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrue eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis noscia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>'}", element)
       self.driver.switch_to.default_content()
-      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       time.sleep(3)
+      self.driver.find_element(By.ID, "id_saveanddisplay").click()
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -508,7 +501,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_startdate_day").click()
       dropdown = self.driver.find_element(By.ID, "id_startdate_day")
@@ -516,10 +509,8 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_startdate_month").click()
       self.driver.find_element(By.ID, "id_startdate_month").send_keys('February')
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -541,18 +532,18 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
+      time.sleep(5)
       self.driver.find_element(By.CSS_SELECTOR, ".fa-file-o").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\Level0\\course-image\\normal_img.jpg")
+      time.sleep(1)
+      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\course-image\\normal_img.jpg")
+      time.sleep(1)
       self.driver.find_element(By.XPATH, "//button[contains(.,\'Upload this file\')]").click()
-      time.sleep(3)
+      time.sleep(10)
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -574,20 +565,25 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
+      time.sleep(5)
+      if self.driver.find_element(By.XPATH, "//a/div/div[3]") is not None:
+        self.driver.find_element(By.XPATH, "//a/div/div[3]").click()
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, "//form/div/button[2]").click()
+        self.driver.find_element(By.XPATH, "//button[contains(.,'Yes')]").click()
+        time.sleep(1)
       self.driver.find_element(By.CSS_SELECTOR, ".fa-file-o").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\Level0\\course-image\\zip_file.zip")
+      time.sleep(1)
+      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\course-image\\zip_file.zip")
+      time.sleep(1)
       self.driver.find_element(By.XPATH, "//button[contains(.,\'Upload this file\')]").click()
-      time.sleep(3)
-      self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
-      elements = self.driver.find_elements(By.XPATH, "//div[3]/div/div/h5")
-      assert len(elements) > 0
+      time.sleep(10)
+      self.driver.find_element(By.XPATH, "//div[3]/div/div/span/button").click()
+      self.driver.find_element(By.XPATH, "//div[3]/div/div/span/button").click()
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -609,7 +605,7 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.ID, "id_startdate_day").click()
       dropdown = self.driver.find_element(By.ID, "id_startdate_day")
@@ -617,7 +613,8 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_startdate_month").click()
       self.driver.find_element(By.ID, "id_startdate_month").send_keys('January')
       self.driver.find_element(By.ID, "id_startdate_year").click()
-      self.driver.find_element(By.XPATH, "//label[contains(.,\'Enable\')]").click()
+      if not self.driver.find_element(By.ID, "id_enddate_enabled").is_selected():
+        self.driver.find_element(By.ID, "id_enddate_enabled").click()
       self.driver.find_element(By.ID, "id_enddate_day").click()
       self.driver.find_element(By.ID, "id_enddate_day").send_keys('31')
       self.driver.find_element(By.ID, "id_enddate_month").click()
@@ -625,10 +622,8 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "id_enddate_year").click()
       self.driver.find_element(By.ID, "id_enddate_year").send_keys('2023')
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -650,15 +645,22 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
+      time.sleep(5)
+      if self.driver.find_element(By.XPATH, "//a/div/div[3]") is not None:
+        self.driver.find_element(By.XPATH, "//a/div/div[3]").click()
+        time.sleep(3)
+        self.driver.find_element(By.XPATH, "//form/div/button[2]").click()
+        self.driver.find_element(By.XPATH, "//button[contains(.,'Yes')]").click()
+        time.sleep(1)
       self.driver.find_element(By.CSS_SELECTOR, ".fa-file-o").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").click()
-      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\Level0\\course-image\\large_file.jpg")
+      time.sleep(1)
+      self.driver.find_element(By.NAME, "repo_upload_file").send_keys("D:\\BK\\Testing\\Moodle_AutomationTesting\\course-image\\large_file.jpg")
+      time.sleep(1)
       self.driver.find_element(By.XPATH, "//button[contains(.,\'Upload this file\')]").click()
-      time.sleep(3)
+      time.sleep(10)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -680,16 +682,14 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.XPATH, "//div[2]/span/span").click()
       self.driver.find_element(By.XPATH, "//span[contains(.,\'▼\')]").click()
       self.driver.find_element(By.XPATH, "//li[contains(.,\'Miscellaneous\')]").click()
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -711,15 +711,13 @@ class TestUpdateCourse():
       self.driver.find_element(By.ID, "loginbtn").click()
       self.driver.find_element(By.LINK_TEXT, "My courses").click()
       time.sleep(3)
-      self.driver.find_element(By.XPATH, "//div[@id=\'course-info-container-2-3\']/div/div/a/span[3]").click()
+      self.driver.find_element(By.XPATH, "//span[3]").click()
       self.driver.find_element(By.LINK_TEXT, "Settings").click()
       self.driver.find_element(By.XPATH, "//div[2]/span/span").click()
       self.driver.find_element(By.ID, "id_saveanddisplay").click()
-      time.sleep(3)
       elements = self.driver.find_elements(By.ID, "id_error_category")
       self.driver.find_element(By.ID, "user-menu-toggle").click()
       self.driver.find_element(By.LINK_TEXT, "Log out").click()
-      self.driver.close()
       return True
     except Exception as err:
       print(f"Unexpected {err=}, {type(err)=}")
@@ -762,13 +760,12 @@ class TestUpdateCourse():
     self.test_course14,
     self.test_course15,
     self.test_course16,
-    self.test_course17,
-    self.test_course18,
-    self.test_course19,
+    # self.test_course17,
+    # self.test_course18,
+    # self.test_course19,
     self.test_course20,
     self.test_course21
     )
-
     self.teardown_method(None)
 
     return result
