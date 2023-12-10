@@ -14,7 +14,7 @@ class BaseTestSuite():
     self.vars = {}
   
   def teardown_method(self, method):
-    self.driver.quit()
+    TestDriverController.driver.quit()
     
   def run_precondition(self, pre_condition):
     raise NotImplementedError()
