@@ -1,0 +1,92 @@
+{
+    "test_1": {
+        "name": "T",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": null,
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_2": {
+        "name": "",
+        "startDay": null,
+        "startMonth": null,
+        "endDay": null,
+        "endMonth": null,
+        "endYear": null,
+        "error": "id_error_name"
+    },
+    "test_3": {
+        "name": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": null,
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_4": {
+        "name": "Test Event",
+        "startDay": "6",
+        "startMonth": null,
+        "endDay": "7",
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_5": {
+        "name": "Test Event",
+        "startDay": "6",
+        "startMonth": null,
+        "endDay": "5",
+        "endMonth": null,
+        "endYear": null,
+        "error": "fgroup_id_error_durationgroup"
+    },
+    "test_6": {
+        "name": "Test Event",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": "7",
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_7": {
+        "name": "Test Event",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": null,
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_8": {
+        "name": "Test Event",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": "8",
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_9": {
+        "name": "Test Event",
+        "startDay": "31",
+        "startMonth": "February",
+        "endDay": "",
+        "endMonth": null,
+        "endYear": null,
+        "error": null
+    },
+    "test_10": {
+        "name": "Test Event",
+        "startDay": "7",
+        "startMonth": null,
+        "endDay": "31",
+        "endMonth": "February",
+        "endYear": 2024,
+        "error": null
+    }
+}

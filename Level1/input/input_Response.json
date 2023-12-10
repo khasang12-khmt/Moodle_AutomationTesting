@@ -1,0 +1,12 @@
+{
+    "test_1": {
+        "name": "T",
+        "startDay": "7",
+        "direction": null
+    },
+    "test_2": {
+        "name": null,
+        "startDay": null,
+        "direction": "My courses"
+    }
+}
