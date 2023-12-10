@@ -84,7 +84,7 @@ class TestPerformance():
 
         fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
         return f"""
-        \n- Test update course (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+        \n- Test Response (Level 0)--\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
         """
         
     def run(self):

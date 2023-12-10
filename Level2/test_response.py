@@ -20,7 +20,7 @@ class TestResponse():
         for testcase in self.data:
             self.executor.url = testcase.get('url', '')
             self.executor.tasks = testcase.get('tasks', [])
-            res = True or self.executor.run_task()
+            res = self.executor.run_task()
             print(f"Run testcase {testcase['id']}: {res}")
             result.append(res)
         
@@ -32,7 +32,7 @@ class TestResponse():
 
         fail_test_name_str = 'FAILED:\n\t'+ '\n\t'.join(name for name in fail_test_name) if len(fail_test_name) != 0 else 'Fail testcase: None'
         return f"""
-        \n- Test Update Course (Level 2) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
+        \n- Test Response (Level 2) --\nPASSED: {result.count(True)}/{len(result)}\n{fail_test_name_str}\n
         """
         
 print(TestResponse(TestDataParser.parse_json('./input/input_Response.json')).run())
