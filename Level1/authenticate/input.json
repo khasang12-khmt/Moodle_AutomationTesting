@@ -1,0 +1,20 @@
+[
+  {
+    "id": "view_course_without_login",
+    "username": "",
+    "password": "",
+    "expected": "display_login_form"
+  },
+  {
+    "id": "view_course_with_incorrect_login",
+    "username": "student1",
+    "password": "sandbox",
+    "expected": "display_login_form"
+  },
+  {
+    "id": "view_course_with_login",
+    "username": "student",
+    "password": "sandbox",
+    "expected": "display_course"
+  }
+]
