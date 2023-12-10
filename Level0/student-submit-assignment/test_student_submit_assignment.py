@@ -442,6 +442,7 @@ class TestStudentSubmitAssignment:
             assert False
 
     
+    @pytest.mark.skip(reason="Drag and drop file is not supported by Selenium")
     def test_file_submission_14(self, delete_all_submissions):
         """
         FS-UCT-002

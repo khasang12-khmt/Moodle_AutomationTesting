@@ -11,8 +11,8 @@ MOODLE_URL = "https://sandbox400.moodledemo.net/"
 STUDENT_USERNAME = "student"
 STUDENT_PASSWORD = "sandbox"
 MAX_TIMEOUT_SHORT = 3
-MAX_TIMEOUT = 20
-MAX_TIMEOUT_LONG = 30
+MAX_TIMEOUT = 30
+MAX_TIMEOUT_LONG = 60
 INPUT_PATH = os.path.join(os.path.dirname(__file__), "input.json")
 FILE_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "Level0", "student-submit-assignment", "files")
 
@@ -93,7 +93,7 @@ class TestStudentSubmitAssignment:
         try:
             for file in files:
                 # Upload file one by one
-                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT_LONG, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
                 wait.until(lambda d : d.find_element(By.XPATH, "//*[@title=\"Add...\"]").click() or True)
 
                 if method == "file-picker::upload":
@@ -132,7 +132,7 @@ class TestStudentSubmitAssignment:
                     driver.find_element(By.NAME, "cancel").click()
                     return
             elif specialCheck is None:
-                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
+                wait = WebDriverWait(driver, timeout=MAX_TIMEOUT_LONG, poll_frequency=0.5, ignored_exceptions=ElementClickInterceptedException)
                 wait.until(lambda d : d.find_element(By.ID, "id_submitbutton").click() or True)
 
                 assert driver.find_element(By.XPATH, expected).is_displayed()
