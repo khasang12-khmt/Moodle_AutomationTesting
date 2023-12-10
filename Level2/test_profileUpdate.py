@@ -20,7 +20,7 @@ class TestProfileUpdate():
         for testcase in self.data:
             self.executor.url = testcase.get('url', '')
             self.executor.tasks = testcase.get('tasks', [])
-            res = True or self.executor.run_task()
+            res = self.executor.run_task()
             print(f"Run testcase {testcase['id']}: {res}")
             result.append(res)
         
